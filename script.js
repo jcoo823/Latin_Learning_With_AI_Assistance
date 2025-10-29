@@ -78,9 +78,11 @@ function displayCourses(filter = 'all', searchTerm = '') {
     
     let filteredCourses = coursesData;
     
-    // Filter by category
-    if (filter !== 'all') {
-        filteredCourses = filteredCourses.filter(course => course.category === filter);
+    // Filter by level (100 or 200)
+    if (filter === '100') {
+        filteredCourses = filteredCourses.filter(course => course.id.includes('-1'));
+    } else if (filter === '200') {
+        filteredCourses = filteredCourses.filter(course => course.id.includes('-2'));
     }
     
     // Filter by search term
@@ -106,9 +108,12 @@ function displayCourses(filter = 'all', searchTerm = '') {
         courseCard.className = 'course-card';
         if (isCompleted) courseCard.classList.add('completed');
         
+        const levelBadge = course.level ? `<span class="level-badge">${course.level}</span>` : '';
+        
         courseCard.innerHTML = `
             <div class="course-card-header">
                 <span class="course-category-badge">${course.category}</span>
+                ${levelBadge}
                 ${isCompleted ? '<span class="completed-badge">✓ Completed</span>' : ''}
             </div>
             <h3 class="course-card-title">${course.title}</h3>
@@ -190,18 +195,94 @@ function loadCourseDetail() {
     const course = coursesData.find(c => c.id === courseId);
     if (!course) return;
     
+    // Populate basic info
     const titleEl = document.getElementById('course-title');
     const categoryEl = document.getElementById('course-category');
     const descriptionEl = document.getElementById('course-description');
-    const addToActiveBtn = document.getElementById('add-to-active');
-    const markCompleteBtn = document.getElementById('mark-complete');
     
     if (titleEl) titleEl.textContent = course.title;
     if (categoryEl) categoryEl.textContent = course.category;
     if (descriptionEl) descriptionEl.textContent = course.description;
     
+    // Populate course overview metadata
+    const levelEl = document.getElementById('course-level');
+    const durationEl = document.getElementById('course-duration');
+    const creditsEl = document.getElementById('course-credits');
+    const prerequisitesEl = document.getElementById('course-prerequisites');
+    
+    if (levelEl) levelEl.textContent = course.level || '-';
+    if (durationEl) durationEl.textContent = course.duration || '-';
+    if (creditsEl) creditsEl.textContent = course.credits || '-';
+    if (prerequisitesEl) prerequisitesEl.textContent = course.prerequisites || '-';
+    
+    // Populate learning objectives
+    const objectivesEl = document.getElementById('learning-objectives');
+    if (objectivesEl && course.objectives) {
+        objectivesEl.innerHTML = '';
+        course.objectives.forEach(objective => {
+            const li = document.createElement('li');
+            li.textContent = objective;
+            objectivesEl.appendChild(li);
+        });
+    }
+    
+    // Populate required materials
+    const materialsEl = document.getElementById('course-materials');
+    if (materialsEl && course.materials) {
+        materialsEl.innerHTML = '';
+        course.materials.forEach(material => {
+            const li = document.createElement('li');
+            li.innerHTML = material; // Using innerHTML to preserve markdown formatting
+            materialsEl.appendChild(li);
+        });
+    }
+    
+    // Populate vocabulary goals
+    const vocabEl = document.getElementById('vocabulary-goals');
+    if (vocabEl && course.vocabularyGoals) {
+        // Convert line breaks to proper HTML
+        const formattedVocab = course.vocabularyGoals.replace(/\n/g, '<br>');
+        vocabEl.innerHTML = formattedVocab;
+    }
+    
+    // Populate modules list
+    const modulesListEl = document.getElementById('modules-list');
+    if (modulesListEl && course.units) {
+        modulesListEl.innerHTML = '';
+        course.units.forEach((unit, index) => {
+            const moduleItem = document.createElement('div');
+            moduleItem.className = 'module-item';
+            
+            const moduleHeader = document.createElement('div');
+            moduleHeader.className = 'module-header';
+            
+            const moduleTitle = document.createElement('h4');
+            moduleTitle.textContent = unit.title;
+            moduleHeader.appendChild(moduleTitle);
+            
+            moduleItem.appendChild(moduleHeader);
+            
+            if (unit.topics && unit.topics.length > 0) {
+                const topicsList = document.createElement('ul');
+                topicsList.className = 'topics-list';
+                unit.topics.forEach(topic => {
+                    const topicItem = document.createElement('li');
+                    topicItem.textContent = topic;
+                    topicsList.appendChild(topicItem);
+                });
+                moduleItem.appendChild(topicsList);
+            }
+            
+            modulesListEl.appendChild(moduleItem);
+        });
+    }
+    
+    // Handle button states
     const isActive = activeCourses.includes(courseId);
     const isCompleted = completedCourses.includes(courseId);
+    
+    const addToActiveBtn = document.getElementById('add-to-active');
+    const markCompleteBtn = document.getElementById('mark-complete');
     
     if (addToActiveBtn) {
         if (isActive) {
