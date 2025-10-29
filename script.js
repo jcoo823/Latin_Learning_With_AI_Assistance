@@ -746,6 +746,19 @@ function displayWorks() {
         
         const difficultyClass = work.difficulty.toLowerCase();
         
+        // Determine button text and style based on content type
+        let buttonHTML = '';
+        if (work.contentType === 'internal') {
+            buttonHTML = `<a href="${work.contentUrl}" class="work-read-btn btn-internal">Read Work</a>`;
+        } else if (work.contentType === 'external-free') {
+            buttonHTML = `<a href="${work.contentUrl}" target="_blank" rel="noopener noreferrer" class="work-read-btn btn-external-free">Read Online (Free)</a>`;
+        } else if (work.contentType === 'external-paid') {
+            buttonHTML = `<a href="${work.contentUrl}" target="_blank" rel="noopener noreferrer" class="work-read-btn btn-external-paid">View on Amazon</a>`;
+        } else if (work.contentUrl) {
+            // Fallback for works with contentUrl but unknown contentType
+            buttonHTML = `<a href="${work.contentUrl}" target="_blank" rel="noopener noreferrer" class="work-read-btn btn-external-free">View Work</a>`;
+        }
+        
         workCard.innerHTML = `
             <div class="work-card-header">
                 <div class="work-meta">
@@ -762,11 +775,14 @@ function displayWorks() {
                 </div>
             </div>
             <div class="work-card-footer">
-                <div class="work-badges">
-                    <span class="work-category-badge">${work.category}</span>
-                    <span class="work-difficulty-badge ${difficultyClass}">${work.difficulty}</span>
+                <div class="work-info">
+                    <div class="work-badges">
+                        <span class="work-category-badge">${work.category}</span>
+                        <span class="work-difficulty-badge ${difficultyClass}">${work.difficulty}</span>
+                    </div>
+                    <span class="work-length">${work.length}</span>
                 </div>
-                <span class="work-length">${work.length}</span>
+                ${buttonHTML}
             </div>
         `;
         
