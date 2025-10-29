@@ -80,9 +80,9 @@ function displayCourses(filter = 'all', searchTerm = '') {
     
     // Filter by level (100 or 200)
     if (filter === '100') {
-        filteredCourses = filteredCourses.filter(course => course.id.includes('-1'));
+        filteredCourses = filteredCourses.filter(course => course.id.includes('-10'));
     } else if (filter === '200') {
-        filteredCourses = filteredCourses.filter(course => course.id.includes('-2'));
+        filteredCourses = filteredCourses.filter(course => course.id.includes('-20'));
     }
     
     // Filter by search term
@@ -232,7 +232,7 @@ function loadCourseDetail() {
         materialsEl.innerHTML = '';
         course.materials.forEach(material => {
             const li = document.createElement('li');
-            li.innerHTML = material; // Using innerHTML to preserve markdown formatting
+            li.textContent = material; // Use textContent to prevent XSS
             materialsEl.appendChild(li);
         });
     }
@@ -240,9 +240,15 @@ function loadCourseDetail() {
     // Populate vocabulary goals
     const vocabEl = document.getElementById('vocabulary-goals');
     if (vocabEl && course.vocabularyGoals) {
-        // Convert line breaks to proper HTML
-        const formattedVocab = course.vocabularyGoals.replace(/\n/g, '<br>');
-        vocabEl.innerHTML = formattedVocab;
+        // Safely handle line breaks without innerHTML
+        vocabEl.textContent = '';
+        const lines = course.vocabularyGoals.split('\n');
+        lines.forEach((line, index) => {
+            vocabEl.appendChild(document.createTextNode(line));
+            if (index < lines.length - 1) {
+                vocabEl.appendChild(document.createElement('br'));
+            }
+        });
     }
     
     // Populate modules list
