@@ -2317,6 +2317,17 @@ body.theme-blue .work-category-badge {
     margin-bottom: 0.5rem;
 }
 
+.course-category {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: #e8f4f8;
+    color: #2c3e50;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
 .course-actions {
     display: flex;
     gap: 1rem;
