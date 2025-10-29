@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course List - My Learning Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">My Learning Portal</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html" class="active">Course List</a></li>
+                <li><a href="active-courses.html">Active Courses</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Course Search Section -->
+    <section class="course-search-section">
+        <div class="search-container">
+            <h1>Course Catalog</h1>
+            <div class="search-box">
+                <input type="text" id="course-search" placeholder="Search courses by name or category..." />
+                <button id="search-btn" class="btn btn-primary">Search</button>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="Latin">Latin</button>
+                <button class="filter-btn" data-category="Algebra">Algebra</button>
+                <button class="filter-btn" data-category="History">History</button>
+                <button class="filter-btn" data-category="Philosophy">Philosophy</button>
+                <button class="filter-btn" data-category="Spanish">Spanish</button>
+                <button class="filter-btn" data-category="Biology">Biology</button>
+                <button class="filter-btn" data-category="Computer Science">Computer Science</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course List Section -->
+    <section class="course-list-section">
+        <div class="courses-container" id="courses-container">
+            <!-- Courses will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>My Learning Portal</h3>
+                <p>Personal learning management system</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="active-courses.html">Active Courses</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Learning Portal. For personal use.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
