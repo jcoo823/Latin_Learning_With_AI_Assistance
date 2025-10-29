@@ -73,7 +73,8 @@ body {
 }
 
 .term-info-card,
-.modules-info-card {
+.modules-info-card,
+.recent-course-card {
     background: rgba(255, 255, 255, 0.95);
     padding: 2rem;
     border-radius: 15px;
@@ -81,7 +82,8 @@ body {
 }
 
 .term-info-card h2,
-.modules-info-card h2 {
+.modules-info-card h2,
+.recent-course-card h2 {
     color: #2c3e50;
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
@@ -155,6 +157,95 @@ body {
     background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
     transition: width 0.3s ease;
 }
+
+/* Recent Course Card */
+.recent-course-info {
+    margin-bottom: 1.5rem;
+}
+
+.recent-course-title {
+    font-size: 1.8rem;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.recent-course-subtitle {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.recent-course-description {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.recent-course-btn {
+    width: 100%;
+    text-align: center;
+}
+
+/* Quick Links Section */
+.quick-links-section {
+    padding: 60px 20px;
+    background: white;
+}
+
+.quick-links-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quick-links-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.quick-link-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.quick-link-card:hover {
+    background: white;
+    border-color: #667eea;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+}
+
+.quick-link-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.quick-link-card h3 {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.quick-link-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
 
 /* About Latin Section */
 .about-latin {
@@ -1008,7 +1099,8 @@ body.theme-dark .course-detail-section,
 body.theme-dark .modern-latin,
 body.theme-dark .historical-latin,
 body.theme-dark .resources-section,
-body.theme-dark .scholarly-resources {
+body.theme-dark .scholarly-resources,
+body.theme-dark .quick-links-section {
     background: #1a1a1a;
 }
 
@@ -1018,6 +1110,7 @@ body.theme-dark .learning-timeline {
 
 body.theme-dark .term-info-card,
 body.theme-dark .modules-info-card,
+body.theme-dark .recent-course-card,
 body.theme-dark .course-card,
 body.theme-dark .active-course-card,
 body.theme-dark .settings-container,
@@ -1030,6 +1123,16 @@ body.theme-dark .learning-tips,
 body.theme-dark .resource-card {
     background: #2d2d2d;
     color: #ecf0f1;
+}
+
+body.theme-dark .quick-link-card {
+    background: #2d2d2d;
+    color: #ecf0f1;
+}
+
+body.theme-dark .quick-link-card:hover {
+    background: #3a3a3a;
+    border-color: #7d8dea;
 }
 
 body.theme-dark .resource-card:hover,
@@ -1048,15 +1151,20 @@ body.theme-dark .use-card h3,
 body.theme-dark .timeline-item h3,
 body.theme-dark .stage-card h3,
 body.theme-dark .resource-card h4,
-body.theme-dark .learning-tips h3 {
+body.theme-dark .learning-tips h3,
+body.theme-dark .quick-link-card h3,
+body.theme-dark .recent-course-title {
     color: #ecf0f1;
 }
 
 body.theme-dark .about-container h2,
 body.theme-dark .active-container h1,
 body.theme-dark .content-container h2,
-body.theme-dark .resource-category h3 {
+body.theme-dark .resource-category h3,
+body.theme-dark .quick-links-container h2,
+body.theme-dark .recent-course-subtitle {
     color: #ecf0f1;
+}
 }
 
 body.theme-dark .latin-description,
@@ -1066,7 +1174,9 @@ body.theme-dark .timeline-item p,
 body.theme-dark .stage-content ul li,
 body.theme-dark .stage-content p,
 body.theme-dark .learning-tips ul li,
-body.theme-dark .resource-card p {
+body.theme-dark .resource-card p,
+body.theme-dark .quick-link-card p,
+body.theme-dark .recent-course-description {
     color: #b0b0b0;
 }
 
@@ -1103,6 +1213,135 @@ body.theme-blue .btn-primary {
 
 body.theme-blue .btn-primary:hover {
     background: #2980b9;
+}
+
+/* Theme: Forest Green */
+body.theme-forest .term-status,
+body.theme-forest .course-search-section {
+    background: linear-gradient(135deg, #1e5128 0%, #2d6a4f 100%);
+}
+
+body.theme-forest .term-label {
+    background: linear-gradient(135deg, #1e5128 0%, #2d6a4f 100%);
+}
+
+body.theme-forest .modules-count,
+body.theme-forest .countdown-value {
+    color: #52b788;
+}
+
+body.theme-forest .progress-fill {
+    background: linear-gradient(90deg, #1e5128 0%, #52b788 100%);
+}
+
+body.theme-forest .course-card {
+    border-left-color: #52b788;
+}
+
+body.theme-forest .btn-primary {
+    background: #2d6a4f;
+}
+
+body.theme-forest .btn-primary:hover {
+    background: #1e5128;
+}
+
+body.theme-forest .timeline-period {
+    background: linear-gradient(135deg, #1e5128 0%, #2d6a4f 100%);
+}
+
+body.theme-forest .latin-impact-summary {
+    background: linear-gradient(135deg, #1e5128 0%, #2d6a4f 100%);
+}
+
+body.theme-forest .work-category-badge {
+    background: #2d6a4f;
+}
+
+/* Theme: Burgundy */
+body.theme-burgundy .term-status,
+body.theme-burgundy .course-search-section {
+    background: linear-gradient(135deg, #6b1e3c 0%, #8b2449 100%);
+}
+
+body.theme-burgundy .term-label {
+    background: linear-gradient(135deg, #6b1e3c 0%, #8b2449 100%);
+}
+
+body.theme-burgundy .modules-count,
+body.theme-burgundy .countdown-value {
+    color: #c1666b;
+}
+
+body.theme-burgundy .progress-fill {
+    background: linear-gradient(90deg, #6b1e3c 0%, #c1666b 100%);
+}
+
+body.theme-burgundy .course-card {
+    border-left-color: #c1666b;
+}
+
+body.theme-burgundy .btn-primary {
+    background: #8b2449;
+}
+
+body.theme-burgundy .btn-primary:hover {
+    background: #6b1e3c;
+}
+
+body.theme-burgundy .timeline-period {
+    background: linear-gradient(135deg, #6b1e3c 0%, #8b2449 100%);
+}
+
+body.theme-burgundy .latin-impact-summary {
+    background: linear-gradient(135deg, #6b1e3c 0%, #8b2449 100%);
+}
+
+body.theme-burgundy .work-category-badge {
+    background: #8b2449;
+}
+
+/* Theme: Sunset Orange */
+body.theme-sunset .term-status,
+body.theme-sunset .course-search-section {
+    background: linear-gradient(135deg, #e85d04 0%, #fb8500 100%);
+}
+
+body.theme-sunset .term-label {
+    background: linear-gradient(135deg, #e85d04 0%, #fb8500 100%);
+}
+
+body.theme-sunset .modules-count,
+body.theme-sunset .countdown-value {
+    color: #fb8500;
+}
+
+body.theme-sunset .progress-fill {
+    background: linear-gradient(90deg, #e85d04 0%, #fb8500 100%);
+}
+
+body.theme-sunset .course-card {
+    border-left-color: #fb8500;
+}
+
+body.theme-sunset .btn-primary {
+    background: #fb8500;
+}
+
+body.theme-sunset .btn-primary:hover {
+    background: #e85d04;
+}
+
+body.theme-sunset .timeline-period {
+    background: linear-gradient(135deg, #e85d04 0%, #fb8500 100%);
+}
+
+body.theme-sunset .latin-impact-summary {
+    background: linear-gradient(135deg, #e85d04 0%, #fb8500 100%);
+}
+
+body.theme-sunset .work-category-badge {
+    background: #fb8500;
 }
 
 /* Responsive Design */
