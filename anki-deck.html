@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Deck - Anki Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">My Learning Portal</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Course List</a></li>
+                <li><a href="active-courses.html">Active Courses</a></li>
+                <li><a href="anki.html" class="active">Anki Flashcards</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Flashcard Study Section -->
+    <section class="flashcard-study">
+        <div class="study-container">
+            <div class="breadcrumb">
+                <a href="anki.html">← Back to Anki Decks</a>
+            </div>
+
+            <div class="deck-header">
+                <h1 id="deck-title">Loading...</h1>
+                <div class="deck-info">
+                    <span class="card-progress" id="card-progress">Card 1 of 0</span>
+                    <span class="deck-category" id="deck-category">Category</span>
+                </div>
+            </div>
+
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <div class="card-content">
+                                <p id="card-question">Loading flashcard...</p>
+                            </div>
+                            <div class="flip-hint">Click to reveal answer</div>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="card-content">
+                                <p id="card-answer">Answer will appear here</p>
+                            </div>
+                            <div class="flip-hint">Click to see question</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-controls">
+                    <button class="nav-btn" id="prev-btn">
+                        <span class="arrow">←</span>
+                        <span class="btn-text">Previous</span>
+                    </button>
+                    <button class="shuffle-btn" id="shuffle-btn">🔀 Shuffle</button>
+                    <button class="nav-btn" id="next-btn">
+                        <span class="btn-text">Next</span>
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+
+                <div class="keyboard-hint">
+                    Use <kbd>←</kbd> <kbd>→</kbd> arrow keys to navigate • <kbd>Space</kbd> to flip card
+                </div>
+            </div>
+
+            <div class="deck-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Total Cards:</span>
+                    <span class="stat-value" id="total-cards">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Current Category:</span>
+                    <span class="stat-value" id="current-category">All</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>My Learning Portal</h3>
+                <p>Personal learning management system</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Course List</a></li>
+                    <li><a href="anki.html">Anki Flashcards</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Learning Portal. For personal use.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

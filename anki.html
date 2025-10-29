@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anki Flashcards - My Learning Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">My Learning Portal</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Course List</a></li>
+                <li><a href="active-courses.html">Active Courses</a></li>
+                <li><a href="anki.html" class="active">Anki Flashcards</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Anki Overview Section -->
+    <section class="anki-overview">
+        <div class="anki-container">
+            <h1>Anki Flashcards for Latin Learning</h1>
+            
+            <div class="anki-intro">
+                <h2>What are Anki Flashcards?</h2>
+                <p>
+                    Anki is a powerful flashcard system that uses <strong>spaced repetition</strong> to help you 
+                    learn and retain information more effectively. Instead of cramming, Anki shows you cards at 
+                    optimal intervals based on how well you remember them, making your study sessions more efficient.
+                </p>
+                
+                <div class="anki-benefits">
+                    <div class="benefit-card">
+                        <h3>🧠 Spaced Repetition</h3>
+                        <p>Review cards just before you're about to forget them for maximum retention</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>📊 Track Progress</h3>
+                        <p>Monitor your learning progress and identify areas that need more practice</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>⏰ Efficient Learning</h3>
+                        <p>Focus your study time on material you find challenging</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>📚 Organized Content</h3>
+                        <p>Cards organized by course and topic for structured learning</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="anki-usage">
+                <h2>How to Use These Flashcards</h2>
+                <ol class="usage-steps">
+                    <li><strong>Select a Course:</strong> Choose from Latin 101 through Latin 204 below</li>
+                    <li><strong>Study the Cards:</strong> Click on a card to flip it and see the answer</li>
+                    <li><strong>Navigate:</strong> Use the arrow buttons or keyboard arrows to move between cards</li>
+                    <li><strong>Regular Practice:</strong> Review regularly for best retention</li>
+                </ol>
+            </div>
+
+            <h2>Latin Course Flashcard Decks</h2>
+            <p class="deck-intro">
+                Select a course below to begin studying. Each deck contains vocabulary, grammar rules, 
+                and key concepts organized into manageable chunks for effective learning.
+            </p>
+
+            <!-- Course Selection Grid -->
+            <div class="anki-course-grid">
+                <!-- 100-Level Courses -->
+                <div class="anki-course-card beginner">
+                    <div class="course-level">Beginner</div>
+                    <h3>Latin 101</h3>
+                    <p class="course-subtitle">Beginner Grammar & Vocabulary</p>
+                    <p class="card-count" id="deck-latin-101-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-101" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card beginner">
+                    <div class="course-level">Beginner</div>
+                    <h3>Latin 102</h3>
+                    <p class="course-subtitle">Intermediate Grammar & Reading</p>
+                    <p class="card-count" id="deck-latin-102-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-102" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card intermediate">
+                    <div class="course-level">Intermediate</div>
+                    <h3>Latin 103</h3>
+                    <p class="course-subtitle">Latin Literature & Composition</p>
+                    <p class="card-count" id="deck-latin-103-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-103" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card intermediate">
+                    <div class="course-level">Intermediate</div>
+                    <h3>Latin 104</h3>
+                    <p class="course-subtitle">Advanced Translation & Prose</p>
+                    <p class="card-count" id="deck-latin-104-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-104" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card advanced">
+                    <div class="course-level">Advanced</div>
+                    <h3>Latin 105</h3>
+                    <p class="course-subtitle">Roman Poetry & Drama</p>
+                    <p class="card-count" id="deck-latin-105-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-105" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card advanced">
+                    <div class="course-level">Advanced</div>
+                    <h3>Latin 106</h3>
+                    <p class="course-subtitle">Roman History Through Texts</p>
+                    <p class="card-count" id="deck-latin-106-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-106" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <!-- 200-Level Courses -->
+                <div class="anki-course-card advanced">
+                    <div class="course-level">Advanced</div>
+                    <h3>Latin 201</h3>
+                    <p class="course-subtitle">Advanced Syntax & Stylistics</p>
+                    <p class="card-count" id="deck-latin-201-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-201" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card advanced">
+                    <div class="course-level">Advanced</div>
+                    <h3>Latin 202</h3>
+                    <p class="course-subtitle">Cicero & Classical Oratory</p>
+                    <p class="card-count" id="deck-latin-202-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-202" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card advanced">
+                    <div class="course-level">Advanced</div>
+                    <h3>Latin 203</h3>
+                    <p class="course-subtitle">Virgil & Epic Literature</p>
+                    <p class="card-count" id="deck-latin-203-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-203" class="btn btn-primary">Study Deck</a>
+                </div>
+
+                <div class="anki-course-card advanced">
+                    <div class="course-level">Advanced</div>
+                    <h3>Latin 204</h3>
+                    <p class="course-subtitle">Latin for Scholars</p>
+                    <p class="card-count" id="deck-latin-204-count">Loading...</p>
+                    <a href="anki-deck.html?course=latin-204" class="btn btn-primary">Study Deck</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>My Learning Portal</h3>
+                <p>Personal learning management system</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Course List</a></li>
+                    <li><a href="active-courses.html">Active Courses</a></li>
+                    <li><a href="anki.html">Anki Flashcards</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Learning Portal. For personal use.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
