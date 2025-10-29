@@ -339,6 +339,9 @@ function loadCourseDetail() {
             updateTermDisplay();
         });
     }
+    
+    // Initialize course references
+    initializeCourseReferences(courseId);
 }
 
 // Settings page functionality
