@@ -1215,6 +1215,10 @@ body.theme-blue .btn-primary:hover {
     font-size: 1rem;
 }
 
+.works-filter-section .filter-buttons {
+    justify-content: flex-start;
+}
+
 .works-filter-btn {
     padding: 0.6rem 1.2rem;
     border: 2px solid #e0e0e0;
