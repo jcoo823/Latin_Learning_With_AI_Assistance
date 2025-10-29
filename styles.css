@@ -2401,7 +2401,8 @@ body.theme-blue .work-category-badge {
 .motivational-card,
 .study-tips-card,
 .progress-card,
-.fun-fact-card {
+.fun-fact-card,
+.references-card {
     background: white;
     border-radius: 12px;
     padding: 1.5rem;
@@ -2500,6 +2501,217 @@ body.theme-blue .work-category-badge {
     color: #555;
     line-height: 1.6;
     font-size: 0.9rem;
+}
+
+/* Course References Card Styles */
+.references-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.references-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.references-header h3 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.btn-icon {
+    background: #3498db;
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    line-height: 1;
+    padding: 0;
+}
+
+.btn-icon:hover {
+    background: #2980b9;
+    transform: scale(1.1);
+}
+
+.add-reference-form {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 0.75rem;
+}
+
+.form-group:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.form-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-sm {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+}
+
+.references-directory {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.empty-references {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #7f8c8d;
+}
+
+.empty-references p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.empty-references .hint {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.reference-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.reference-item:hover {
+    background: #e9ecef;
+    transform: translateX(3px);
+}
+
+.reference-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.reference-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.reference-name {
+    display: block;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.reference-name:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+.reference-meta {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: #7f8c8d;
+}
+
+.reference-type {
+    text-transform: capitalize;
+}
+
+.reference-delete {
+    background: transparent;
+    border: none;
+    color: #e74c3c;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.reference-delete:hover {
+    background: #ffe5e5;
+    color: #c0392b;
+}
+
+/* Scrollbar styling for references directory */
+.references-directory::-webkit-scrollbar {
+    width: 6px;
+}
+
+.references-directory::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.references-directory::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.references-directory::-webkit-scrollbar-thumb:hover {
+    background: #999;
 }
 
 /* Level badge for course cards */

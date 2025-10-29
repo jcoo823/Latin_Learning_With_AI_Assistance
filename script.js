@@ -777,3 +777,174 @@ function displayWorks() {
     });
 }
 
+// Course References Functionality
+function initializeCourseReferences(courseId) {
+    if (!courseId) return;
+    
+    // Load references from localStorage
+    const storageKey = `courseReferences_${courseId}`;
+    let references = JSON.parse(localStorage.getItem(storageKey)) || [];
+    
+    // Get DOM elements
+    const addReferenceBtn = document.getElementById('add-reference-btn');
+    const addReferenceForm = document.getElementById('add-reference-form');
+    const saveReferenceBtn = document.getElementById('save-reference-btn');
+    const cancelReferenceBtn = document.getElementById('cancel-reference-btn');
+    const referenceNameInput = document.getElementById('reference-name');
+    const referenceUrlInput = document.getElementById('reference-url');
+    const referenceTypeSelect = document.getElementById('reference-type');
+    const referencesDirectory = document.getElementById('references-directory');
+    
+    // Display existing references
+    displayReferences();
+    
+    // Add reference button click
+    if (addReferenceBtn) {
+        addReferenceBtn.addEventListener('click', function() {
+            if (addReferenceForm.style.display === 'none') {
+                addReferenceForm.style.display = 'block';
+                referenceNameInput.focus();
+            } else {
+                addReferenceForm.style.display = 'none';
+                clearReferenceForm();
+            }
+        });
+    }
+    
+    // Save reference button click
+    if (saveReferenceBtn) {
+        saveReferenceBtn.addEventListener('click', function() {
+            const name = referenceNameInput.value.trim();
+            const url = referenceUrlInput.value.trim();
+            const type = referenceTypeSelect.value;
+            
+            if (!name || !url) {
+                alert('Please enter both name and URL for the reference.');
+                return;
+            }
+            
+            // Validate URL format
+            try {
+                new URL(url);
+            } catch (e) {
+                alert('Please enter a valid URL (e.g., https://example.com)');
+                return;
+            }
+            
+            // Add reference to array
+            const newReference = {
+                id: Date.now(),
+                name: name,
+                url: url,
+                type: type,
+                addedDate: new Date().toISOString()
+            };
+            
+            references.push(newReference);
+            localStorage.setItem(storageKey, JSON.stringify(references));
+            
+            // Clear form and hide
+            clearReferenceForm();
+            addReferenceForm.style.display = 'none';
+            
+            // Refresh display
+            displayReferences();
+        });
+    }
+    
+    // Cancel button click
+    if (cancelReferenceBtn) {
+        cancelReferenceBtn.addEventListener('click', function() {
+            clearReferenceForm();
+            addReferenceForm.style.display = 'none';
+        });
+    }
+    
+    // Function to clear the form
+    function clearReferenceForm() {
+        if (referenceNameInput) referenceNameInput.value = '';
+        if (referenceUrlInput) referenceUrlInput.value = '';
+        if (referenceTypeSelect) referenceTypeSelect.value = 'link';
+    }
+    
+    // Function to display references
+    function displayReferences() {
+        if (!referencesDirectory) return;
+        
+        if (references.length === 0) {
+            referencesDirectory.innerHTML = `
+                <div class="empty-references">
+                    <p>No references added yet.</p>
+                    <p class="hint">Click the + button to add resources!</p>
+                </div>
+            `;
+            return;
+        }
+        
+        referencesDirectory.innerHTML = '';
+        
+        references.forEach(reference => {
+            const referenceItem = document.createElement('div');
+            referenceItem.className = 'reference-item';
+            
+            const iconMap = {
+                'link': '🔗',
+                'pdf': '📄',
+                'video': '🎥',
+                'article': '📝',
+                'book': '📚',
+                'other': '📎'
+            };
+            
+            const icon = iconMap[reference.type] || '📎';
+            
+            referenceItem.innerHTML = `
+                <div class="reference-icon">${icon}</div>
+                <div class="reference-content">
+                    <a href="${reference.url}" target="_blank" rel="noopener noreferrer" class="reference-name" title="${reference.url}">
+                        ${reference.name}
+                    </a>
+                    <div class="reference-meta">
+                        <span class="reference-type">${reference.type}</span>
+                        <span class="reference-date">${formatDate(reference.addedDate)}</span>
+                    </div>
+                </div>
+                <button class="reference-delete" data-id="${reference.id}" title="Delete reference">×</button>
+            `;
+            
+            referencesDirectory.appendChild(referenceItem);
+        });
+        
+        // Add delete functionality
+        document.querySelectorAll('.reference-delete').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const refId = parseInt(this.getAttribute('data-id'));
+                if (confirm('Are you sure you want to delete this reference?')) {
+                    references = references.filter(ref => ref.id !== refId);
+                    localStorage.setItem(storageKey, JSON.stringify(references));
+                    displayReferences();
+                }
+            });
+        });
+    }
+    
+    // Helper function to format date
+    function formatDate(dateString) {
+        const date = new Date(dateString);
+        const now = new Date();
+        const diffTime = Math.abs(now - date);
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        
+        if (diffDays === 0) {
+            return 'Today';
+        } else if (diffDays === 1) {
+            return 'Yesterday';
+        } else if (diffDays < 7) {
+            return `${diffDays} days ago`;
+        } else {
+            return date.toLocaleDateString();
+        }
+    }
+}
+
+
