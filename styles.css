@@ -1085,10 +1085,26 @@ body.theme-light {
     color: #2c3e50;
 }
 
+body.theme-light .navbar {
+    background: #2c3e50;
+}
+
+body.theme-light .footer {
+    background: #2c3e50;
+}
+
 /* Theme: Dark */
 body.theme-dark {
     background: #1a1a1a;
     color: #ecf0f1;
+}
+
+body.theme-dark .navbar {
+    background: #0d0d0d;
+}
+
+body.theme-dark .footer {
+    background: #0d0d0d;
 }
 
 body.theme-dark .about-latin,
@@ -1185,6 +1201,14 @@ body.theme-dark .stage-content h4 {
 }
 
 /* Theme: Academic Blue */
+body.theme-blue .navbar {
+    background: #2c3e50;
+}
+
+body.theme-blue .footer {
+    background: #2c3e50;
+}
+
 body.theme-blue .term-status,
 body.theme-blue .course-search-section {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
@@ -1216,6 +1240,14 @@ body.theme-blue .btn-primary:hover {
 }
 
 /* Theme: Forest Green */
+body.theme-forest .navbar {
+    background: linear-gradient(135deg, #1e5128 0%, #2d6a4f 100%);
+}
+
+body.theme-forest .footer {
+    background: #1e5128;
+}
+
 body.theme-forest .term-status,
 body.theme-forest .course-search-section {
     background: linear-gradient(135deg, #1e5128 0%, #2d6a4f 100%);
