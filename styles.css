@@ -1291,6 +1291,14 @@ body.theme-forest .work-category-badge {
 }
 
 /* Theme: Burgundy */
+body.theme-burgundy .navbar {
+    background: linear-gradient(135deg, #6b1e3c 0%, #8b2449 100%);
+}
+
+body.theme-burgundy .footer {
+    background: #6b1e3c;
+}
+
 body.theme-burgundy .term-status,
 body.theme-burgundy .course-search-section {
     background: linear-gradient(135deg, #6b1e3c 0%, #8b2449 100%);
@@ -1334,6 +1342,14 @@ body.theme-burgundy .work-category-badge {
 }
 
 /* Theme: Sunset Orange */
+body.theme-sunset .navbar {
+    background: linear-gradient(135deg, #e85d04 0%, #fb8500 100%);
+}
+
+body.theme-sunset .footer {
+    background: #e85d04;
+}
+
 body.theme-sunset .term-status,
 body.theme-sunset .course-search-section {
     background: linear-gradient(135deg, #e85d04 0%, #fb8500 100%);
