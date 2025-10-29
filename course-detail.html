@@ -16,6 +16,7 @@
                 <li><a href="courses.html">Course List</a></li>
                 <li><a href="active-courses.html">Active Courses</a></li>
                 <li><a href="anki.html">Anki Flashcards</a></li>
+                <li><a href="works.html">Works</a></li>
                 <li><a href="settings.html">Settings</a></li>
             </ul>
         </div>
@@ -23,20 +24,48 @@
 
     <!-- Course Detail Section -->
     <section class="course-detail-section">
-        <div class="course-detail-container">
-            <div class="breadcrumb">
-                <a href="courses.html">← Back to Course List</a>
-            </div>
-            
-            <div class="course-header">
-                <h1 id="course-title">Course Title</h1>
-                <span class="course-category" id="course-category">Category</span>
-            </div>
+        <div class="breadcrumb-container">
+            <a href="courses.html">← Back to Course List</a>
+        </div>
+        
+        <div class="course-detail-three-column">
+            <!-- Left Column: Course Overview & Module List -->
+            <aside class="course-sidebar-left">
+                <div class="course-info-card">
+                    <h2>Course Overview</h2>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Level:</span>
+                            <span id="course-level">-</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Duration:</span>
+                            <span id="course-duration">-</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Credits:</span>
+                            <span id="course-credits">-</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Prerequisites:</span>
+                            <span id="course-prerequisites">-</span>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="course-content">
-                <div class="course-description">
-                    <h2>About This Course</h2>
-                    <p id="course-description">Course description will appear here.</p>
+                <div class="course-modules-nav">
+                    <h2>Course Modules</h2>
+                    <div id="modules-list" class="modules-list">
+                        <!-- Modules will be loaded here -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Middle Column: Main Course Content -->
+            <main class="course-main-content">
+                <div class="course-header">
+                    <h1 id="course-title">Course Title</h1>
+                    <span class="course-category" id="course-category">Category</span>
                 </div>
 
                 <div class="course-actions">
@@ -44,11 +73,67 @@
                     <button id="mark-complete" class="btn btn-secondary">Mark as Complete</button>
                 </div>
 
-                <div class="course-modules">
-                    <h2>Course Modules</h2>
-                    <p class="placeholder-text">Course modules and content will be added here in future updates.</p>
+                <div class="course-description-section">
+                    <h2>About This Course</h2>
+                    <p id="course-description">Course description will appear here.</p>
                 </div>
-            </div>
+
+                <div class="learning-objectives-section">
+                    <h2>Learning Objectives</h2>
+                    <ul id="learning-objectives" class="objectives-list">
+                        <!-- Objectives will be loaded here -->
+                    </ul>
+                </div>
+
+                <div class="course-materials-section">
+                    <h2>Required Materials</h2>
+                    <ul id="course-materials" class="materials-list">
+                        <!-- Materials will be loaded here -->
+                    </ul>
+                </div>
+
+                <div class="vocabulary-goals-section">
+                    <h2>Vocabulary Goals</h2>
+                    <div id="vocabulary-goals">
+                        <!-- Vocabulary goals will be loaded here -->
+                    </div>
+                </div>
+            </main>
+
+            <!-- Right Column: Decorative/Helpful Sidebar -->
+            <aside class="course-sidebar-right">
+                <div class="motivational-card">
+                    <div class="quote-icon">📖</div>
+                    <h3>Carpe Diem!</h3>
+                    <p class="latin-quote">"Dum vivimus, vivamus"</p>
+                    <p class="quote-translation">While we live, let us live!</p>
+                </div>
+
+                <div class="study-tips-card">
+                    <h3>💡 Study Tips</h3>
+                    <ul>
+                        <li>Practice daily for best results</li>
+                        <li>Use flashcards for vocabulary</li>
+                        <li>Read aloud to improve pronunciation</li>
+                        <li>Join study groups</li>
+                    </ul>
+                </div>
+
+                <div class="progress-card">
+                    <h3>📊 Your Progress</h3>
+                    <div class="progress-circle">
+                        <div class="circle-content">
+                            <span class="progress-percent">0%</span>
+                            <span class="progress-label">Complete</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fun-fact-card">
+                    <h3>🎓 Did You Know?</h3>
+                    <p id="latin-fact">Latin is the foundation of Romance languages including Spanish, French, Italian, Portuguese, and Romanian!</p>
+                </div>
+            </aside>
         </div>
     </section>
 
@@ -66,6 +151,7 @@
                     <li><a href="courses.html">Course List</a></li>
                     <li><a href="active-courses.html">Active Courses</a></li>
                     <li><a href="anki.html">Anki Flashcards</a></li>
+                    <li><a href="works.html">Works</a></li>
                 </ul>
             </div>
         </div>

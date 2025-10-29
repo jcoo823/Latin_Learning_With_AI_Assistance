@@ -1,5 +1,6 @@
 // Global state
 let coursesData = [];
+let worksData = [];
 let activeCourses = JSON.parse(localStorage.getItem('activeCourses')) || [];
 let completedCourses = JSON.parse(localStorage.getItem('completedCourses')) || [];
 
@@ -78,9 +79,11 @@ function displayCourses(filter = 'all', searchTerm = '') {
     
     let filteredCourses = coursesData;
     
-    // Filter by category
-    if (filter !== 'all') {
-        filteredCourses = filteredCourses.filter(course => course.category === filter);
+    // Filter by level (100 or 200)
+    if (filter === '100') {
+        filteredCourses = filteredCourses.filter(course => course.id.includes('-10'));
+    } else if (filter === '200') {
+        filteredCourses = filteredCourses.filter(course => course.id.includes('-20'));
     }
     
     // Filter by search term
@@ -106,9 +109,12 @@ function displayCourses(filter = 'all', searchTerm = '') {
         courseCard.className = 'course-card';
         if (isCompleted) courseCard.classList.add('completed');
         
+        const levelBadge = course.level ? `<span class="level-badge">${course.level}</span>` : '';
+        
         courseCard.innerHTML = `
             <div class="course-card-header">
                 <span class="course-category-badge">${course.category}</span>
+                ${levelBadge}
                 ${isCompleted ? '<span class="completed-badge">✓ Completed</span>' : ''}
             </div>
             <h3 class="course-card-title">${course.title}</h3>
@@ -190,18 +196,100 @@ function loadCourseDetail() {
     const course = coursesData.find(c => c.id === courseId);
     if (!course) return;
     
+    // Populate basic info
     const titleEl = document.getElementById('course-title');
     const categoryEl = document.getElementById('course-category');
     const descriptionEl = document.getElementById('course-description');
-    const addToActiveBtn = document.getElementById('add-to-active');
-    const markCompleteBtn = document.getElementById('mark-complete');
     
     if (titleEl) titleEl.textContent = course.title;
     if (categoryEl) categoryEl.textContent = course.category;
     if (descriptionEl) descriptionEl.textContent = course.description;
     
+    // Populate course overview metadata
+    const levelEl = document.getElementById('course-level');
+    const durationEl = document.getElementById('course-duration');
+    const creditsEl = document.getElementById('course-credits');
+    const prerequisitesEl = document.getElementById('course-prerequisites');
+    
+    if (levelEl) levelEl.textContent = course.level || '-';
+    if (durationEl) durationEl.textContent = course.duration || '-';
+    if (creditsEl) creditsEl.textContent = course.credits || '-';
+    if (prerequisitesEl) prerequisitesEl.textContent = course.prerequisites || '-';
+    
+    // Populate learning objectives
+    const objectivesEl = document.getElementById('learning-objectives');
+    if (objectivesEl && course.objectives) {
+        objectivesEl.innerHTML = '';
+        course.objectives.forEach(objective => {
+            const li = document.createElement('li');
+            li.textContent = objective;
+            objectivesEl.appendChild(li);
+        });
+    }
+    
+    // Populate required materials
+    const materialsEl = document.getElementById('course-materials');
+    if (materialsEl && course.materials) {
+        materialsEl.innerHTML = '';
+        course.materials.forEach(material => {
+            const li = document.createElement('li');
+            li.textContent = material; // Use textContent to prevent XSS
+            materialsEl.appendChild(li);
+        });
+    }
+    
+    // Populate vocabulary goals
+    const vocabEl = document.getElementById('vocabulary-goals');
+    if (vocabEl && course.vocabularyGoals) {
+        // Safely handle line breaks without innerHTML
+        vocabEl.textContent = '';
+        const lines = course.vocabularyGoals.split('\n');
+        lines.forEach((line, index) => {
+            vocabEl.appendChild(document.createTextNode(line));
+            if (index < lines.length - 1) {
+                vocabEl.appendChild(document.createElement('br'));
+            }
+        });
+    }
+    
+    // Populate modules list
+    const modulesListEl = document.getElementById('modules-list');
+    if (modulesListEl && course.units) {
+        modulesListEl.innerHTML = '';
+        course.units.forEach((unit, index) => {
+            const moduleItem = document.createElement('div');
+            moduleItem.className = 'module-item';
+            
+            const moduleHeader = document.createElement('div');
+            moduleHeader.className = 'module-header';
+            
+            const moduleTitle = document.createElement('h4');
+            moduleTitle.textContent = unit.title;
+            moduleHeader.appendChild(moduleTitle);
+            
+            moduleItem.appendChild(moduleHeader);
+            
+            if (unit.topics && unit.topics.length > 0) {
+                const topicsList = document.createElement('ul');
+                topicsList.className = 'topics-list';
+                unit.topics.forEach(topic => {
+                    const topicItem = document.createElement('li');
+                    topicItem.textContent = topic;
+                    topicsList.appendChild(topicItem);
+                });
+                moduleItem.appendChild(topicsList);
+            }
+            
+            modulesListEl.appendChild(moduleItem);
+        });
+    }
+    
+    // Handle button states
     const isActive = activeCourses.includes(courseId);
     const isCompleted = completedCourses.includes(courseId);
+    
+    const addToActiveBtn = document.getElementById('add-to-active');
+    const markCompleteBtn = document.getElementById('mark-complete');
     
     if (addToActiveBtn) {
         if (isActive) {
@@ -534,5 +622,147 @@ document.addEventListener('DOMContentLoaded', async function() {
         loadAnkiPage();
     } else if (currentPage === 'anki-deck.html') {
         loadAnkiDeck();
+    } else if (currentPage === 'works.html') {
+        initializeWorksPage();
     }
 });
+
+// Load works data
+async function loadWorksData() {
+    try {
+        const response = await fetch('data/works.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        worksData = (await response.json()).works;
+        return worksData;
+    } catch (error) {
+        console.error('Error loading works:', error);
+        return [];
+    }
+}
+
+// Initialize works page
+async function initializeWorksPage() {
+    await loadWorksData();
+    displayWorks();
+    
+    // Search functionality
+    const searchInput = document.getElementById('works-search');
+    const searchBtn = document.getElementById('works-search-btn');
+    
+    if (searchBtn) {
+        searchBtn.addEventListener('click', function() {
+            displayWorks();
+        });
+    }
+    
+    if (searchInput) {
+        searchInput.addEventListener('keyup', function(e) {
+            if (e.key === 'Enter') {
+                displayWorks();
+            }
+        });
+    }
+    
+    // Filter buttons
+    document.querySelectorAll('.works-filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const filterType = this.getAttribute('data-filter');
+            
+            // Remove active class from buttons of the same filter type
+            document.querySelectorAll(`.works-filter-btn[data-filter="${filterType}"]`).forEach(b => {
+                b.classList.remove('active');
+            });
+            
+            this.classList.add('active');
+            displayWorks();
+        });
+    });
+}
+
+// Display works with filtering
+function displayWorks() {
+    const container = document.getElementById('works-container');
+    if (!container) return;
+    
+    const searchInput = document.getElementById('works-search');
+    const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
+    
+    // Get active filters
+    const activeCategoryBtn = document.querySelector('.works-filter-btn[data-filter="category"].active');
+    const activeDifficultyBtn = document.querySelector('.works-filter-btn[data-filter="difficulty"].active');
+    
+    const categoryFilter = activeCategoryBtn ? activeCategoryBtn.getAttribute('data-value') : 'all';
+    const difficultyFilter = activeDifficultyBtn ? activeDifficultyBtn.getAttribute('data-value') : 'all';
+    
+    let filteredWorks = worksData;
+    
+    // Apply category filter
+    if (categoryFilter !== 'all') {
+        filteredWorks = filteredWorks.filter(work => work.category === categoryFilter);
+    }
+    
+    // Apply difficulty filter
+    if (difficultyFilter !== 'all') {
+        filteredWorks = filteredWorks.filter(work => work.difficulty === difficultyFilter);
+    }
+    
+    // Apply search filter
+    if (searchTerm) {
+        filteredWorks = filteredWorks.filter(work =>
+            work.title.toLowerCase().includes(searchTerm) ||
+            work.author.toLowerCase().includes(searchTerm) ||
+            work.description.toLowerCase().includes(searchTerm) ||
+            work.tags.some(tag => tag.toLowerCase().includes(searchTerm)) ||
+            work.category.toLowerCase().includes(searchTerm)
+        );
+    }
+    
+    container.innerHTML = '';
+    
+    if (filteredWorks.length === 0) {
+        container.innerHTML = `
+            <div class="empty-state" style="grid-column: 1 / -1;">
+                <div class="empty-icon">📚</div>
+                <h3>No works found</h3>
+                <p>Try adjusting your filters or search terms.</p>
+            </div>
+        `;
+        return;
+    }
+    
+    filteredWorks.forEach(work => {
+        const workCard = document.createElement('div');
+        workCard.className = 'work-card';
+        
+        const difficultyClass = work.difficulty.toLowerCase();
+        
+        workCard.innerHTML = `
+            <div class="work-card-header">
+                <div class="work-meta">
+                    <span class="work-author">${work.author}</span>
+                    <span class="work-period">${work.period}</span>
+                </div>
+                <h3 class="work-title">${work.title}</h3>
+            </div>
+            <div class="work-card-body">
+                <p class="work-description">${work.description}</p>
+                <div class="work-excerpt">${work.excerpt}</div>
+                <div class="work-tags">
+                    ${work.tags.slice(0, 4).map(tag => `<span class="work-tag">#${tag}</span>`).join('')}
+                </div>
+            </div>
+            <div class="work-card-footer">
+                <div class="work-badges">
+                    <span class="work-category-badge">${work.category}</span>
+                    <span class="work-difficulty-badge ${difficultyClass}">${work.difficulty}</span>
+                </div>
+                <span class="work-length">${work.length}</span>
+            </div>
+        `;
+        
+        container.appendChild(workCard);
+    });
+}
+
