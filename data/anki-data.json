@@ -2,741 +2,1884 @@
   "latin-101": {
     "title": "Latin 101 – Beginner Grammar & Vocabulary",
     "level": "Beginner",
-    "cards": [
-      {
-        "category": "First Declension",
-        "question": "What is the nominative singular ending for first declension nouns?",
-        "answer": "-a (Example: puella = girl)"
+    "subdecks": {
+      "first-declension": {
+        "title": "First Declension Nouns",
+        "description": "Master the first declension noun endings and common vocabulary",
+        "cards": [
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the nominative singular ending for first declension nouns?",
+            "answer": "-a (Example: puella = girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the genitive singular ending for first declension nouns?",
+            "answer": "-ae (Example: puellae = of the girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the dative singular ending for first declension nouns?",
+            "answer": "-ae (Example: puellae = to/for the girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the accusative singular ending for first declension nouns?",
+            "answer": "-am (Example: puellam = girl [as direct object])"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the ablative singular ending for first declension nouns?",
+            "answer": "-ā (Example: puellā = by/with/from the girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the nominative plural ending for first declension nouns?",
+            "answer": "-ae (Example: puellae = girls)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the genitive plural ending for first declension nouns?",
+            "answer": "-ārum (Example: puellārum = of the girls)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the dative plural ending for first declension nouns?",
+            "answer": "-īs (Example: puellīs = to/for the girls)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the accusative plural ending for first declension nouns?",
+            "answer": "-ās (Example: puellās = girls [as direct object])"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the ablative plural ending for first declension nouns?",
+            "answer": "-īs (Example: puellīs = by/with/from the girls)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: puella, -ae",
+            "answer": "girl"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'girl'?",
+            "answer": "puella, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: femina, -ae",
+            "answer": "woman"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'woman'?",
+            "answer": "femina, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: terra, -ae",
+            "answer": "earth, land"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'earth' or 'land'?",
+            "answer": "terra, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: aqua, -ae",
+            "answer": "water"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'water'?",
+            "answer": "aqua, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: hora, -ae",
+            "answer": "hour"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'hour'?",
+            "answer": "hora, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "What case is 'puellārum' and what does it mean?",
+            "answer": "Genitive plural - 'of the girls'"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "What case is 'terrīs' and what does it mean?",
+            "answer": "Dative or Ablative plural - 'to/for the lands' or 'by/with/from the lands'"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "Decline 'puella' in the accusative singular",
+            "answer": "puellam"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "Decline 'aqua' in the ablative singular",
+            "answer": "aquā"
+          }
+        ]
       },
-      {
-        "category": "First Declension",
-        "question": "What is the genitive singular ending for first declension nouns?",
-        "answer": "-ae (Example: puellae = of the girl)"
+      "second-declension": {
+        "title": "Second Declension Nouns",
+        "description": "Learn second declension masculine and neuter noun patterns",
+        "cards": [
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the nominative singular ending for second declension masculine nouns?",
+            "answer": "-us (Example: amicus = friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the genitive singular ending for second declension nouns?",
+            "answer": "-ī (Example: amīcī = of the friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the dative singular ending for second declension nouns?",
+            "answer": "-ō (Example: amīcō = to/for the friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the accusative singular ending for second declension masculine nouns?",
+            "answer": "-um (Example: amīcum = friend [as direct object])"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the ablative singular ending for second declension nouns?",
+            "answer": "-ō (Example: amīcō = by/with/from the friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the nominative plural ending for second declension masculine nouns?",
+            "answer": "-ī (Example: amīcī = friends)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the genitive plural ending for second declension nouns?",
+            "answer": "-ōrum (Example: amīcōrum = of the friends)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the accusative plural ending for second declension masculine nouns?",
+            "answer": "-ōs (Example: amīcōs = friends [as direct object])"
+          },
+          {
+            "category": "Second Declension - Neuter Endings",
+            "question": "What is the nominative singular ending for second declension neuter nouns?",
+            "answer": "-um (Example: bellum = war)"
+          },
+          {
+            "category": "Second Declension - Neuter Endings",
+            "question": "What is the accusative singular ending for second declension neuter nouns?",
+            "answer": "-um (Example: bellum = war [as direct object])"
+          },
+          {
+            "category": "Second Declension - Neuter Endings",
+            "question": "What is the nominative plural ending for second declension neuter nouns?",
+            "answer": "-a (Example: bella = wars)"
+          },
+          {
+            "category": "Second Declension - Neuter Rule",
+            "question": "What is the key rule for neuter nouns in Latin?",
+            "answer": "The nominative and accusative forms are always the same in both singular and plural"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: amicus, -ī",
+            "answer": "friend (male)"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "What is the Latin word for 'friend' (masculine)?",
+            "answer": "amicus, -ī (m.)"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: bellum, -ī",
+            "answer": "war"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "What is the Latin word for 'war'?",
+            "answer": "bellum, -ī (n.)"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: dominus, -ī",
+            "answer": "master, lord"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: servus, -ī",
+            "answer": "slave, servant"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: templum, -ī",
+            "answer": "temple"
+          },
+          {
+            "category": "Second Declension - Practice",
+            "question": "What case is 'amīcōrum' and what does it mean?",
+            "answer": "Genitive plural - 'of the friends'"
+          },
+          {
+            "category": "Second Declension - Practice",
+            "question": "Decline 'bellum' in the nominative plural",
+            "answer": "bella"
+          }
+        ]
       },
-      {
-        "category": "First Declension",
-        "question": "What is the accusative singular ending for first declension nouns?",
-        "answer": "-am (Example: puellam = girl [as direct object])"
+      "verbs-present": {
+        "title": "Present Tense Verbs",
+        "description": "Master present tense conjugations for all four conjugations",
+        "cards": [
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the first person singular present tense ending?",
+            "answer": "-ō or -m (Example: amō = I love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the second person singular present tense ending?",
+            "answer": "-s (Example: amās = you love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the third person singular present tense ending?",
+            "answer": "-t (Example: amat = he/she/it loves)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the first person plural present tense ending?",
+            "answer": "-mus (Example: amāmus = we love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the second person plural present tense ending?",
+            "answer": "-tis (Example: amātis = you [plural] love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the third person plural present tense ending?",
+            "answer": "-nt (Example: amant = they love)"
+          },
+          {
+            "category": "Present Tense - First Conjugation",
+            "question": "What is the stem vowel for first conjugation verbs?",
+            "answer": "-ā- (Example: amāre - to love)"
+          },
+          {
+            "category": "Present Tense - Second Conjugation",
+            "question": "What is the stem vowel for second conjugation verbs?",
+            "answer": "-ē- (Example: vidēre - to see)"
+          },
+          {
+            "category": "Present Tense - Third Conjugation",
+            "question": "What is the stem vowel for third conjugation verbs?",
+            "answer": "-e- (short, varies) (Example: dūcere - to lead)"
+          },
+          {
+            "category": "Present Tense - Fourth Conjugation",
+            "question": "What is the stem vowel for fourth conjugation verbs?",
+            "answer": "-ī- (Example: audīre - to hear)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: amāre",
+            "answer": "to love"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "What is the Latin infinitive for 'to love'?",
+            "answer": "amāre (1st conjugation)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: vidēre",
+            "answer": "to see"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "What is the Latin infinitive for 'to see'?",
+            "answer": "vidēre (2nd conjugation)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: esse",
+            "answer": "to be"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Conjugate 'sum' (to be) in first person singular present",
+            "answer": "sum (I am)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Conjugate 'sum' (to be) in third person singular present",
+            "answer": "est (he/she/it is)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Conjugate 'sum' (to be) in third person plural present",
+            "answer": "sunt (they are)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: habēre",
+            "answer": "to have"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: dare",
+            "answer": "to give"
+          },
+          {
+            "category": "Present Tense - Practice",
+            "question": "Conjugate 'amō' in third person plural",
+            "answer": "amant (they love)"
+          },
+          {
+            "category": "Present Tense - Practice",
+            "question": "What does 'vidēmus' mean?",
+            "answer": "we see"
+          }
+        ]
       },
-      {
-        "category": "Vocabulary - Family",
-        "question": "Translate: pater",
-        "answer": "father"
+      "vocabulary-family": {
+        "title": "Vocabulary: Family & People",
+        "description": "Learn essential Latin vocabulary for family members and people",
+        "cards": [
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: pater, patris",
+            "answer": "father"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'father'?",
+            "answer": "pater, patris (m.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: māter, mātris",
+            "answer": "mother"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'mother'?",
+            "answer": "māter, mātris (f.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: fīlius, -ī",
+            "answer": "son"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'son'?",
+            "answer": "fīlius, -ī (m.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: fīlia, -ae",
+            "answer": "daughter"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'daughter'?",
+            "answer": "fīlia, -ae (f.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: frāter, frātris",
+            "answer": "brother"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: soror, sorōris",
+            "answer": "sister"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: familia, -ae",
+            "answer": "family, household"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: vir, virī",
+            "answer": "man, husband"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: uxor, uxōris",
+            "answer": "wife"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: rēx, rēgis",
+            "answer": "king"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: rēgīna, -ae",
+            "answer": "queen"
+          }
+        ]
       },
-      {
-        "category": "Vocabulary - Family",
-        "question": "Translate: mater",
-        "answer": "mother"
+      "third-declension": {
+        "title": "Third Declension Nouns",
+        "description": "Master the complex third declension pattern",
+        "cards": [
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case shows possession in Latin?",
+            "answer": "Genitive case (Example: liber puerī = the book of the boy)"
+          },
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case is used for the direct object?",
+            "answer": "Accusative case"
+          },
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case is used for the indirect object?",
+            "answer": "Dative case"
+          },
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case is used with certain prepositions and to show means/manner?",
+            "answer": "Ablative case"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the nominative singular ending for third declension nouns?",
+            "answer": "Varies (must memorize each noun)"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the genitive singular ending for third declension nouns?",
+            "answer": "-is (Example: rēgis = of the king)"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the accusative singular ending for third declension masculine/feminine nouns?",
+            "answer": "-em (Example: rēgem = king [as direct object])"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the nominative plural ending for third declension masculine/feminine nouns?",
+            "answer": "-ēs (Example: rēgēs = kings)"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: rēx, rēgis",
+            "answer": "king"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: lēx, lēgis",
+            "answer": "law"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: nōmen, nōminis",
+            "answer": "name"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: corpus, corporis",
+            "answer": "body"
+          },
+          {
+            "category": "Third Declension - Practice",
+            "question": "What is the genitive singular of 'rēx'?",
+            "answer": "rēgis"
+          },
+          {
+            "category": "Third Declension - Practice",
+            "question": "Identify the stem of 'nōmen, nōminis'",
+            "answer": "nōmin- (from the genitive singular)"
+          }
+        ]
       },
-      {
-        "category": "Vocabulary - Family",
-        "question": "Translate: filius",
-        "answer": "son"
-      },
-      {
-        "category": "Vocabulary - Family",
-        "question": "Translate: filia",
-        "answer": "daughter"
-      },
-      {
-        "category": "Second Declension",
-        "question": "What is the nominative singular ending for second declension masculine nouns?",
-        "answer": "-us (Example: amicus = friend)"
-      },
-      {
-        "category": "Second Declension",
-        "question": "What is the nominative singular ending for second declension neuter nouns?",
-        "answer": "-um (Example: bellum = war)"
-      },
-      {
-        "category": "Verbs - Present Tense",
-        "question": "What is the first person singular present tense ending?",
-        "answer": "-o or -m (Example: amo = I love)"
-      },
-      {
-        "category": "Verbs - Present Tense",
-        "question": "What is the third person singular present tense ending?",
-        "answer": "-t (Example: amat = he/she/it loves)"
-      },
-      {
-        "category": "Vocabulary - Common Verbs",
-        "question": "Translate: amare",
-        "answer": "to love"
-      },
-      {
-        "category": "Vocabulary - Common Verbs",
-        "question": "Translate: videre",
-        "answer": "to see"
-      },
-      {
-        "category": "Vocabulary - Common Verbs",
-        "question": "Translate: esse",
-        "answer": "to be"
-      },
-      {
-        "category": "Third Declension",
-        "question": "What case shows possession in Latin?",
-        "answer": "Genitive case (Example: liber pueri = the book of the boy)"
-      },
-      {
-        "category": "Third Declension",
-        "question": "What case is used for the direct object?",
-        "answer": "Accusative case"
-      },
-      {
-        "category": "Vocabulary - Nature",
-        "question": "Translate: terra",
-        "answer": "earth, land"
-      },
-      {
-        "category": "Vocabulary - Nature",
-        "question": "Translate: aqua",
-        "answer": "water"
-      },
-      {
-        "category": "Vocabulary - Time",
-        "question": "Translate: hora",
-        "answer": "hour"
-      },
-      {
-        "category": "Vocabulary - Time",
-        "question": "Translate: dies",
-        "answer": "day"
+      "vocabulary-nature-time": {
+        "title": "Vocabulary: Nature & Time",
+        "description": "Essential vocabulary for natural elements and time",
+        "cards": [
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: terra, -ae",
+            "answer": "earth, land"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: aqua, -ae",
+            "answer": "water"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: ignis, ignis",
+            "answer": "fire"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: aër, aëris",
+            "answer": "air"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: silva, -ae",
+            "answer": "forest, woods"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: mare, maris",
+            "answer": "sea"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: sōl, sōlis",
+            "answer": "sun"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: lūna, -ae",
+            "answer": "moon"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: hōra, -ae",
+            "answer": "hour"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: diēs, diēī",
+            "answer": "day"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: nox, noctis",
+            "answer": "night"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: annus, -ī",
+            "answer": "year"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: tempus, temporis",
+            "answer": "time"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-102": {
     "title": "Latin 102 – Intermediate Grammar & Reading",
     "level": "Intermediate",
-    "cards": [
-      {
-        "category": "Perfect Tense",
-        "question": "What is the marker for the perfect tense?",
-        "answer": "-v- or -u- in the stem (Example: amavi = I loved/have loved)"
+    "subdecks": {
+      "perfect-tense": {
+        "title": "Perfect Tense",
+        "description": "Master the perfect tense system",
+        "cards": [
+          {
+            "category": "Perfect Tense - Formation",
+            "question": "What is the marker for the perfect tense?",
+            "answer": "-v- or -u- in the stem (Example: amāvī = I loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What are the perfect tense personal endings?",
+            "answer": "-ī, -istī, -it, -imus, -istis, -ērunt"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the first person singular perfect ending?",
+            "answer": "-ī (Example: amāvī = I loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the second person singular perfect ending?",
+            "answer": "-istī (Example: amāvistī = you loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the third person singular perfect ending?",
+            "answer": "-it (Example: amāvit = he/she/it loved/has loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the third person plural perfect ending?",
+            "answer": "-ērunt (Example: amāvērunt = they loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Translation",
+            "question": "What are the two main ways to translate the perfect tense?",
+            "answer": "Simple past (loved) or present perfect (have loved)"
+          },
+          {
+            "category": "Perfect Tense - Practice",
+            "question": "Translate: vīdī",
+            "answer": "I saw / I have seen"
+          },
+          {
+            "category": "Perfect Tense - Practice",
+            "question": "Translate: fēcērunt",
+            "answer": "they did / they have done"
+          },
+          {
+            "category": "Perfect Tense - Principal Parts",
+            "question": "What are the four principal parts of a Latin verb?",
+            "answer": "1st person present, present infinitive, 1st person perfect, perfect passive participle"
+          },
+          {
+            "category": "Perfect Tense - Principal Parts",
+            "question": "Give the principal parts of 'amō'",
+            "answer": "amō, amāre, amāvī, amātus"
+          },
+          {
+            "category": "Perfect Tense - Principal Parts",
+            "question": "Give the principal parts of 'videō'",
+            "answer": "videō, vidēre, vīdī, vīsus"
+          }
+        ]
       },
-      {
-        "category": "Perfect Tense",
-        "question": "What are the perfect tense personal endings?",
-        "answer": "-i, -isti, -it, -imus, -istis, -erunt"
+      "subjunctive-mood": {
+        "title": "Subjunctive Mood",
+        "description": "Learn the subjunctive mood and its uses",
+        "cards": [
+          {
+            "category": "Subjunctive - Formation",
+            "question": "What is the present subjunctive first person singular ending?",
+            "answer": "-m (Example: amem = may I love)"
+          },
+          {
+            "category": "Subjunctive - Formation",
+            "question": "How do you form the present subjunctive for first conjugation verbs?",
+            "answer": "Change -ā- to -ē- (amem, amēs, amet...)"
+          },
+          {
+            "category": "Subjunctive - Formation",
+            "question": "How do you form the present subjunctive for second, third, and fourth conjugation verbs?",
+            "answer": "Add -a- before the personal endings (videam, dūcam, audiam...)"
+          },
+          {
+            "category": "Subjunctive - Purpose Clauses",
+            "question": "What is a common use of the subjunctive in purpose clauses?",
+            "answer": "To express purpose with 'ut' (so that) or 'nē' (so that...not)"
+          },
+          {
+            "category": "Subjunctive - Purpose Clauses",
+            "question": "Translate: Venit ut te videat",
+            "answer": "He comes so that he may see you (purpose)"
+          },
+          {
+            "category": "Subjunctive - Result Clauses",
+            "question": "What conjunction introduces a result clause?",
+            "answer": "'ut' (so that, with the result that) with subjunctive"
+          },
+          {
+            "category": "Subjunctive - Jussive",
+            "question": "What is a jussive subjunctive?",
+            "answer": "Subjunctive used to express a command or exhortation (Let us...)"
+          },
+          {
+            "category": "Subjunctive - Hortatory",
+            "question": "What is a hortatory subjunctive?",
+            "answer": "First person plural subjunctive expressing encouragement (Let us...)"
+          },
+          {
+            "category": "Subjunctive - Practice",
+            "question": "Identify the mood and translate: amet",
+            "answer": "Present subjunctive - 'may he/she love' or 'let him/her love'"
+          },
+          {
+            "category": "Subjunctive - Imperfect",
+            "question": "How do you form the imperfect subjunctive?",
+            "answer": "Present infinitive + personal endings (amārem, amārēs, amāret...)"
+          }
+        ]
       },
-      {
-        "category": "Subjunctive Mood",
-        "question": "What is the present subjunctive first person singular ending?",
-        "answer": "-m (Example: amem = may I love)"
+      "participles": {
+        "title": "Participles",
+        "description": "Master Latin participles and their uses",
+        "cards": [
+          {
+            "category": "Participles - Present Active",
+            "question": "What is the present active participle ending?",
+            "answer": "-ns, -ntis (Example: amāns = loving)"
+          },
+          {
+            "category": "Participles - Present Active",
+            "question": "Translate: amāns, amantis",
+            "answer": "loving (present active participle of amō)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for first conjugation?",
+            "answer": "-ātus, -a, -um (Example: amātus = having been loved)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for second conjugation?",
+            "answer": "-itus, -a, -um (Example: monitus = having been warned)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for third conjugation?",
+            "answer": "-tus, -a, -um (Example: ductus = having been led)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for fourth conjugation?",
+            "answer": "-ītus, -a, -um (Example: audītus = having been heard)"
+          },
+          {
+            "category": "Participles - Future Active",
+            "question": "How do you form the future active participle?",
+            "answer": "Perfect passive stem + -ūrus, -a, -um (amātūrus = about to love)"
+          },
+          {
+            "category": "Participles - Uses",
+            "question": "What are the three main uses of participles?",
+            "answer": "Attributive (adjective), circumstantial (adverb), and substantive (noun)"
+          },
+          {
+            "category": "Participles - Practice",
+            "question": "Translate: puella amāta",
+            "answer": "the girl having been loved / the loved girl"
+          },
+          {
+            "category": "Participles - Practice",
+            "question": "What tense and voice is 'vīsus'?",
+            "answer": "Perfect passive (having been seen)"
+          }
+        ]
       },
-      {
-        "category": "Subjunctive Mood",
-        "question": "What is a common use of the subjunctive in purpose clauses?",
-        "answer": "To express purpose with 'ut' (so that) or 'ne' (so that...not)"
+      "subordinate-clauses": {
+        "title": "Subordinate Clauses",
+        "description": "Learn various types of subordinate clauses",
+        "cards": [
+          {
+            "category": "Subordinate - Result Clauses",
+            "question": "What conjunction introduces a result clause?",
+            "answer": "'ut' (so that, with the result that) with subjunctive"
+          },
+          {
+            "category": "Subordinate - Result Clauses",
+            "question": "How do you translate a result clause?",
+            "answer": "'so... that' or 'such... that'"
+          },
+          {
+            "category": "Subordinate - Concessive Clauses",
+            "question": "What conjunction introduces a concessive clause?",
+            "answer": "'cum' (although) with subjunctive"
+          },
+          {
+            "category": "Subordinate - Temporal Clauses",
+            "question": "What conjunctions introduce temporal clauses?",
+            "answer": "cum (when), ubi (when), postquam (after), antequam (before)"
+          },
+          {
+            "category": "Subordinate - Causal Clauses",
+            "question": "What conjunction introduces a causal clause?",
+            "answer": "'quod' or 'quia' (because) with indicative; 'cum' (since) with subjunctive"
+          },
+          {
+            "category": "Subordinate - Conditional Clauses",
+            "question": "What word introduces a conditional clause?",
+            "answer": "'sī' (if)"
+          },
+          {
+            "category": "Subordinate - Practice",
+            "question": "Identify the clause type: Tam fortis est ut vincit",
+            "answer": "Result clause - 'He is so brave that he wins'"
+          }
+        ]
       },
-      {
-        "category": "Vocabulary - Abstract",
-        "question": "Translate: virtus, virtutis",
-        "answer": "virtue, excellence"
+      "vocabulary-abstract": {
+        "title": "Vocabulary: Abstract Concepts",
+        "description": "Learn abstract nouns and concepts",
+        "cards": [
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: virtūs, virtūtis",
+            "answer": "virtue, excellence, courage"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: vēritās, vēritātis",
+            "answer": "truth"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: lībertās, lībertātis",
+            "answer": "freedom, liberty"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: sapientia, -ae",
+            "answer": "wisdom"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: iūstitia, -ae",
+            "answer": "justice"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: fortitūdō, fortitūdinis",
+            "answer": "bravery, strength"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: amor, amōris",
+            "answer": "love"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: timor, timōris",
+            "answer": "fear"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: spēs, speī",
+            "answer": "hope"
+          }
+        ]
       },
-      {
-        "category": "Vocabulary - Abstract",
-        "question": "Translate: veritas, veritatis",
-        "answer": "truth"
+      "vocabulary-government": {
+        "title": "Vocabulary: Government & Politics",
+        "description": "Essential political and governmental vocabulary",
+        "cards": [
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: rēx, rēgis",
+            "answer": "king"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: cōnsul, cōnsulis",
+            "answer": "consul"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: senātor, senātōris",
+            "answer": "senator"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: senātus, -ūs",
+            "answer": "senate"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: populus, -ī",
+            "answer": "people"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: cīvis, cīvis",
+            "answer": "citizen"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: urbs, urbis",
+            "answer": "city"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: imperium, -ī",
+            "answer": "command, empire, power"
+          }
+        ]
       },
-      {
-        "category": "Participles",
-        "question": "What is the present active participle ending?",
-        "answer": "-ns, -ntis (Example: amans = loving)"
+      "deponent-verbs": {
+        "title": "Deponent Verbs",
+        "description": "Learn verbs with passive forms but active meanings",
+        "cards": [
+          {
+            "category": "Deponent Verbs - Definition",
+            "question": "What are deponent verbs?",
+            "answer": "Verbs with passive forms but active meanings (Example: sequor = I follow)"
+          },
+          {
+            "category": "Deponent Verbs - Recognition",
+            "question": "How can you recognize a deponent verb?",
+            "answer": "The first principal part ends in -or, but it has an active meaning"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: sequor, sequī, secūtus sum",
+            "answer": "to follow"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: loquor, loquī, locūtus sum",
+            "answer": "to speak"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: patior, patī, passus sum",
+            "answer": "to suffer, allow"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: morior, morī, mortuus sum",
+            "answer": "to die"
+          },
+          {
+            "category": "Deponent Verbs - Practice",
+            "question": "What does 'sequitur' mean?",
+            "answer": "he/she/it follows (deponent verb, passive form, active meaning)"
+          }
+        ]
       },
-      {
-        "category": "Participles",
-        "question": "What is the perfect passive participle ending for first conjugation?",
-        "answer": "-atus, -a, -um (Example: amatus = having been loved)"
-      },
-      {
-        "category": "Subordinate Clauses",
-        "question": "What conjunction introduces a result clause?",
-        "answer": "'ut' (so that, with the result that) with subjunctive"
-      },
-      {
-        "category": "Subordinate Clauses",
-        "question": "What conjunction introduces a concessive clause?",
-        "answer": "'cum' (although) with subjunctive"
-      },
-      {
-        "category": "Vocabulary - Government",
-        "question": "Translate: rex, regis",
-        "answer": "king"
-      },
-      {
-        "category": "Vocabulary - Government",
-        "question": "Translate: consul, consulis",
-        "answer": "consul"
-      },
-      {
-        "category": "Deponent Verbs",
-        "question": "What are deponent verbs?",
-        "answer": "Verbs with passive forms but active meanings (Example: sequor = I follow)"
-      },
-      {
-        "category": "Infinitives",
-        "question": "What is the present active infinitive ending for first conjugation?",
-        "answer": "-are (Example: amare = to love)"
-      },
-      {
-        "category": "Infinitives",
-        "question": "What is the perfect active infinitive formation?",
-        "answer": "Perfect stem + -isse (Example: amavisse = to have loved)"
+      "infinitives": {
+        "title": "Infinitives",
+        "description": "Master the six Latin infinitives",
+        "cards": [
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for first conjugation?",
+            "answer": "-āre (Example: amāre = to love)"
+          },
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for second conjugation?",
+            "answer": "-ēre (Example: vidēre = to see)"
+          },
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for third conjugation?",
+            "answer": "-ere (Example: dūcere = to lead)"
+          },
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for fourth conjugation?",
+            "answer": "-īre (Example: audīre = to hear)"
+          },
+          {
+            "category": "Infinitives - Perfect Active",
+            "question": "What is the perfect active infinitive formation?",
+            "answer": "Perfect stem + -isse (Example: amāvisse = to have loved)"
+          },
+          {
+            "category": "Infinitives - Future Active",
+            "question": "How do you form the future active infinitive?",
+            "answer": "Future active participle + esse (Example: amātūrus esse = to be about to love)"
+          },
+          {
+            "category": "Infinitives - Perfect Passive",
+            "question": "How do you form the perfect passive infinitive?",
+            "answer": "Perfect passive participle + esse (Example: amātus esse = to have been loved)"
+          },
+          {
+            "category": "Infinitives - Practice",
+            "question": "What tense and voice is 'vīdisse'?",
+            "answer": "Perfect active infinitive (to have seen)"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-103": {
     "title": "Latin 103 – Latin Literature & Composition",
     "level": "Intermediate-Advanced",
-    "cards": [
-      {
-        "category": "Literary Terms",
-        "question": "What is 'dactyl' in Latin poetry?",
-        "answer": "A metrical foot consisting of one long syllable followed by two short syllables (— ∪ ∪)"
+    "subdecks": {
+      "literary-terms": {
+        "title": "Literary Terms & Meter",
+        "description": "Essential terms for understanding Latin poetry and prose",
+        "cards": [
+          {
+            "category": "Literary Terms",
+            "question": "What is 'dactyl' in Latin poetry?",
+            "answer": "A metrical foot consisting of one long syllable followed by two short syllables (— ∪ ∪)"
+          },
+          {
+            "category": "Literary Terms",
+            "question": "What is 'hexameter'?",
+            "answer": "A line of poetry with six metrical feet, commonly used in epic poetry"
+          },
+          {
+            "category": "Literary Terms",
+            "question": "What is 'caesura'?",
+            "answer": "A pause or break within a line of poetry"
+          },
+          {
+            "category": "Literary Terms",
+            "question": "What is 'enjambment'?",
+            "answer": "Continuation of a sentence beyond the end of a verse line"
+          },
+          {
+            "category": "Literary Terms",
+            "question": "What is 'anaphora'?",
+            "answer": "Repetition of words at the beginning of successive clauses"
+          },
+          {
+            "category": "Literary Terms",
+            "question": "What is 'chiasmus'?",
+            "answer": "Inverted parallelism in word order (ABBA pattern)"
+          }
+        ]
       },
-      {
-        "category": "Literary Terms",
-        "question": "What is 'hexameter'?",
-        "answer": "A line of poetry with six metrical feet, commonly used in epic poetry"
+      "indirect-statement": {
+        "title": "Indirect Statement",
+        "description": "Master accusative + infinitive construction",
+        "cards": [
+          {
+            "category": "Indirect Statement",
+            "question": "What construction is used for indirect statement in Latin?",
+            "answer": "Accusative + Infinitive (Example: Dīcit eum venīre = He says that he is coming)"
+          },
+          {
+            "category": "Indirect Statement",
+            "question": "What verb commonly introduces indirect statement?",
+            "answer": "Verbs of saying, thinking, knowing (dīcō, putō, sciō)"
+          },
+          {
+            "category": "Indirect Statement",
+            "question": "Translate: Dīcit puellam venīre",
+            "answer": "He says that the girl is coming"
+          },
+          {
+            "category": "Indirect Statement",
+            "question": "Translate: Scīmus tē esse bonum",
+            "answer": "We know that you are good"
+          }
+        ]
       },
-      {
-        "category": "Indirect Statement",
-        "question": "What construction is used for indirect statement in Latin?",
-        "answer": "Accusative + Infinitive (Example: Dicit eum venire = He says that he is coming)"
+      "gerunds-gerundives": {
+        "title": "Gerunds & Gerundives",
+        "description": "Learn verbal nouns and adjectives",
+        "cards": [
+          {
+            "category": "Gerunds & Gerundives",
+            "question": "What is a gerund in Latin?",
+            "answer": "A verbal noun formed from a verb (Example: amandī = of loving)"
+          },
+          {
+            "category": "Gerunds & Gerundives",
+            "question": "What does a gerundive express?",
+            "answer": "Necessity or obligation (Example: amandus = needing to be loved)"
+          },
+          {
+            "category": "Gerunds & Gerundives",
+            "question": "Translate: ars amandī",
+            "answer": "the art of loving"
+          },
+          {
+            "category": "Gerunds & Gerundives",
+            "question": "Translate: Liber legendus est",
+            "answer": "The book must be read"
+          }
+        ]
       },
-      {
-        "category": "Indirect Statement",
-        "question": "What verb commonly introduces indirect statement?",
-        "answer": "Verbs of saying, thinking, knowing (dico, puto, scio)"
+      "composition": {
+        "title": "Latin Composition",
+        "description": "Learn to write in Latin",
+        "cards": [
+          {
+            "category": "Composition",
+            "question": "What is the typical Latin word order?",
+            "answer": "Subject - Object - Verb (SOV), though flexible for emphasis"
+          },
+          {
+            "category": "Composition",
+            "question": "Where do adjectives typically appear in Latin?",
+            "answer": "After the noun they modify, though can precede for emphasis"
+          }
+        ]
       },
-      {
-        "category": "Vocabulary - Literature",
-        "question": "Translate: poeta, poetae",
-        "answer": "poet"
+      "authors": {
+        "title": "Caesar & Cicero",
+        "description": "Learn about major prose authors",
+        "cards": [
+          {
+            "category": "Authors - Caesar",
+            "question": "What work is Caesar famous for?",
+            "answer": "Commentāriī dē Bellō Gallicō (Commentaries on the Gallic War)"
+          },
+          {
+            "category": "Authors - Cicero",
+            "question": "What type of writing was Cicero known for?",
+            "answer": "Orations, philosophical works, and letters"
+          }
+        ]
       },
-      {
-        "category": "Vocabulary - Literature",
-        "question": "Translate: carmen, carminis",
-        "answer": "song, poem"
+      "conditional-clauses": {
+        "title": "Conditional Clauses",
+        "description": "Master all types of conditional sentences",
+        "cards": [
+          {
+            "category": "Conditional Clauses",
+            "question": "What introduces a simple conditional in Latin?",
+            "answer": "'sī' (if) with indicative for simple conditions"
+          },
+          {
+            "category": "Conditional Clauses",
+            "question": "What mood is used for contrary-to-fact conditions?",
+            "answer": "Subjunctive (imperfect for present, pluperfect for past)"
+          }
+        ]
       },
-      {
-        "category": "Gerunds",
-        "question": "What is a gerund in Latin?",
-        "answer": "A verbal noun formed from a verb (Example: amandi = of loving)"
-      },
-      {
-        "category": "Gerundives",
-        "question": "What does a gerundive express?",
-        "answer": "Necessity or obligation (Example: amandus = needing to be loved)"
-      },
-      {
-        "category": "Composition",
-        "question": "What is the typical Latin word order?",
-        "answer": "Subject - Object - Verb (SOV), though flexible for emphasis"
-      },
-      {
-        "category": "Composition",
-        "question": "Where do adjectives typically appear in Latin?",
-        "answer": "After the noun they modify, though can precede for emphasis"
-      },
-      {
-        "category": "Authors - Caesar",
-        "question": "What work is Caesar famous for?",
-        "answer": "Commentarii de Bello Gallico (Commentaries on the Gallic War)"
-      },
-      {
-        "category": "Authors - Cicero",
-        "question": "What type of writing was Cicero known for?",
-        "answer": "Orations, philosophical works, and letters"
-      },
-      {
-        "category": "Conditional Clauses",
-        "question": "What introduces a simple conditional in Latin?",
-        "answer": "'si' (if) with indicative for simple conditions"
-      },
-      {
-        "category": "Conditional Clauses",
-        "question": "What mood is used for contrary-to-fact conditions?",
-        "answer": "Subjunctive (imperfect for present, pluperfect for past)"
+      "vocabulary-literature": {
+        "title": "Vocabulary: Literature",
+        "description": "Essential literary vocabulary",
+        "cards": [
+          {
+            "category": "Vocabulary - Literature",
+            "question": "Translate: poēta, -ae",
+            "answer": "poet"
+          },
+          {
+            "category": "Vocabulary - Literature",
+            "question": "Translate: carmen, carminis",
+            "answer": "song, poem"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-104": {
     "title": "Latin 104 – Advanced Translation & Prose",
     "level": "Advanced",
-    "cards": [
-      {
-        "category": "Advanced Syntax",
-        "question": "What is an ablative absolute?",
-        "answer": "A noun/pronoun + participle in ablative case, expressing circumstance (Example: urbe capta = the city having been captured)"
+    "subdecks": {
+      "advanced-syntax": {
+        "title": "Advanced Syntax",
+        "description": "Complex syntactic constructions",
+        "cards": [
+          {
+            "category": "Advanced Syntax",
+            "question": "What is an ablative absolute?",
+            "answer": "A noun/pronoun + participle in ablative case, expressing circumstance (Example: urbe captā = the city having been captured)"
+          },
+          {
+            "category": "Advanced Syntax",
+            "question": "What is indirect question construction?",
+            "answer": "Interrogative word + subjunctive (Example: Rogat quid faciās = He asks what you are doing)"
+          }
+        ]
       },
-      {
-        "category": "Advanced Syntax",
-        "question": "What is indirect question construction?",
-        "answer": "Interrogative word + subjunctive (Example: Rogat quid facias = He asks what you are doing)"
+      "golden-age-authors": {
+        "title": "Golden Age Authors",
+        "description": "Major prose authors of the Golden Age",
+        "cards": [
+          {
+            "category": "Golden Age Authors",
+            "question": "Who were the major prose authors of the Golden Age?",
+            "answer": "Cicero, Caesar, Sallust, Livy"
+          },
+          {
+            "category": "Cicero's Style",
+            "question": "What characterizes Ciceronian prose style?",
+            "answer": "Long, elaborate periodic sentences with balanced clauses and rhythmic endings (clausulae)"
+          },
+          {
+            "category": "Caesar's Style",
+            "question": "What characterizes Caesar's prose style?",
+            "answer": "Clear, direct, straightforward narrative with simple sentence structure"
+          }
+        ]
       },
-      {
-        "category": "Golden Age Authors",
-        "question": "Who were the major prose authors of the Golden Age?",
-        "answer": "Cicero, Caesar, Sallust, Livy"
+      "clauses": {
+        "title": "Relative & Temporal Clauses",
+        "description": "Advanced clause constructions",
+        "cards": [
+          {
+            "category": "Relative Clauses",
+            "question": "What is a relative clause of purpose?",
+            "answer": "Relative pronoun (quī) + subjunctive to express purpose"
+          },
+          {
+            "category": "Relative Clauses",
+            "question": "What is a relative clause of characteristic?",
+            "answer": "Quī + subjunctive to describe a type or class"
+          },
+          {
+            "category": "Temporal Clauses",
+            "question": "What conjunction means 'when' with perfect tense?",
+            "answer": "'cum' with perfect indicative for definite past time"
+          },
+          {
+            "category": "Temporal Clauses",
+            "question": "What does 'cum' + imperfect subjunctive mean?",
+            "answer": "'When' or 'since' (circumstantial or causal)"
+          }
+        ]
       },
-      {
-        "category": "Cicero's Style",
-        "question": "What characterizes Ciceronian prose style?",
-        "answer": "Long, elaborate periodic sentences with balanced clauses and rhythmic endings (clausulae)"
+      "fear-clauses": {
+        "title": "Fear Clauses",
+        "description": "Learn fear constructions",
+        "cards": [
+          {
+            "category": "Fear Clauses",
+            "question": "What construction expresses fear in Latin?",
+            "answer": "Verbs of fearing + 'nē' (that) or 'ut' (that...not) + subjunctive"
+          }
+        ]
       },
-      {
-        "category": "Caesar's Style",
-        "question": "What characterizes Caesar's prose style?",
-        "answer": "Clear, direct, straightforward narrative with simple sentence structure"
-      },
-      {
-        "category": "Advanced Vocabulary",
-        "question": "Translate: res publica",
-        "answer": "republic, commonwealth, state"
-      },
-      {
-        "category": "Advanced Vocabulary",
-        "question": "Translate: senatus populusque Romanus (SPQR)",
-        "answer": "The Senate and People of Rome"
-      },
-      {
-        "category": "Relative Clauses",
-        "question": "What is a relative clause of purpose?",
-        "answer": "Relative pronoun (qui) + subjunctive to express purpose"
-      },
-      {
-        "category": "Relative Clauses",
-        "question": "What is a relative clause of characteristic?",
-        "answer": "Qui + subjunctive to describe a type or class"
-      },
-      {
-        "category": "Temporal Clauses",
-        "question": "What conjunction means 'when' with perfect tense?",
-        "answer": "'cum' with perfect indicative for definite past time"
-      },
-      {
-        "category": "Temporal Clauses",
-        "question": "What does 'cum' + imperfect subjunctive mean?",
-        "answer": "'When' or 'since' (circumstantial or causal)"
-      },
-      {
-        "category": "Fear Clauses",
-        "question": "What construction expresses fear in Latin?",
-        "answer": "Verbs of fearing + 'ne' (that) or 'ut' (that...not) + subjunctive"
+      "vocabulary-advanced": {
+        "title": "Advanced Vocabulary",
+        "description": "Sophisticated Latin vocabulary",
+        "cards": [
+          {
+            "category": "Advanced Vocabulary",
+            "question": "Translate: rēs pūblica",
+            "answer": "republic, commonwealth, state"
+          },
+          {
+            "category": "Advanced Vocabulary",
+            "question": "Translate: senātus populusque Rōmānus (SPQR)",
+            "answer": "The Senate and People of Rome"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-105": {
     "title": "Latin 105 – Roman Poetry & Drama",
     "level": "Advanced",
-    "cards": [
-      {
-        "category": "Poetic Meter",
-        "question": "What is dactylic hexameter?",
-        "answer": "The meter of epic poetry: six feet of dactyls (— ∪ ∪) or spondees (— —)"
+    "subdecks": {
+      "poetic-meter": {
+        "title": "Poetic Meter",
+        "description": "Master Latin poetic meters",
+        "cards": [
+          {
+            "category": "Poetic Meter",
+            "question": "What is dactylic hexameter?",
+            "answer": "The meter of epic poetry: six feet of dactyls (— ∪ ∪) or spondees (— —)"
+          },
+          {
+            "category": "Poetic Meter",
+            "question": "What is elegiac couplet?",
+            "answer": "Hexameter line followed by pentameter line, used in love poetry"
+          }
+        ]
       },
-      {
-        "category": "Poetic Meter",
-        "question": "What is elegiac couplet?",
-        "answer": "Hexameter line followed by pentameter line, used in love poetry"
+      "catullus": {
+        "title": "Catullus",
+        "description": "Learn about Catullus and his poetry",
+        "cards": [
+          {
+            "category": "Catullus",
+            "question": "What type of poetry did Catullus write?",
+            "answer": "Lyric poetry, love poetry (especially about Lesbia), and invective"
+          }
+        ]
       },
-      {
-        "category": "Catullus",
-        "question": "What type of poetry did Catullus write?",
-        "answer": "Lyric poetry, love poetry (especially about Lesbia), and invective"
+      "virgil": {
+        "title": "Virgil",
+        "description": "Study Virgil's works",
+        "cards": [
+          {
+            "category": "Virgil",
+            "question": "What are Virgil's three major works?",
+            "answer": "Eclogues (pastoral poetry), Georgics (agricultural poetry), Aeneid (epic)"
+          },
+          {
+            "category": "Virgil - Aeneid",
+            "question": "What is the opening line of the Aeneid?",
+            "answer": "Arma virumque canō (I sing of arms and the man)"
+          }
+        ]
       },
-      {
-        "category": "Virgil",
-        "question": "What are Virgil's three major works?",
-        "answer": "Eclogues (pastoral poetry), Georgics (agricultural poetry), Aeneid (epic)"
+      "ovid": {
+        "title": "Ovid",
+        "description": "Explore Ovid's poetry",
+        "cards": [
+          {
+            "category": "Ovid",
+            "question": "What is Ovid's most famous work?",
+            "answer": "Metamorphoses (mythological transformations in epic form)"
+          },
+          {
+            "category": "Ovid",
+            "question": "What work got Ovid exiled?",
+            "answer": "Ars Amātōria (The Art of Love)"
+          }
+        ]
       },
-      {
-        "category": "Virgil - Aeneid",
-        "question": "What is the opening line of the Aeneid?",
-        "answer": "Arma virumque cano (I sing of arms and the man)"
+      "horace": {
+        "title": "Horace",
+        "description": "Study Horace's lyric poetry",
+        "cards": [
+          {
+            "category": "Horace",
+            "question": "What types of poetry did Horace write?",
+            "answer": "Odes (lyric poetry), Satires, Epistles, and Ars Poetica"
+          },
+          {
+            "category": "Horace - Famous Phrases",
+            "question": "What does 'carpe diem' mean?",
+            "answer": "Seize the day (from Horace's Odes)"
+          }
+        ]
       },
-      {
-        "category": "Ovid",
-        "question": "What is Ovid's most famous work?",
-        "answer": "Metamorphoses (mythological transformations in epic form)"
+      "poetic-devices": {
+        "title": "Poetic Devices",
+        "description": "Learn rhetorical and poetic devices",
+        "cards": [
+          {
+            "category": "Poetic Devices",
+            "question": "What is enjambment?",
+            "answer": "Continuation of a sentence beyond the end of a verse line"
+          },
+          {
+            "category": "Poetic Devices",
+            "question": "What is caesura?",
+            "answer": "A pause or break within a line of poetry"
+          },
+          {
+            "category": "Poetic Devices",
+            "question": "What is synchysis?",
+            "answer": "Interlocked word order (ABAB pattern) for artistic effect"
+          }
+        ]
       },
-      {
-        "category": "Ovid",
-        "question": "What work got Ovid exiled?",
-        "answer": "Ars Amatoria (The Art of Love)"
-      },
-      {
-        "category": "Horace",
-        "question": "What types of poetry did Horace write?",
-        "answer": "Odes (lyric poetry), Satires, Epistles, and Ars Poetica"
-      },
-      {
-        "category": "Horace - Famous Phrases",
-        "question": "What does 'carpe diem' mean?",
-        "answer": "Seize the day (from Horace's Odes)"
-      },
-      {
-        "category": "Poetic Devices",
-        "question": "What is enjambment?",
-        "answer": "Continuation of a sentence beyond the end of a verse line"
-      },
-      {
-        "category": "Poetic Devices",
-        "question": "What is caesura?",
-        "answer": "A pause or break within a line of poetry"
-      },
-      {
-        "category": "Poetic Devices",
-        "question": "What is synchysis?",
-        "answer": "Interlocked word order (ABAB pattern) for artistic effect"
-      },
-      {
-        "category": "Elegy",
-        "question": "Who were the major Roman elegiac poets?",
-        "answer": "Catullus, Tibullus, Propertius, Ovid"
+      "elegy": {
+        "title": "Elegy",
+        "description": "Roman elegiac poetry",
+        "cards": [
+          {
+            "category": "Elegy",
+            "question": "Who were the major Roman elegiac poets?",
+            "answer": "Catullus, Tibullus, Propertius, Ovid"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-106": {
     "title": "Latin 106 – Roman History Through Texts",
     "level": "Advanced",
-    "cards": [
-      {
-        "category": "Livy",
-        "question": "What is Livy's major historical work?",
-        "answer": "Ab Urbe Condita (From the Founding of the City) - history of Rome"
+    "subdecks": {
+      "livy": {
+        "title": "Livy",
+        "description": "Study Livy's historical writing",
+        "cards": [
+          {
+            "category": "Livy",
+            "question": "What is Livy's major historical work?",
+            "answer": "Ab Urbe Conditā (From the Founding of the City) - history of Rome"
+          },
+          {
+            "category": "Livy",
+            "question": "What period does Livy's history cover?",
+            "answer": "From Rome's foundation (753 BCE) to his own time (Augustus)"
+          }
+        ]
       },
-      {
-        "category": "Livy",
-        "question": "What period does Livy's history cover?",
-        "answer": "From Rome's foundation (753 BCE) to his own time (Augustus)"
+      "tacitus": {
+        "title": "Tacitus",
+        "description": "Learn about Tacitus's histories",
+        "cards": [
+          {
+            "category": "Tacitus",
+            "question": "What are Tacitus's major historical works?",
+            "answer": "Annālēs, Historiae, Germānia, Agricola"
+          },
+          {
+            "category": "Tacitus",
+            "question": "What characterizes Tacitus's writing style?",
+            "answer": "Dense, elliptical prose; cynical tone; psychological insight"
+          }
+        ]
       },
-      {
-        "category": "Tacitus",
-        "question": "What are Tacitus's major historical works?",
-        "answer": "Annales, Historiae, Germania, Agricola"
+      "sallust": {
+        "title": "Sallust",
+        "description": "Study Sallust's historical monographs",
+        "cards": [
+          {
+            "category": "Sallust",
+            "question": "What historical works did Sallust write?",
+            "answer": "Bellum Catilīnae (Catiline Conspiracy) and Bellum Jugurthīnum (Jugurthine War)"
+          },
+          {
+            "category": "Sallust",
+            "question": "What is notable about Sallust's style?",
+            "answer": "Brevity (brevitas), archaic language, moral focus"
+          }
+        ]
       },
-      {
-        "category": "Tacitus",
-        "question": "What characterizes Tacitus's writing style?",
-        "answer": "Dense, elliptical prose; cynical tone; psychological insight"
+      "roman-government": {
+        "title": "Roman Government",
+        "description": "Learn about Roman political institutions",
+        "cards": [
+          {
+            "category": "Roman Government",
+            "question": "What were the main Roman magistracies?",
+            "answer": "Consul, praetor, aedile, quaestor, tribune, censor"
+          },
+          {
+            "category": "Roman Government",
+            "question": "What was the cursus honōrum?",
+            "answer": "The sequence of public offices held by aspiring Roman politicians"
+          }
+        ]
       },
-      {
-        "category": "Sallust",
-        "question": "What historical works did Sallust write?",
-        "answer": "Bellum Catilinae (Catiline Conspiracy) and Bellum Jugurthinum (Jugurthine War)"
-      },
-      {
-        "category": "Sallust",
-        "question": "What is notable about Sallust's style?",
-        "answer": "Brevity (brevitas), archaic language, moral focus"
-      },
-      {
-        "category": "Roman Government",
-        "question": "What were the main Roman magistracies?",
-        "answer": "Consul, praetor, aedile, quaestor, tribune, censor"
-      },
-      {
-        "category": "Roman Government",
-        "question": "What was the cursus honorum?",
-        "answer": "The sequence of public offices held by aspiring Roman politicians"
-      },
-      {
-        "category": "Historical Periods",
-        "question": "What are the main periods of Roman history?",
-        "answer": "Monarchy (753-509 BCE), Republic (509-27 BCE), Empire (27 BCE-476 CE)"
-      },
-      {
-        "category": "Punic Wars",
-        "question": "Who was Rome's main enemy in the Punic Wars?",
-        "answer": "Carthage (especially Hannibal in the Second Punic War)"
-      },
-      {
-        "category": "Julius Caesar",
-        "question": "When did Caesar cross the Rubicon?",
-        "answer": "49 BCE (starting the civil war)"
-      },
-      {
-        "category": "Augustus",
-        "question": "What year marks the beginning of the Roman Empire?",
-        "answer": "27 BCE (when Octavian became Augustus)"
+      "historical-periods": {
+        "title": "Historical Periods",
+        "description": "Major periods of Roman history",
+        "cards": [
+          {
+            "category": "Historical Periods",
+            "question": "What are the main periods of Roman history?",
+            "answer": "Monarchy (753-509 BCE), Republic (509-27 BCE), Empire (27 BCE-476 CE)"
+          },
+          {
+            "category": "Punic Wars",
+            "question": "Who was Rome's main enemy in the Punic Wars?",
+            "answer": "Carthage (especially Hannibal in the Second Punic War)"
+          },
+          {
+            "category": "Julius Caesar",
+            "question": "When did Caesar cross the Rubicon?",
+            "answer": "49 BCE (starting the civil war)"
+          },
+          {
+            "category": "Augustus",
+            "question": "What year marks the beginning of the Roman Empire?",
+            "answer": "27 BCE (when Octavian became Augustus)"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-201": {
     "title": "Latin 201 – Advanced Syntax & Stylistics",
     "level": "Advanced",
-    "cards": [
-      {
-        "category": "Complex Constructions",
-        "question": "What is a periphrastic conjugation?",
-        "answer": "Future active: future participle + esse; Passive of obligation: gerundive + esse"
+    "subdecks": {
+      "complex-constructions": {
+        "title": "Complex Constructions",
+        "description": "Advanced grammatical constructions",
+        "cards": [
+          {
+            "category": "Complex Constructions",
+            "question": "What is a periphrastic conjugation?",
+            "answer": "Future active: future participle + esse; Passive of obligation: gerundive + esse"
+          },
+          {
+            "category": "Complex Constructions",
+            "question": "What is a supine?",
+            "answer": "Verbal noun used with verbs of motion: accusative (-um) for purpose, ablative (-ū) with adjectives"
+          }
+        ]
       },
-      {
-        "category": "Complex Constructions",
-        "question": "What is a supine?",
-        "answer": "Verbal noun used with verbs of motion: accusative (-um) for purpose, ablative (-u) with adjectives"
+      "rhetorical-figures": {
+        "title": "Rhetorical Figures",
+        "description": "Learn major rhetorical devices",
+        "cards": [
+          {
+            "category": "Rhetorical Figures",
+            "question": "What is chiasmus?",
+            "answer": "Inverted parallelism (ABBA pattern): 'vīxēre fortēs ante Agamemnona multī' (Horace)"
+          },
+          {
+            "category": "Rhetorical Figures",
+            "question": "What is anaphora?",
+            "answer": "Repetition of words at the beginning of successive clauses"
+          },
+          {
+            "category": "Rhetorical Figures",
+            "question": "What is tricolon?",
+            "answer": "Series of three parallel elements, often with increasing length (Cicero's favorite)"
+          }
+        ]
       },
-      {
-        "category": "Rhetorical Figures",
-        "question": "What is chiasmus?",
-        "answer": "Inverted parallelism (ABBA pattern): 'vixere fortes ante Agamemnona multi' (Horace)"
+      "stylistic-analysis": {
+        "title": "Stylistic Analysis",
+        "description": "Analyze Latin prose style",
+        "cards": [
+          {
+            "category": "Stylistic Analysis",
+            "question": "What is periodic structure?",
+            "answer": "Sentence where main idea is suspended until the end, characteristic of Cicero"
+          },
+          {
+            "category": "Stylistic Analysis",
+            "question": "What are clausulae?",
+            "answer": "Rhythmic patterns at the end of prose sentences/clauses"
+          }
+        ]
       },
-      {
-        "category": "Rhetorical Figures",
-        "question": "What is anaphora?",
-        "answer": "Repetition of words at the beginning of successive clauses"
+      "advanced-conditionals": {
+        "title": "Advanced Conditionals",
+        "description": "Complex conditional sentences",
+        "cards": [
+          {
+            "category": "Advanced Conditionals",
+            "question": "What is a mixed conditional?",
+            "answer": "Combining different time frames in protasis and apodosis"
+          }
+        ]
       },
-      {
-        "category": "Rhetorical Figures",
-        "question": "What is tricolon?",
-        "answer": "Series of three parallel elements, often with increasing length (Cicero's favorite)"
-      },
-      {
-        "category": "Stylistic Analysis",
-        "question": "What is periodic structure?",
-        "answer": "Sentence where main idea is suspended until the end, characteristic of Cicero"
-      },
-      {
-        "category": "Stylistic Analysis",
-        "question": "What are clausulae?",
-        "answer": "Rhythmic patterns at the end of prose sentences/clauses"
-      },
-      {
-        "category": "Advanced Conditionals",
-        "question": "What is a mixed conditional?",
-        "answer": "Combining different time frames in protasis and apodosis"
-      },
-      {
-        "category": "Hellenisms",
-        "question": "What is the Greek accusative?",
-        "answer": "Accusative of respect/specification borrowed from Greek syntax"
-      },
-      {
-        "category": "Poetic Constructions",
-        "question": "What is brachylogy?",
-        "answer": "Condensed expression omitting easily understood elements"
-      },
-      {
-        "category": "Genitive Uses",
-        "question": "What is genitive of characteristic?",
-        "answer": "Genitive with esse expressing characteristic quality (est stulti = it is characteristic of a fool)"
-      },
-      {
-        "category": "Historical Infinitive",
-        "question": "What is the historical infinitive?",
-        "answer": "Present infinitive used as main verb for vivid narrative"
+      "special-syntax": {
+        "title": "Special Syntax",
+        "description": "Unusual syntactic features",
+        "cards": [
+          {
+            "category": "Hellenisms",
+            "question": "What is the Greek accusative?",
+            "answer": "Accusative of respect/specification borrowed from Greek syntax"
+          },
+          {
+            "category": "Poetic Constructions",
+            "question": "What is brachylogy?",
+            "answer": "Condensed expression omitting easily understood elements"
+          },
+          {
+            "category": "Genitive Uses",
+            "question": "What is genitive of characteristic?",
+            "answer": "Genitive with esse expressing characteristic quality (est stultī = it is characteristic of a fool)"
+          },
+          {
+            "category": "Historical Infinitive",
+            "question": "What is the historical infinitive?",
+            "answer": "Present infinitive used as main verb for vivid narrative"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-202": {
     "title": "Latin 202 – Cicero & Classical Oratory",
     "level": "Advanced",
-    "cards": [
-      {
-        "category": "Cicero - Speeches",
-        "question": "What are Cicero's Catilinarian Orations?",
-        "answer": "Four speeches against Catiline's conspiracy (63 BCE)"
+    "subdecks": {
+      "cicero-speeches": {
+        "title": "Cicero's Speeches",
+        "description": "Study Cicero's major orations",
+        "cards": [
+          {
+            "category": "Cicero - Speeches",
+            "question": "What are Cicero's Catilinarian Orations?",
+            "answer": "Four speeches against Catiline's conspiracy (63 BCE)"
+          },
+          {
+            "category": "Cicero - Speeches",
+            "question": "What is the famous opening of the First Catilinarian?",
+            "answer": "Quō usque tandem abūtēre, Catilīna, patientiā nostrā? (How long will you abuse our patience, Catiline?)"
+          }
+        ]
       },
-      {
-        "category": "Cicero - Speeches",
-        "question": "What is the famous opening of the First Catilinarian?",
-        "answer": "Quo usque tandem abutere, Catilina, patientia nostra? (How long will you abuse our patience, Catiline?)"
+      "cicero-philosophy": {
+        "title": "Cicero's Philosophy",
+        "description": "Learn about Cicero's philosophical works",
+        "cards": [
+          {
+            "category": "Cicero - Philosophy",
+            "question": "What are Cicero's main philosophical works?",
+            "answer": "Dē Officiīs, Dē Amīcitiā, Dē Senectūte, Tusculan Disputations"
+          }
+        ]
       },
-      {
-        "category": "Cicero - Philosophy",
-        "question": "What are Cicero's main philosophical works?",
-        "answer": "De Officiis, De Amicitia, De Senectute, Tusculan Disputations"
+      "cicero-rhetoric": {
+        "title": "Cicero's Rhetoric",
+        "description": "Study Cicero's works on rhetoric",
+        "cards": [
+          {
+            "category": "Cicero - Rhetoric",
+            "question": "What are Cicero's works on rhetoric?",
+            "answer": "Dē Ōrātōre, Brūtus, Ōrātor"
+          }
+        ]
       },
-      {
-        "category": "Cicero - Rhetoric",
-        "question": "What are Cicero's works on rhetoric?",
-        "answer": "De Oratore, Brutus, Orator"
+      "roman-rhetoric": {
+        "title": "Roman Rhetoric",
+        "description": "Learn the five parts and three types of rhetoric",
+        "cards": [
+          {
+            "category": "Roman Rhetoric",
+            "question": "What are the five parts of rhetoric?",
+            "answer": "Inventiō, dispositiō, ēlocūtiō, memoria, prōnūntiātiō"
+          },
+          {
+            "category": "Roman Rhetoric",
+            "question": "What are the three types of oratory?",
+            "answer": "Judicial (forensic), deliberative (political), epideictic (ceremonial)"
+          }
+        ]
       },
-      {
-        "category": "Roman Rhetoric",
-        "question": "What are the five parts of rhetoric?",
-        "answer": "Inventio, dispositio, elocutio, memoria, pronuntiatio"
+      "oratorical-style": {
+        "title": "Oratorical Style",
+        "description": "Learn about rhetorical styles and appeals",
+        "cards": [
+          {
+            "category": "Oratorical Style",
+            "question": "What are the three levels of style?",
+            "answer": "Grand (ornate), middle (moderate), plain (simple)"
+          },
+          {
+            "category": "Rhetorical Appeal",
+            "question": "What are the three modes of persuasion?",
+            "answer": "Ethos (character), pathos (emotion), logos (logic)"
+          }
+        ]
       },
-      {
-        "category": "Roman Rhetoric",
-        "question": "What are the three types of oratory?",
-        "answer": "Judicial (forensic), deliberative (political), epideictic (ceremonial)"
-      },
-      {
-        "category": "Oratorical Style",
-        "question": "What are the three levels of style?",
-        "answer": "Grand (ornate), middle (moderate), plain (simple)"
-      },
-      {
-        "category": "Rhetorical Appeal",
-        "question": "What are the three modes of persuasion?",
-        "answer": "Ethos (character), pathos (emotion), logos (logic)"
-      },
-      {
-        "category": "Ciceronian Vocabulary",
-        "question": "Translate: res publica",
-        "answer": "republic, commonwealth"
-      },
-      {
-        "category": "Ciceronian Vocabulary",
-        "question": "Translate: summa cum laude",
-        "answer": "with highest praise"
-      },
-      {
-        "category": "Famous Phrases",
-        "question": "What does 'O tempora! O mores!' mean?",
-        "answer": "Oh the times! Oh the customs! (Cicero lamenting moral decline)"
+      "ciceronian-vocabulary": {
+        "title": "Ciceronian Vocabulary",
+        "description": "Essential Ciceronian vocabulary and phrases",
+        "cards": [
+          {
+            "category": "Ciceronian Vocabulary",
+            "question": "Translate: rēs pūblica",
+            "answer": "republic, commonwealth"
+          },
+          {
+            "category": "Ciceronian Vocabulary",
+            "question": "Translate: summa cum laude",
+            "answer": "with highest praise"
+          },
+          {
+            "category": "Famous Phrases",
+            "question": "What does 'Ō tempora! Ō mōrēs!' mean?",
+            "answer": "Oh the times! Oh the customs! (Cicero lamenting moral decline)"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-203": {
     "title": "Latin 203 – Virgil & Epic Literature",
     "level": "Advanced",
-    "cards": [
-      {
-        "category": "Aeneid - Structure",
-        "question": "How many books are in the Aeneid?",
-        "answer": "12 books (modeled on Homer's epics)"
+    "subdecks": {
+      "aeneid-structure": {
+        "title": "Aeneid Structure & Plot",
+        "description": "Learn the structure and plot of the Aeneid",
+        "cards": [
+          {
+            "category": "Aeneid - Structure",
+            "question": "How many books are in the Aeneid?",
+            "answer": "12 books (modeled on Homer's epics)"
+          },
+          {
+            "category": "Aeneid - Plot",
+            "question": "What is the basic plot of the Aeneid?",
+            "answer": "Aeneas's journey from Troy to Italy to found the Roman race"
+          }
+        ]
       },
-      {
-        "category": "Aeneid - Plot",
-        "question": "What is the basic plot of the Aeneid?",
-        "answer": "Aeneas's journey from Troy to Italy to found the Roman race"
+      "aeneid-characters": {
+        "title": "Aeneid Characters",
+        "description": "Major characters in the Aeneid",
+        "cards": [
+          {
+            "category": "Aeneid - Characters",
+            "question": "Who is Dido?",
+            "answer": "Queen of Carthage who falls in love with Aeneas and commits suicide when he leaves"
+          },
+          {
+            "category": "Aeneid - Characters",
+            "question": "Who is Turnus?",
+            "answer": "Italian warrior and rival of Aeneas for Lavinia's hand"
+          }
+        ]
       },
-      {
-        "category": "Aeneid - Characters",
-        "question": "Who is Dido?",
-        "answer": "Queen of Carthage who falls in love with Aeneas and commits suicide when he leaves"
+      "aeneid-themes": {
+        "title": "Aeneid Themes",
+        "description": "Major themes of the Aeneid",
+        "cards": [
+          {
+            "category": "Aeneid - Themes",
+            "question": "What is pietās in the Aeneid?",
+            "answer": "Duty, especially to gods, country, and family - Aeneas's defining virtue"
+          }
+        ]
       },
-      {
-        "category": "Aeneid - Characters",
-        "question": "Who is Turnus?",
-        "answer": "Italian warrior and rival of Aeneas for Lavinia's hand"
+      "aeneid-famous-lines": {
+        "title": "Famous Lines from the Aeneid",
+        "description": "Memorable passages from Virgil",
+        "cards": [
+          {
+            "category": "Aeneid - Famous Lines",
+            "question": "What does 'Arma virumque canō' mean?",
+            "answer": "I sing of arms and the man (opening line)"
+          },
+          {
+            "category": "Aeneid - Famous Lines",
+            "question": "What does 'Sunt lacrimae rērum' mean?",
+            "answer": "There are tears for things (the sadness of mortal life)"
+          }
+        ]
       },
-      {
-        "category": "Aeneid - Themes",
-        "question": "What is pietas in the Aeneid?",
-        "answer": "Duty, especially to gods, country, and family - Aeneas's defining virtue"
+      "epic-conventions": {
+        "title": "Epic Conventions",
+        "description": "Standard features of epic poetry",
+        "cards": [
+          {
+            "category": "Epic Conventions",
+            "question": "What is an epic simile?",
+            "answer": "Extended comparison, often several lines long"
+          },
+          {
+            "category": "Epic Conventions",
+            "question": "What is in mediās rēs?",
+            "answer": "Beginning in the middle of the action (epic convention)"
+          },
+          {
+            "category": "Epic Conventions",
+            "question": "What is a catalog in epic?",
+            "answer": "Extended list (e.g., of ships, warriors, or places)"
+          }
+        ]
       },
-      {
-        "category": "Aeneid - Famous Lines",
-        "question": "What does 'Arma virumque cano' mean?",
-        "answer": "I sing of arms and the man (opening line)"
+      "virgilian-style": {
+        "title": "Virgilian Style",
+        "description": "Characteristics of Virgil's poetry",
+        "cards": [
+          {
+            "category": "Virgilian Style",
+            "question": "What is Virgilian half-line?",
+            "answer": "Incomplete hexameter line, possibly left unfinished at Virgil's death"
+          }
+        ]
       },
-      {
-        "category": "Aeneid - Famous Lines",
-        "question": "What does 'Sunt lacrimae rerum' mean?",
-        "answer": "There are tears for things (the sadness of mortal life)"
-      },
-      {
-        "category": "Epic Conventions",
-        "question": "What is an epic simile?",
-        "answer": "Extended comparison, often several lines long"
-      },
-      {
-        "category": "Epic Conventions",
-        "question": "What is in medias res?",
-        "answer": "Beginning in the middle of the action (epic convention)"
-      },
-      {
-        "category": "Epic Conventions",
-        "question": "What is a catalog in epic?",
-        "answer": "Extended list (e.g., of ships, warriors, or places)"
-      },
-      {
-        "category": "Virgilian Style",
-        "question": "What is Virgilian half-line?",
-        "answer": "Incomplete hexameter line, possibly left unfinished at Virgil's death"
-      },
-      {
-        "category": "Eclogues",
-        "question": "What are the Eclogues?",
-        "answer": "Virgil's pastoral poems about shepherds and rural life"
-      },
-      {
-        "category": "Georgics",
-        "question": "What are the Georgics?",
-        "answer": "Virgil's didactic poem on farming and rural life in four books"
+      "other-virgilian-works": {
+        "title": "Eclogues & Georgics",
+        "description": "Virgil's other major works",
+        "cards": [
+          {
+            "category": "Eclogues",
+            "question": "What are the Eclogues?",
+            "answer": "Virgil's pastoral poems about shepherds and rural life"
+          },
+          {
+            "category": "Georgics",
+            "question": "What are the Georgics?",
+            "answer": "Virgil's didactic poem on farming and rural life in four books"
+          }
+        ]
       }
-    ]
+    }
   },
   "latin-204": {
     "title": "Latin 204 – Latin for Scholars",
     "level": "Advanced/Graduate",
-    "cards": [
-      {
-        "category": "Medieval Latin",
-        "question": "How does Medieval Latin differ from Classical Latin?",
-        "answer": "Simplified syntax, new vocabulary, Christian terminology, different pronunciation"
+    "subdecks": {
+      "medieval-latin": {
+        "title": "Medieval Latin",
+        "description": "Learn about Medieval Latin",
+        "cards": [
+          {
+            "category": "Medieval Latin",
+            "question": "How does Medieval Latin differ from Classical Latin?",
+            "answer": "Simplified syntax, new vocabulary, Christian terminology, different pronunciation"
+          },
+          {
+            "category": "Medieval Latin",
+            "question": "What is Vulgate Latin?",
+            "answer": "St. Jerome's Latin translation of the Bible (late 4th century)"
+          }
+        ]
       },
-      {
-        "category": "Medieval Latin",
-        "question": "What is Vulgate Latin?",
-        "answer": "St. Jerome's Latin translation of the Bible (late 4th century)"
+      "renaissance-latin": {
+        "title": "Renaissance Latin",
+        "description": "Study Renaissance humanism",
+        "cards": [
+          {
+            "category": "Renaissance Latin",
+            "question": "What characterized Renaissance Humanism?",
+            "answer": "Revival of classical Latin standards, imitation of Cicero, scholarship"
+          }
+        ]
       },
-      {
-        "category": "Renaissance Latin",
-        "question": "What characterized Renaissance Humanism?",
-        "answer": "Revival of classical Latin standards, imitation of Cicero, scholarship"
+      "scholarly-tools": {
+        "title": "Scholarly Tools",
+        "description": "Essential reference works for Latin scholarship",
+        "cards": [
+          {
+            "category": "Scholarly Tools",
+            "question": "What is the Lewis and Short?",
+            "answer": "Standard comprehensive Latin-English dictionary"
+          },
+          {
+            "category": "Scholarly Tools",
+            "question": "What is the OLD?",
+            "answer": "Oxford Latin Dictionary - modern scholarly Latin dictionary"
+          },
+          {
+            "category": "Scholarly Tools",
+            "question": "What is Allen and Greenough?",
+            "answer": "Comprehensive reference grammar of Latin"
+          }
+        ]
       },
-      {
-        "category": "Scholarly Tools",
-        "question": "What is the Lewis and Short?",
-        "answer": "Standard comprehensive Latin-English dictionary"
+      "textual-criticism": {
+        "title": "Textual Criticism",
+        "description": "Learn about textual criticism",
+        "cards": [
+          {
+            "category": "Textual Criticism",
+            "question": "What is a critical apparatus?",
+            "answer": "Notes showing manuscript variants and editorial decisions"
+          },
+          {
+            "category": "Textual Criticism",
+            "question": "What is a codex?",
+            "answer": "Ancient or medieval manuscript book"
+          }
+        ]
       },
-      {
-        "category": "Scholarly Tools",
-        "question": "What is the OLD?",
-        "answer": "Oxford Latin Dictionary - modern scholarly Latin dictionary"
+      "paleography": {
+        "title": "Paleography",
+        "description": "Study of ancient handwriting",
+        "cards": [
+          {
+            "category": "Paleography",
+            "question": "What is paleography?",
+            "answer": "Study of ancient and medieval handwriting"
+          },
+          {
+            "category": "Paleography",
+            "question": "What is uncial script?",
+            "answer": "Type of capital letter script used in late antiquity"
+          }
+        ]
       },
-      {
-        "category": "Scholarly Tools",
-        "question": "What is Allen and Greenough?",
-        "answer": "Comprehensive reference grammar of Latin"
+      "abbreviations": {
+        "title": "Scholarly Abbreviations",
+        "description": "Common Latin abbreviations in scholarship",
+        "cards": [
+          {
+            "category": "Abbreviations",
+            "question": "What does 'cf.' mean?",
+            "answer": "Confer (compare)"
+          },
+          {
+            "category": "Abbreviations",
+            "question": "What does 'ibid.' mean?",
+            "answer": "Ibīdem (in the same place)"
+          },
+          {
+            "category": "Abbreviations",
+            "question": "What does 'et al.' mean?",
+            "answer": "Et aliī (and others)"
+          }
+        ]
       },
-      {
-        "category": "Textual Criticism",
-        "question": "What is a critical apparatus?",
-        "answer": "Notes showing manuscript variants and editorial decisions"
-      },
-      {
-        "category": "Textual Criticism",
-        "question": "What is a codex?",
-        "answer": "Ancient or medieval manuscript book"
-      },
-      {
-        "category": "Paleography",
-        "question": "What is paleography?",
-        "answer": "Study of ancient and medieval handwriting"
-      },
-      {
-        "category": "Paleography",
-        "question": "What is uncial script?",
-        "answer": "Type of capital letter script used in late antiquity"
-      },
-      {
-        "category": "Abbreviations",
-        "question": "What does 'cf.' mean?",
-        "answer": "Confer (compare)"
-      },
-      {
-        "category": "Abbreviations",
-        "question": "What does 'ibid.' mean?",
-        "answer": "Ibidem (in the same place)"
-      },
-      {
-        "category": "Abbreviations",
-        "question": "What does 'et al.' mean?",
-        "answer": "Et alii (and others)"
-      },
-      {
-        "category": "Translation Skills",
-        "question": "What is the difference between literal and idiomatic translation?",
-        "answer": "Literal: word-for-word; Idiomatic: sense-for-sense preserving natural English"
+      "translation-skills": {
+        "title": "Translation Skills",
+        "description": "Advanced translation techniques",
+        "cards": [
+          {
+            "category": "Translation Skills",
+            "question": "What is the difference between literal and idiomatic translation?",
+            "answer": "Literal: word-for-word; Idiomatic: sense-for-sense preserving natural English"
+          }
+        ]
       }
-    ]
+    }
   }
 }
