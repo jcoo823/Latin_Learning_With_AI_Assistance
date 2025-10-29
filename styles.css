@@ -1103,6 +1103,358 @@ body.theme-blue .btn-primary:hover {
     }
 }
 
+/* Works Page Styles */
+
+/* Works Header Section */
+.works-header-section {
+    padding: 60px 20px 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.works-header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.works-header-container h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.works-subtitle {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.works-search-box {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.works-search-box input {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.works-search-box input:focus {
+    outline: 2px solid #3498db;
+}
+
+/* Works Filter Section */
+.works-filter-section {
+    background: white;
+    padding: 30px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.works-filter-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filter-group {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group:last-child {
+    margin-bottom: 0;
+}
+
+.filter-label {
+    display: block;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.works-filter-btn {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #e0e0e0;
+    background: white;
+    color: #2c3e50;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.works-filter-btn:hover {
+    background: #f5f7fa;
+    border-color: #667eea;
+}
+
+.works-filter-btn.active {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+/* Works List Section */
+.works-list-section {
+    padding: 40px 20px 60px;
+    background: #f5f7fa;
+    min-height: 60vh;
+}
+
+.works-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+/* Work Card - Medium-inspired design */
+.work-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+.work-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.work-card-header {
+    padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.work-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.work-author {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.work-period {
+    font-size: 0.8rem;
+    color: #999;
+    font-style: italic;
+}
+
+.work-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.work-card-body {
+    padding: 0 1.5rem 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.work-excerpt {
+    background: #f8f9fa;
+    padding: 0.75rem;
+    border-left: 3px solid #667eea;
+    font-style: italic;
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.work-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.work-tag {
+    padding: 0.3rem 0.75rem;
+    background: #e8f4f8;
+    color: #2c3e50;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.work-card-footer {
+    padding: 1rem 1.5rem;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.work-badges {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.work-category-badge {
+    padding: 0.35rem 0.85rem;
+    background: #667eea;
+    color: white;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.work-difficulty-badge {
+    padding: 0.35rem 0.85rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.work-difficulty-badge.beginner {
+    background: #d4edda;
+    color: #155724;
+}
+
+.work-difficulty-badge.intermediate {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.work-difficulty-badge.advanced {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.work-length {
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.work-availability {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.availability-badge {
+    padding: 0.25rem 0.6rem;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Dark theme for works page */
+body.theme-dark .works-filter-section {
+    background: #2d2d2d;
+}
+
+body.theme-dark .filter-label {
+    color: #ecf0f1;
+}
+
+body.theme-dark .works-filter-btn {
+    background: #1a1a1a;
+    border-color: #444;
+    color: #ecf0f1;
+}
+
+body.theme-dark .works-filter-btn:hover {
+    background: #333;
+}
+
+body.theme-dark .works-filter-btn.active {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+body.theme-dark .works-list-section {
+    background: #1a1a1a;
+}
+
+body.theme-dark .work-card {
+    background: #2d2d2d;
+}
+
+body.theme-dark .work-title {
+    color: #ecf0f1;
+}
+
+body.theme-dark .work-description,
+body.theme-dark .work-excerpt {
+    color: #bbb;
+    background: #1a1a1a;
+}
+
+body.theme-dark .work-card-footer {
+    background: #1a1a1a;
+    border-top-color: #444;
+}
+
+body.theme-dark .work-length {
+    color: #999;
+}
+
+/* Blue theme for works page */
+body.theme-blue .work-category-badge {
+    background: #3498db;
+}
+
+/* Responsive for works page */
+@media (max-width: 768px) {
+    .works-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .works-search-box {
+        flex-direction: column;
+    }
+    
+    .works-filter-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .work-card-footer {
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: flex-start;
+    }
+}
+
 /* Three-Column Course Detail Layout */
 .breadcrumb-container {
     max-width: 1600px;
