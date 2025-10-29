@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - My Learning Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">My Learning Portal</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Course List</a></li>
+                <li><a href="active-courses.html">Active Courses</a></li>
+                <li><a href="settings.html" class="active">Settings</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Settings Section -->
+    <section class="settings-section">
+        <div class="settings-container">
+            <h1>Website Settings</h1>
+            
+            <div class="settings-group">
+                <h2>Appearance</h2>
+                <div class="setting-item">
+                    <label for="theme-select">Color Theme:</label>
+                    <select id="theme-select" class="setting-select">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="blue">Academic Blue</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="settings-group">
+                <h2>Academic Calendar</h2>
+                <div class="setting-item">
+                    <label for="current-year">Academic Year:</label>
+                    <input type="number" id="current-year" class="setting-input" value="2025" min="2020" max="2030" />
+                </div>
+                <div class="setting-item">
+                    <p class="setting-note">Terms are calculated automatically (Q1: Jan-Mar, Q2: Apr-Jun, Q3: Jul-Sep, Q4: Oct-Dec)</p>
+                </div>
+            </div>
+
+            <div class="settings-group">
+                <h2>Data Management</h2>
+                <div class="setting-item">
+                    <button id="reset-progress" class="btn btn-secondary">Reset All Progress</button>
+                    <p class="setting-note">This will clear all completed courses and reset your progress.</p>
+                </div>
+                <div class="setting-item">
+                    <button id="export-data" class="btn btn-primary">Export Data</button>
+                    <p class="setting-note">Download your course data and progress as JSON.</p>
+                </div>
+            </div>
+
+            <div class="save-settings">
+                <button id="save-settings" class="btn btn-primary">Save Settings</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>My Learning Portal</h3>
+                <p>Personal learning management system</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Course List</a></li>
+                    <li><a href="active-courses.html">Active Courses</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Learning Portal. For personal use.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+{
+  "courses": [
+    {
+      "id": "latin-101",
+      "title": "Latin 101 – Beginner Grammar & Vocabulary",
+      "category": "Latin",
+      "description": "Introduction to basic Latin grammar, declensions, and essential vocabulary for beginners.",
+      "completed": false
+    },
+    {
+      "id": "latin-102",
+      "title": "Latin 102 – Intermediate Grammar & Reading",
+      "category": "Latin",
+      "description": "Expand your Latin knowledge with intermediate grammar concepts and reading practice.",
+      "completed": false
+    },
+    {
+      "id": "latin-103",
+      "title": "Latin 103 – Latin Literature & Composition",
+      "category": "Latin",
+      "description": "Study classical Latin literature and learn to compose in Latin.",
+      "completed": false
+    },
+    {
+      "id": "latin-104",
+      "title": "Latin 104 – Advanced Translation & Prose",
+      "category": "Latin",
+      "description": "Master advanced translation techniques and analyze complex Latin prose.",
+      "completed": false
+    },
+    {
+      "id": "algebra-101",
+      "title": "Algebra 101 – Foundations of Algebra",
+      "category": "Algebra",
+      "description": "Build a strong foundation in algebraic concepts and operations.",
+      "completed": false
+    },
+    {
+      "id": "algebra-102",
+      "title": "Algebra 102 – Equations & Inequalities",
+      "category": "Algebra",
+      "description": "Learn to solve various types of equations and inequalities.",
+      "completed": false
+    },
+    {
+      "id": "algebra-103",
+      "title": "Algebra 103 – Polynomials & Functions",
+      "category": "Algebra",
+      "description": "Explore polynomial operations and function theory.",
+      "completed": false
+    },
+    {
+      "id": "algebra-104",
+      "title": "Algebra 104 – Advanced Algebra Concepts",
+      "category": "Algebra",
+      "description": "Master advanced algebraic concepts and problem-solving techniques.",
+      "completed": false
+    },
+    {
+      "id": "history-101",
+      "title": "History 101 – Ancient Civilizations",
+      "category": "History",
+      "description": "Explore the rise and fall of ancient civilizations around the world.",
+      "completed": false
+    },
+    {
+      "id": "history-102",
+      "title": "History 102 – Medieval History",
+      "category": "History",
+      "description": "Study the medieval period from the fall of Rome to the Renaissance.",
+      "completed": false
+    },
+    {
+      "id": "history-103",
+      "title": "History 103 – Modern History",
+      "category": "History",
+      "description": "Analyze modern history from the Enlightenment to the present day.",
+      "completed": false
+    },
+    {
+      "id": "philosophy-101",
+      "title": "Philosophy 101 – Introduction to Philosophy",
+      "category": "Philosophy",
+      "description": "Introduction to major philosophical questions and thinkers.",
+      "completed": false
+    },
+    {
+      "id": "philosophy-102",
+      "title": "Philosophy 102 – Ethics & Logic",
+      "category": "Philosophy",
+      "description": "Study ethical theories and develop logical reasoning skills.",
+      "completed": false
+    },
+    {
+      "id": "spanish-101",
+      "title": "Spanish 101 – Beginner Spanish",
+      "category": "Spanish",
+      "description": "Learn basic Spanish grammar, vocabulary, and conversation skills.",
+      "completed": false
+    },
+    {
+      "id": "spanish-102",
+      "title": "Spanish 102 – Intermediate Spanish",
+      "category": "Spanish",
+      "description": "Advance your Spanish with intermediate grammar and cultural topics.",
+      "completed": false
+    },
+    {
+      "id": "biology-101",
+      "title": "Biology 101 – Cellular & Molecular Biology",
+      "category": "Biology",
+      "description": "Study the fundamental principles of cellular and molecular biology.",
+      "completed": false
+    },
+    {
+      "id": "biology-102",
+      "title": "Biology 102 – Genetics & Evolution",
+      "category": "Biology",
+      "description": "Explore genetics, heredity, and evolutionary biology.",
+      "completed": false
+    },
+    {
+      "id": "cs-101",
+      "title": "Computer Science 101 – Intro to Programming",
+      "category": "Computer Science",
+      "description": "Learn fundamental programming concepts and problem-solving techniques.",
+      "completed": false
+    },
+    {
+      "id": "cs-102",
+      "title": "Computer Science 102 – Data Structures & Algorithms",
+      "category": "Computer Science",
+      "description": "Master essential data structures and algorithmic thinking.",
+      "completed": false
+    }
+  ]
+}

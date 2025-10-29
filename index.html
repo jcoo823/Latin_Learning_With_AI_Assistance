@@ -3,118 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latin Learning Platform</title>
+    <title>My Learning Portal - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Theme Selector -->
-    <div class="theme-selector">
-        <label for="theme-dropdown">Select Homepage Style:</label>
-        <select id="theme-dropdown">
-            <option value="classic">Classic Scholar</option>
-            <option value="modern">Modern Minimalist</option>
-            <option value="vibrant">Vibrant Interactive</option>
-            <option value="ancient">Ancient Roman</option>
-            <option value="academic">Academic Professional</option>
-        </select>
-    </div>
-
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">LatinLearn</div>
+            <div class="logo">My Learning Portal</div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#resources">Resources</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="courses.html">Course List</a></li>
+                <li><a href="active-courses.html">Active Courses</a></li>
+                <li><a href="settings.html">Settings</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Master the Language of Scholars</h1>
-            <p class="hero-subtitle">Unlock the ancient world through interactive Latin learning</p>
-            <div class="hero-buttons">
-                <button class="btn btn-primary">Start Learning</button>
-                <button class="btn btn-secondary">Explore Courses</button>
+    <!-- Term Status Section -->
+    <section class="term-status">
+        <div class="term-container">
+            <div class="term-info-card">
+                <h2>Current Term</h2>
+                <div class="term-display">
+                    <span class="term-label" id="current-term">Q4 2025</span>
+                </div>
+                <div class="term-countdown">
+                    <span class="countdown-label">Time Remaining:</span>
+                    <span class="countdown-value" id="weeks-remaining">0 weeks</span>
+                </div>
+            </div>
+            <div class="modules-info-card">
+                <h2>Progress</h2>
+                <div class="modules-display">
+                    <span class="modules-count" id="completed-modules">0</span>
+                    <span class="modules-label">Modules Completed</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <h2 class="section-title">Why Learn Latin?</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">📚</div>
-                <h3>Rich History</h3>
-                <p>Explore classical literature and ancient wisdom from Roman scholars</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🧠</div>
-                <h3>Mental Discipline</h3>
-                <p>Enhance critical thinking and linguistic understanding</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🌍</div>
-                <h3>Global Impact</h3>
-                <p>Understand the foundation of Romance languages and legal terminology</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🎓</div>
-                <h3>Academic Excellence</h3>
-                <p>Strengthen your vocabulary and grammar skills</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Learning Path Section -->
-    <section class="learning-path">
-        <h2 class="section-title">Your Learning Journey</h2>
-        <div class="path-container">
-            <div class="path-step">
-                <div class="step-number">1</div>
-                <h3>Fundamentals</h3>
-                <p>Learn basic grammar, vocabulary, and pronunciation</p>
-            </div>
-            <div class="path-step">
-                <div class="step-number">2</div>
-                <h3>Practice</h3>
-                <p>Engage with interactive exercises and translations</p>
-            </div>
-            <div class="path-step">
-                <div class="step-number">3</div>
-                <h3>Immersion</h3>
-                <p>Read classical texts and understand Latin in context</p>
-            </div>
-            <div class="path-step">
-                <div class="step-number">4</div>
-                <h3>Mastery</h3>
-                <p>Compose your own Latin texts and achieve fluency</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2 class="section-title">What Our Students Say</h2>
-        <div class="testimonial-grid">
-            <div class="testimonial-card">
-                <p class="testimonial-text">"This platform made Latin accessible and engaging. I never thought I'd enjoy learning a classical language!"</p>
-                <p class="testimonial-author">- Marcus A.</p>
-            </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">"The structured approach helped me understand grammar patterns that I struggled with for years."</p>
-                <p class="testimonial-author">- Julia R.</p>
-            </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">"As a medical student, learning Latin has been invaluable. This site made it easy and fun!"</p>
-                <p class="testimonial-author">- David C.</p>
-            </div>
+    <!-- About Latin Section -->
+    <section class="about-latin">
+        <div class="about-container">
+            <h2>About Latin</h2>
+            <p class="latin-description">
+                Latin originated in the region of Latium, in central Italy, around the 1st millennium BCE. 
+                It was initially the language of the small city-state of Rome and its surrounding tribes. 
+                As Rome expanded through conquest and colonization, Latin spread across the Italian peninsula 
+                and eventually became the dominant language of the Roman Empire, forming the foundation for 
+                the Romance languages.
+            </p>
         </div>
     </section>
 
@@ -122,28 +64,20 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>LatinLearn</h3>
-                <p>Your gateway to the classical world</p>
+                <h3>My Learning Portal</h3>
+                <p>Personal learning management system</p>
             </div>
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#resources">Resources</a></li>
-                    <li><a href="#about">About Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#community">Community</a></li>
-                    <li><a href="#support">Support</a></li>
+                    <li><a href="courses.html">Course List</a></li>
+                    <li><a href="active-courses.html">Active Courses</a></li>
+                    <li><a href="settings.html">Settings</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 LatinLearn. All rights reserved.</p>
+            <p>&copy; 2025 My Learning Portal. For personal use.</p>
         </div>
     </footer>
 
