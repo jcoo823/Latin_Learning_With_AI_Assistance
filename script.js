@@ -437,10 +437,83 @@ async function loadAnkiPage() {
     courses.forEach(courseId => {
         const countEl = document.getElementById(`deck-${courseId}-count`);
         if (countEl && ankiData[courseId]) {
-            const cardCount = ankiData[courseId].cards.length;
-            countEl.textContent = `${cardCount} cards`;
+            let cardCount = 0;
+            // Check if using new subdeck structure or old flat structure
+            if (ankiData[courseId].subdecks) {
+                // Count cards across all subdecks
+                Object.values(ankiData[courseId].subdecks).forEach(subdeck => {
+                    cardCount += subdeck.cards.length;
+                });
+            } else if (ankiData[courseId].cards) {
+                // Old flat structure
+                cardCount = ankiData[courseId].cards.length;
+            }
+            const subdeckCount = ankiData[courseId].subdecks ? Object.keys(ankiData[courseId].subdecks).length : 0;
+            countEl.textContent = subdeckCount > 0 ? `${subdeckCount} topics • ${cardCount} cards` : `${cardCount} cards`;
         }
     });
+}
+
+// Load and display sub-decks for a course
+async function loadSubdeckPage() {
+    await loadAnkiData();
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    const courseId = urlParams.get('course');
+    
+    if (!courseId || !ankiData[courseId]) {
+        console.error('Invalid course ID');
+        return;
+    }
+    
+    const courseData = ankiData[courseId];
+    
+    // Update header
+    const titleEl = document.getElementById('course-title');
+    const levelEl = document.getElementById('course-level');
+    if (titleEl) titleEl.textContent = courseData.title;
+    if (levelEl) levelEl.textContent = courseData.level;
+    
+    // Load subdecks
+    const gridEl = document.getElementById('subdeck-grid');
+    if (!gridEl) return;
+    
+    gridEl.innerHTML = '';
+    
+    if (courseData.subdecks) {
+        // New subdeck structure
+        Object.entries(courseData.subdecks).forEach(([subdeckId, subdeck]) => {
+            const cardCount = subdeck.cards.length;
+            const card = document.createElement('div');
+            card.className = 'subdeck-card';
+            card.innerHTML = `
+                <h3>${subdeck.title}</h3>
+                <p class="subdeck-description">${subdeck.description}</p>
+                <p class="subdeck-card-count">${cardCount} cards</p>
+                <a href="anki-deck.html?course=${courseId}&subdeck=${subdeckId}" class="btn btn-primary">Study This Topic</a>
+            `;
+            gridEl.appendChild(card);
+        });
+    } else {
+        // Fallback for old structure - just show a single "all cards" option
+        const card = document.createElement('div');
+        card.className = 'subdeck-card';
+        card.innerHTML = `
+            <h3>All Cards</h3>
+            <p class="subdeck-description">Study all available flashcards</p>
+            <p class="subdeck-card-count">${courseData.cards ? courseData.cards.length : 0} cards</p>
+            <a href="anki-deck.html?course=${courseId}" class="btn btn-primary">Study Deck</a>
+        `;
+        gridEl.appendChild(card);
+    }
+    
+    // Setup "Study All" button
+    const studyAllBtn = document.getElementById('study-all-btn');
+    if (studyAllBtn) {
+        studyAllBtn.addEventListener('click', () => {
+            window.location.href = `anki-deck.html?course=${courseId}&all=true`;
+        });
+    }
 }
 
 // Load and manage Anki deck study page
@@ -453,6 +526,8 @@ async function loadAnkiDeck() {
     
     const urlParams = new URLSearchParams(window.location.search);
     const courseId = urlParams.get('course');
+    const subdeckId = urlParams.get('subdeck');
+    const studyAll = urlParams.get('all') === 'true';
     
     if (!courseId || !ankiData[courseId]) {
         console.error('Invalid course ID');
@@ -460,15 +535,41 @@ async function loadAnkiDeck() {
     }
     
     const deckData = ankiData[courseId];
-    currentDeck = [...deckData.cards]; // Copy array
+    let deckTitle = deckData.title;
+    
+    // Gather cards based on selection
+    if (deckData.subdecks) {
+        // New subdeck structure
+        if (subdeckId && deckData.subdecks[subdeckId]) {
+            // Study specific subdeck
+            currentDeck = [...deckData.subdecks[subdeckId].cards];
+            deckTitle = `${deckData.title} - ${deckData.subdecks[subdeckId].title}`;
+        } else if (studyAll) {
+            // Study all cards from all subdecks
+            currentDeck = [];
+            Object.values(deckData.subdecks).forEach(subdeck => {
+                currentDeck.push(...subdeck.cards);
+            });
+        } else {
+            console.error('No subdeck specified and studyAll not set');
+            return;
+        }
+    } else if (deckData.cards) {
+        // Old flat structure
+        currentDeck = [...deckData.cards];
+    } else {
+        console.error('No cards found in deck');
+        return;
+    }
+    
     currentCardIndex = 0;
     
     // Update deck header
-    const deckTitle = document.getElementById('deck-title');
+    const deckTitleEl = document.getElementById('deck-title');
     const deckCategory = document.getElementById('deck-category');
     const totalCards = document.getElementById('total-cards');
     
-    if (deckTitle) deckTitle.textContent = deckData.title;
+    if (deckTitleEl) deckTitleEl.textContent = deckTitle;
     if (deckCategory) deckCategory.textContent = deckData.level;
     if (totalCards) totalCards.textContent = currentDeck.length;
     
@@ -628,6 +729,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         initializeSettings();
     } else if (currentPage === 'anki.html') {
         loadAnkiPage();
+    } else if (currentPage === 'anki-subdecks.html') {
+        loadSubdeckPage();
     } else if (currentPage === 'anki-deck.html') {
         loadAnkiDeck();
     } else if (currentPage === 'works.html') {
