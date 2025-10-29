@@ -7,6 +7,9 @@ let completedCourses = JSON.parse(localStorage.getItem('completedCourses')) || [
 async function loadCoursesData() {
     try {
         const response = await fetch('data/courses.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         coursesData = (await response.json()).courses;
         return coursesData;
     } catch (error) {
@@ -256,10 +259,12 @@ function initializeSettings() {
     
     if (themeSelect) {
         themeSelect.value = savedTheme;
-        document.body.className = `theme-${savedTheme}`;
+        document.body.className = '';
+        document.body.classList.add(`theme-${savedTheme}`);
         
         themeSelect.addEventListener('change', function() {
-            document.body.className = `theme-${this.value}`;
+            document.body.className = '';
+            document.body.classList.add(`theme-${this.value}`);
         });
     }
     
@@ -313,7 +318,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     
     // Apply saved theme
     const savedTheme = localStorage.getItem('portalTheme') || 'light';
-    document.body.className = `theme-${savedTheme}`;
+    document.body.className = '';
+    document.body.classList.add(`theme-${savedTheme}`);
     
     // Page-specific initialization
     const currentPage = window.location.pathname.split('/').pop();
@@ -330,7 +336,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (searchBtn) {
             searchBtn.addEventListener('click', function() {
                 const searchTerm = searchInput.value;
-                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-category');
+                const activeFilterBtn = document.querySelector('.filter-btn.active');
+                const activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute('data-category') : 'all';
                 displayCourses(activeFilter, searchTerm);
             });
         }
@@ -338,7 +345,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (searchInput) {
             searchInput.addEventListener('keyup', function(e) {
                 if (e.key === 'Enter') {
-                    const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-category');
+                    const activeFilterBtn = document.querySelector('.filter-btn.active');
+                    const activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute('data-category') : 'all';
                     displayCourses(activeFilter, this.value);
                 }
             });
