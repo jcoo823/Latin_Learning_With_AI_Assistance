@@ -1,0 +1,998 @@
+{
+  "latin-101": {
+    "title": "Latin 101 – Beginner Grammar & Vocabulary",
+    "level": "Beginner",
+    "subdecks": {
+      "first-declension": {
+        "title": "First Declension Nouns",
+        "description": "Master the first declension noun endings and common vocabulary",
+        "cards": [
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the nominative singular ending for first declension nouns?",
+            "answer": "-a (Example: puella = girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the genitive singular ending for first declension nouns?",
+            "answer": "-ae (Example: puellae = of the girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the dative singular ending for first declension nouns?",
+            "answer": "-ae (Example: puellae = to/for the girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the accusative singular ending for first declension nouns?",
+            "answer": "-am (Example: puellam = girl [as direct object])"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the ablative singular ending for first declension nouns?",
+            "answer": "-ā (Example: puellā = by/with/from the girl)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the nominative plural ending for first declension nouns?",
+            "answer": "-ae (Example: puellae = girls)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the genitive plural ending for first declension nouns?",
+            "answer": "-ārum (Example: puellārum = of the girls)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the dative plural ending for first declension nouns?",
+            "answer": "-īs (Example: puellīs = to/for the girls)"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the accusative plural ending for first declension nouns?",
+            "answer": "-ās (Example: puellās = girls [as direct object])"
+          },
+          {
+            "category": "First Declension - Endings",
+            "question": "What is the ablative plural ending for first declension nouns?",
+            "answer": "-īs (Example: puellīs = by/with/from the girls)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: puella, -ae",
+            "answer": "girl"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'girl'?",
+            "answer": "puella, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: femina, -ae",
+            "answer": "woman"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'woman'?",
+            "answer": "femina, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: terra, -ae",
+            "answer": "earth, land"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'earth' or 'land'?",
+            "answer": "terra, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: aqua, -ae",
+            "answer": "water"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'water'?",
+            "answer": "aqua, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "Translate: hora, -ae",
+            "answer": "hour"
+          },
+          {
+            "category": "First Declension - Vocabulary",
+            "question": "What is the Latin word for 'hour'?",
+            "answer": "hora, -ae (f.)"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "What case is 'puellārum' and what does it mean?",
+            "answer": "Genitive plural - 'of the girls'"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "What case is 'terrīs' and what does it mean?",
+            "answer": "Dative or Ablative plural - 'to/for the lands' or 'by/with/from the lands'"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "Decline 'puella' in the accusative singular",
+            "answer": "puellam"
+          },
+          {
+            "category": "First Declension - Practice",
+            "question": "Decline 'aqua' in the ablative singular",
+            "answer": "aquā"
+          }
+        ]
+      },
+      "second-declension": {
+        "title": "Second Declension Nouns",
+        "description": "Learn second declension masculine and neuter noun patterns",
+        "cards": [
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the nominative singular ending for second declension masculine nouns?",
+            "answer": "-us (Example: amicus = friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the genitive singular ending for second declension nouns?",
+            "answer": "-ī (Example: amīcī = of the friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the dative singular ending for second declension nouns?",
+            "answer": "-ō (Example: amīcō = to/for the friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the accusative singular ending for second declension masculine nouns?",
+            "answer": "-um (Example: amīcum = friend [as direct object])"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the ablative singular ending for second declension nouns?",
+            "answer": "-ō (Example: amīcō = by/with/from the friend)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the nominative plural ending for second declension masculine nouns?",
+            "answer": "-ī (Example: amīcī = friends)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the genitive plural ending for second declension nouns?",
+            "answer": "-ōrum (Example: amīcōrum = of the friends)"
+          },
+          {
+            "category": "Second Declension - Masculine Endings",
+            "question": "What is the accusative plural ending for second declension masculine nouns?",
+            "answer": "-ōs (Example: amīcōs = friends [as direct object])"
+          },
+          {
+            "category": "Second Declension - Neuter Endings",
+            "question": "What is the nominative singular ending for second declension neuter nouns?",
+            "answer": "-um (Example: bellum = war)"
+          },
+          {
+            "category": "Second Declension - Neuter Endings",
+            "question": "What is the accusative singular ending for second declension neuter nouns?",
+            "answer": "-um (Example: bellum = war [as direct object])"
+          },
+          {
+            "category": "Second Declension - Neuter Endings",
+            "question": "What is the nominative plural ending for second declension neuter nouns?",
+            "answer": "-a (Example: bella = wars)"
+          },
+          {
+            "category": "Second Declension - Neuter Rule",
+            "question": "What is the key rule for neuter nouns in Latin?",
+            "answer": "The nominative and accusative forms are always the same in both singular and plural"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: amicus, -ī",
+            "answer": "friend (male)"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "What is the Latin word for 'friend' (masculine)?",
+            "answer": "amicus, -ī (m.)"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: bellum, -ī",
+            "answer": "war"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "What is the Latin word for 'war'?",
+            "answer": "bellum, -ī (n.)"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: dominus, -ī",
+            "answer": "master, lord"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: servus, -ī",
+            "answer": "slave, servant"
+          },
+          {
+            "category": "Second Declension - Vocabulary",
+            "question": "Translate: templum, -ī",
+            "answer": "temple"
+          },
+          {
+            "category": "Second Declension - Practice",
+            "question": "What case is 'amīcōrum' and what does it mean?",
+            "answer": "Genitive plural - 'of the friends'"
+          },
+          {
+            "category": "Second Declension - Practice",
+            "question": "Decline 'bellum' in the nominative plural",
+            "answer": "bella"
+          }
+        ]
+      },
+      "verbs-present": {
+        "title": "Present Tense Verbs",
+        "description": "Master present tense conjugations for all four conjugations",
+        "cards": [
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the first person singular present tense ending?",
+            "answer": "-ō or -m (Example: amō = I love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the second person singular present tense ending?",
+            "answer": "-s (Example: amās = you love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the third person singular present tense ending?",
+            "answer": "-t (Example: amat = he/she/it loves)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the first person plural present tense ending?",
+            "answer": "-mus (Example: amāmus = we love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the second person plural present tense ending?",
+            "answer": "-tis (Example: amātis = you [plural] love)"
+          },
+          {
+            "category": "Present Tense - Endings",
+            "question": "What is the third person plural present tense ending?",
+            "answer": "-nt (Example: amant = they love)"
+          },
+          {
+            "category": "Present Tense - First Conjugation",
+            "question": "What is the stem vowel for first conjugation verbs?",
+            "answer": "-ā- (Example: amāre - to love)"
+          },
+          {
+            "category": "Present Tense - Second Conjugation",
+            "question": "What is the stem vowel for second conjugation verbs?",
+            "answer": "-ē- (Example: vidēre - to see)"
+          },
+          {
+            "category": "Present Tense - Third Conjugation",
+            "question": "What is the stem vowel for third conjugation verbs?",
+            "answer": "-e- (short, varies) (Example: dūcere - to lead)"
+          },
+          {
+            "category": "Present Tense - Fourth Conjugation",
+            "question": "What is the stem vowel for fourth conjugation verbs?",
+            "answer": "-ī- (Example: audīre - to hear)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: amāre",
+            "answer": "to love"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "What is the Latin infinitive for 'to love'?",
+            "answer": "amāre (1st conjugation)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: vidēre",
+            "answer": "to see"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "What is the Latin infinitive for 'to see'?",
+            "answer": "vidēre (2nd conjugation)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: esse",
+            "answer": "to be"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Conjugate 'sum' (to be) in first person singular present",
+            "answer": "sum (I am)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Conjugate 'sum' (to be) in third person singular present",
+            "answer": "est (he/she/it is)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Conjugate 'sum' (to be) in third person plural present",
+            "answer": "sunt (they are)"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: habēre",
+            "answer": "to have"
+          },
+          {
+            "category": "Vocabulary - Common Verbs",
+            "question": "Translate: dare",
+            "answer": "to give"
+          },
+          {
+            "category": "Present Tense - Practice",
+            "question": "Conjugate 'amō' in third person plural",
+            "answer": "amant (they love)"
+          },
+          {
+            "category": "Present Tense - Practice",
+            "question": "What does 'vidēmus' mean?",
+            "answer": "we see"
+          }
+        ]
+      },
+      "vocabulary-family": {
+        "title": "Vocabulary: Family & People",
+        "description": "Learn essential Latin vocabulary for family members and people",
+        "cards": [
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: pater, patris",
+            "answer": "father"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'father'?",
+            "answer": "pater, patris (m.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: māter, mātris",
+            "answer": "mother"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'mother'?",
+            "answer": "māter, mātris (f.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: fīlius, -ī",
+            "answer": "son"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'son'?",
+            "answer": "fīlius, -ī (m.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: fīlia, -ae",
+            "answer": "daughter"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "What is the Latin word for 'daughter'?",
+            "answer": "fīlia, -ae (f.)"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: frāter, frātris",
+            "answer": "brother"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: soror, sorōris",
+            "answer": "sister"
+          },
+          {
+            "category": "Vocabulary - Family",
+            "question": "Translate: familia, -ae",
+            "answer": "family, household"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: vir, virī",
+            "answer": "man, husband"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: uxor, uxōris",
+            "answer": "wife"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: rēx, rēgis",
+            "answer": "king"
+          },
+          {
+            "category": "Vocabulary - People",
+            "question": "Translate: rēgīna, -ae",
+            "answer": "queen"
+          }
+        ]
+      },
+      "third-declension": {
+        "title": "Third Declension Nouns",
+        "description": "Master the complex third declension pattern",
+        "cards": [
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case shows possession in Latin?",
+            "answer": "Genitive case (Example: liber puerī = the book of the boy)"
+          },
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case is used for the direct object?",
+            "answer": "Accusative case"
+          },
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case is used for the indirect object?",
+            "answer": "Dative case"
+          },
+          {
+            "category": "Third Declension - Cases",
+            "question": "What case is used with certain prepositions and to show means/manner?",
+            "answer": "Ablative case"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the nominative singular ending for third declension nouns?",
+            "answer": "Varies (must memorize each noun)"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the genitive singular ending for third declension nouns?",
+            "answer": "-is (Example: rēgis = of the king)"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the accusative singular ending for third declension masculine/feminine nouns?",
+            "answer": "-em (Example: rēgem = king [as direct object])"
+          },
+          {
+            "category": "Third Declension - Endings",
+            "question": "What is the nominative plural ending for third declension masculine/feminine nouns?",
+            "answer": "-ēs (Example: rēgēs = kings)"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: rēx, rēgis",
+            "answer": "king"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: lēx, lēgis",
+            "answer": "law"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: nōmen, nōminis",
+            "answer": "name"
+          },
+          {
+            "category": "Third Declension - Vocabulary",
+            "question": "Translate: corpus, corporis",
+            "answer": "body"
+          },
+          {
+            "category": "Third Declension - Practice",
+            "question": "What is the genitive singular of 'rēx'?",
+            "answer": "rēgis"
+          },
+          {
+            "category": "Third Declension - Practice",
+            "question": "Identify the stem of 'nōmen, nōminis'",
+            "answer": "nōmin- (from the genitive singular)"
+          }
+        ]
+      },
+      "vocabulary-nature-time": {
+        "title": "Vocabulary: Nature & Time",
+        "description": "Essential vocabulary for natural elements and time",
+        "cards": [
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: terra, -ae",
+            "answer": "earth, land"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: aqua, -ae",
+            "answer": "water"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: ignis, ignis",
+            "answer": "fire"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: aër, aëris",
+            "answer": "air"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: silva, -ae",
+            "answer": "forest, woods"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: mare, maris",
+            "answer": "sea"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: sōl, sōlis",
+            "answer": "sun"
+          },
+          {
+            "category": "Vocabulary - Nature",
+            "question": "Translate: lūna, -ae",
+            "answer": "moon"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: hōra, -ae",
+            "answer": "hour"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: diēs, diēī",
+            "answer": "day"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: nox, noctis",
+            "answer": "night"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: annus, -ī",
+            "answer": "year"
+          },
+          {
+            "category": "Vocabulary - Time",
+            "question": "Translate: tempus, temporis",
+            "answer": "time"
+          }
+        ]
+      }
+    }
+  },
+  "latin-102": {
+    "title": "Latin 102 – Intermediate Grammar & Reading",
+    "level": "Intermediate",
+    "subdecks": {
+      "perfect-tense": {
+        "title": "Perfect Tense",
+        "description": "Master the perfect tense system",
+        "cards": [
+          {
+            "category": "Perfect Tense - Formation",
+            "question": "What is the marker for the perfect tense?",
+            "answer": "-v- or -u- in the stem (Example: amāvī = I loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What are the perfect tense personal endings?",
+            "answer": "-ī, -istī, -it, -imus, -istis, -ērunt"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the first person singular perfect ending?",
+            "answer": "-ī (Example: amāvī = I loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the second person singular perfect ending?",
+            "answer": "-istī (Example: amāvistī = you loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the third person singular perfect ending?",
+            "answer": "-it (Example: amāvit = he/she/it loved/has loved)"
+          },
+          {
+            "category": "Perfect Tense - Endings",
+            "question": "What is the third person plural perfect ending?",
+            "answer": "-ērunt (Example: amāvērunt = they loved/have loved)"
+          },
+          {
+            "category": "Perfect Tense - Translation",
+            "question": "What are the two main ways to translate the perfect tense?",
+            "answer": "Simple past (loved) or present perfect (have loved)"
+          },
+          {
+            "category": "Perfect Tense - Practice",
+            "question": "Translate: vīdī",
+            "answer": "I saw / I have seen"
+          },
+          {
+            "category": "Perfect Tense - Practice",
+            "question": "Translate: fēcērunt",
+            "answer": "they did / they have done"
+          },
+          {
+            "category": "Perfect Tense - Principal Parts",
+            "question": "What are the four principal parts of a Latin verb?",
+            "answer": "1st person present, present infinitive, 1st person perfect, perfect passive participle"
+          },
+          {
+            "category": "Perfect Tense - Principal Parts",
+            "question": "Give the principal parts of 'amō'",
+            "answer": "amō, amāre, amāvī, amātus"
+          },
+          {
+            "category": "Perfect Tense - Principal Parts",
+            "question": "Give the principal parts of 'videō'",
+            "answer": "videō, vidēre, vīdī, vīsus"
+          }
+        ]
+      },
+      "subjunctive-mood": {
+        "title": "Subjunctive Mood",
+        "description": "Learn the subjunctive mood and its uses",
+        "cards": [
+          {
+            "category": "Subjunctive - Formation",
+            "question": "What is the present subjunctive first person singular ending?",
+            "answer": "-m (Example: amem = may I love)"
+          },
+          {
+            "category": "Subjunctive - Formation",
+            "question": "How do you form the present subjunctive for first conjugation verbs?",
+            "answer": "Change -ā- to -ē- (amem, amēs, amet...)"
+          },
+          {
+            "category": "Subjunctive - Formation",
+            "question": "How do you form the present subjunctive for second, third, and fourth conjugation verbs?",
+            "answer": "Add -a- before the personal endings (videam, dūcam, audiam...)"
+          },
+          {
+            "category": "Subjunctive - Purpose Clauses",
+            "question": "What is a common use of the subjunctive in purpose clauses?",
+            "answer": "To express purpose with 'ut' (so that) or 'nē' (so that...not)"
+          },
+          {
+            "category": "Subjunctive - Purpose Clauses",
+            "question": "Translate: Venit ut te videat",
+            "answer": "He comes so that he may see you (purpose)"
+          },
+          {
+            "category": "Subjunctive - Result Clauses",
+            "question": "What conjunction introduces a result clause?",
+            "answer": "'ut' (so that, with the result that) with subjunctive"
+          },
+          {
+            "category": "Subjunctive - Jussive",
+            "question": "What is a jussive subjunctive?",
+            "answer": "Subjunctive used to express a command or exhortation (Let us...)"
+          },
+          {
+            "category": "Subjunctive - Hortatory",
+            "question": "What is a hortatory subjunctive?",
+            "answer": "First person plural subjunctive expressing encouragement (Let us...)"
+          },
+          {
+            "category": "Subjunctive - Practice",
+            "question": "Identify the mood and translate: amet",
+            "answer": "Present subjunctive - 'may he/she love' or 'let him/her love'"
+          },
+          {
+            "category": "Subjunctive - Imperfect",
+            "question": "How do you form the imperfect subjunctive?",
+            "answer": "Present infinitive + personal endings (amārem, amārēs, amāret...)"
+          }
+        ]
+      },
+      "participles": {
+        "title": "Participles",
+        "description": "Master Latin participles and their uses",
+        "cards": [
+          {
+            "category": "Participles - Present Active",
+            "question": "What is the present active participle ending?",
+            "answer": "-ns, -ntis (Example: amāns = loving)"
+          },
+          {
+            "category": "Participles - Present Active",
+            "question": "Translate: amāns, amantis",
+            "answer": "loving (present active participle of amō)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for first conjugation?",
+            "answer": "-ātus, -a, -um (Example: amātus = having been loved)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for second conjugation?",
+            "answer": "-itus, -a, -um (Example: monitus = having been warned)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for third conjugation?",
+            "answer": "-tus, -a, -um (Example: ductus = having been led)"
+          },
+          {
+            "category": "Participles - Perfect Passive",
+            "question": "What is the perfect passive participle ending for fourth conjugation?",
+            "answer": "-ītus, -a, -um (Example: audītus = having been heard)"
+          },
+          {
+            "category": "Participles - Future Active",
+            "question": "How do you form the future active participle?",
+            "answer": "Perfect passive stem + -ūrus, -a, -um (amātūrus = about to love)"
+          },
+          {
+            "category": "Participles - Uses",
+            "question": "What are the three main uses of participles?",
+            "answer": "Attributive (adjective), circumstantial (adverb), and substantive (noun)"
+          },
+          {
+            "category": "Participles - Practice",
+            "question": "Translate: puella amāta",
+            "answer": "the girl having been loved / the loved girl"
+          },
+          {
+            "category": "Participles - Practice",
+            "question": "What tense and voice is 'vīsus'?",
+            "answer": "Perfect passive (having been seen)"
+          }
+        ]
+      },
+      "subordinate-clauses": {
+        "title": "Subordinate Clauses",
+        "description": "Learn various types of subordinate clauses",
+        "cards": [
+          {
+            "category": "Subordinate - Result Clauses",
+            "question": "What conjunction introduces a result clause?",
+            "answer": "'ut' (so that, with the result that) with subjunctive"
+          },
+          {
+            "category": "Subordinate - Result Clauses",
+            "question": "How do you translate a result clause?",
+            "answer": "'so... that' or 'such... that'"
+          },
+          {
+            "category": "Subordinate - Concessive Clauses",
+            "question": "What conjunction introduces a concessive clause?",
+            "answer": "'cum' (although) with subjunctive"
+          },
+          {
+            "category": "Subordinate - Temporal Clauses",
+            "question": "What conjunctions introduce temporal clauses?",
+            "answer": "cum (when), ubi (when), postquam (after), antequam (before)"
+          },
+          {
+            "category": "Subordinate - Causal Clauses",
+            "question": "What conjunction introduces a causal clause?",
+            "answer": "'quod' or 'quia' (because) with indicative; 'cum' (since) with subjunctive"
+          },
+          {
+            "category": "Subordinate - Conditional Clauses",
+            "question": "What word introduces a conditional clause?",
+            "answer": "'sī' (if)"
+          },
+          {
+            "category": "Subordinate - Practice",
+            "question": "Identify the clause type: Tam fortis est ut vincit",
+            "answer": "Result clause - 'He is so brave that he wins'"
+          }
+        ]
+      },
+      "vocabulary-abstract": {
+        "title": "Vocabulary: Abstract Concepts",
+        "description": "Learn abstract nouns and concepts",
+        "cards": [
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: virtūs, virtūtis",
+            "answer": "virtue, excellence, courage"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: vēritās, vēritātis",
+            "answer": "truth"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: lībertās, lībertātis",
+            "answer": "freedom, liberty"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: sapientia, -ae",
+            "answer": "wisdom"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: iūstitia, -ae",
+            "answer": "justice"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: fortitūdō, fortitūdinis",
+            "answer": "bravery, strength"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: amor, amōris",
+            "answer": "love"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: timor, timōris",
+            "answer": "fear"
+          },
+          {
+            "category": "Vocabulary - Abstract",
+            "question": "Translate: spēs, speī",
+            "answer": "hope"
+          }
+        ]
+      },
+      "vocabulary-government": {
+        "title": "Vocabulary: Government & Politics",
+        "description": "Essential political and governmental vocabulary",
+        "cards": [
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: rēx, rēgis",
+            "answer": "king"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: cōnsul, cōnsulis",
+            "answer": "consul"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: senātor, senātōris",
+            "answer": "senator"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: senātus, -ūs",
+            "answer": "senate"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: populus, -ī",
+            "answer": "people"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: cīvis, cīvis",
+            "answer": "citizen"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: urbs, urbis",
+            "answer": "city"
+          },
+          {
+            "category": "Vocabulary - Government",
+            "question": "Translate: imperium, -ī",
+            "answer": "command, empire, power"
+          }
+        ]
+      },
+      "deponent-verbs": {
+        "title": "Deponent Verbs",
+        "description": "Learn verbs with passive forms but active meanings",
+        "cards": [
+          {
+            "category": "Deponent Verbs - Definition",
+            "question": "What are deponent verbs?",
+            "answer": "Verbs with passive forms but active meanings (Example: sequor = I follow)"
+          },
+          {
+            "category": "Deponent Verbs - Recognition",
+            "question": "How can you recognize a deponent verb?",
+            "answer": "The first principal part ends in -or, but it has an active meaning"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: sequor, sequī, secūtus sum",
+            "answer": "to follow"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: loquor, loquī, locūtus sum",
+            "answer": "to speak"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: patior, patī, passus sum",
+            "answer": "to suffer, allow"
+          },
+          {
+            "category": "Deponent Verbs - Vocabulary",
+            "question": "Translate: morior, morī, mortuus sum",
+            "answer": "to die"
+          },
+          {
+            "category": "Deponent Verbs - Practice",
+            "question": "What does 'sequitur' mean?",
+            "answer": "he/she/it follows (deponent verb, passive form, active meaning)"
+          }
+        ]
+      },
+      "infinitives": {
+        "title": "Infinitives",
+        "description": "Master the six Latin infinitives",
+        "cards": [
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for first conjugation?",
+            "answer": "-āre (Example: amāre = to love)"
+          },
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for second conjugation?",
+            "answer": "-ēre (Example: vidēre = to see)"
+          },
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for third conjugation?",
+            "answer": "-ere (Example: dūcere = to lead)"
+          },
+          {
+            "category": "Infinitives - Present Active",
+            "question": "What is the present active infinitive ending for fourth conjugation?",
+            "answer": "-īre (Example: audīre = to hear)"
+          },
+          {
+            "category": "Infinitives - Perfect Active",
+            "question": "What is the perfect active infinitive formation?",
+            "answer": "Perfect stem + -isse (Example: amāvisse = to have loved)"
+          },
+          {
+            "category": "Infinitives - Future Active",
+            "question": "How do you form the future active infinitive?",
+            "answer": "Future active participle + esse (Example: amātūrus esse = to be about to love)"
+          },
+          {
+            "category": "Infinitives - Perfect Passive",
+            "question": "How do you form the perfect passive infinitive?",
+            "answer": "Perfect passive participle + esse (Example: amātus esse = to have been loved)"
+          },
+          {
+            "category": "Infinitives - Practice",
+            "question": "What tense and voice is 'vīdisse'?",
+            "answer": "Perfect active infinitive (to have seen)"
+          }
+        ]
+      }
+    }
+  }
+}
