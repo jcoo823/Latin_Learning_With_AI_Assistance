@@ -399,6 +399,168 @@ function initializeSettings() {
     }
 }
 
+// Anki flashcard functionality
+let ankiData = {};
+
+// Load Anki data
+async function loadAnkiData() {
+    try {
+        const response = await fetch('data/anki-data.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        ankiData = await response.json();
+        return ankiData;
+    } catch (error) {
+        console.error('Error loading Anki data:', error);
+        return {};
+    }
+}
+
+// Load Anki main page
+async function loadAnkiPage() {
+    await loadAnkiData();
+    
+    // Update card counts for each deck
+    const courses = ['latin-101', 'latin-102', 'latin-103', 'latin-104', 
+                     'latin-105', 'latin-106', 'latin-201', 'latin-202', 
+                     'latin-203', 'latin-204'];
+    
+    courses.forEach(courseId => {
+        const countEl = document.getElementById(`deck-${courseId}-count`);
+        if (countEl && ankiData[courseId]) {
+            const cardCount = ankiData[courseId].cards.length;
+            countEl.textContent = `${cardCount} cards`;
+        }
+    });
+}
+
+// Load and manage Anki deck study page
+let currentDeck = [];
+let currentCardIndex = 0;
+let isFlipped = false;
+
+async function loadAnkiDeck() {
+    await loadAnkiData();
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    const courseId = urlParams.get('course');
+    
+    if (!courseId || !ankiData[courseId]) {
+        console.error('Invalid course ID');
+        return;
+    }
+    
+    const deckData = ankiData[courseId];
+    currentDeck = [...deckData.cards]; // Copy array
+    currentCardIndex = 0;
+    
+    // Update deck header
+    const deckTitle = document.getElementById('deck-title');
+    const deckCategory = document.getElementById('deck-category');
+    const totalCards = document.getElementById('total-cards');
+    
+    if (deckTitle) deckTitle.textContent = deckData.title;
+    if (deckCategory) deckCategory.textContent = deckData.level;
+    if (totalCards) totalCards.textContent = currentDeck.length;
+    
+    // Display first card
+    displayCard();
+    
+    // Add event listeners
+    const flashcard = document.getElementById('flashcard');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const shuffleBtn = document.getElementById('shuffle-btn');
+    
+    if (flashcard) {
+        flashcard.addEventListener('click', flipCard);
+    }
+    
+    if (prevBtn) {
+        prevBtn.addEventListener('click', previousCard);
+    }
+    
+    if (nextBtn) {
+        nextBtn.addEventListener('click', nextCard);
+    }
+    
+    if (shuffleBtn) {
+        shuffleBtn.addEventListener('click', shuffleDeck);
+    }
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', handleKeyPress);
+}
+
+function displayCard() {
+    if (!currentDeck || currentDeck.length === 0) return;
+    
+    const card = currentDeck[currentCardIndex];
+    const questionEl = document.getElementById('card-question');
+    const answerEl = document.getElementById('card-answer');
+    const progressEl = document.getElementById('card-progress');
+    const categoryEl = document.getElementById('current-category');
+    const flashcard = document.getElementById('flashcard');
+    
+    if (questionEl) questionEl.textContent = card.question;
+    if (answerEl) answerEl.textContent = card.answer;
+    if (progressEl) progressEl.textContent = `Card ${currentCardIndex + 1} of ${currentDeck.length}`;
+    if (categoryEl) categoryEl.textContent = card.category;
+    
+    // Reset flip state
+    if (flashcard) {
+        flashcard.classList.remove('flipped');
+    }
+    isFlipped = false;
+}
+
+function flipCard() {
+    const flashcard = document.getElementById('flashcard');
+    if (flashcard) {
+        flashcard.classList.toggle('flipped');
+        isFlipped = !isFlipped;
+    }
+}
+
+function nextCard() {
+    if (currentCardIndex < currentDeck.length - 1) {
+        currentCardIndex++;
+        displayCard();
+    }
+}
+
+function previousCard() {
+    if (currentCardIndex > 0) {
+        currentCardIndex--;
+        displayCard();
+    }
+}
+
+function shuffleDeck() {
+    // Fisher-Yates shuffle
+    for (let i = currentDeck.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [currentDeck[i], currentDeck[j]] = [currentDeck[j], currentDeck[i]];
+    }
+    currentCardIndex = 0;
+    displayCard();
+}
+
+function handleKeyPress(e) {
+    const currentPage = window.location.pathname.split('/').pop();
+    if (currentPage !== 'anki-deck.html') return;
+    
+    if (e.key === 'ArrowRight') {
+        nextCard();
+    } else if (e.key === 'ArrowLeft') {
+        previousCard();
+    } else if (e.key === ' ' || e.key === 'Spacebar') {
+        e.preventDefault(); // Prevent page scroll
+        flipCard();
+    }
+}
+
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', async function() {
     // Load courses data first
@@ -456,6 +618,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         loadCourseDetail();
     } else if (currentPage === 'settings.html') {
         initializeSettings();
+    } else if (currentPage === 'anki.html') {
+        loadAnkiPage();
+    } else if (currentPage === 'anki-deck.html') {
+        loadAnkiDeck();
     } else if (currentPage === 'works.html') {
         initializeWorksPage();
     }
