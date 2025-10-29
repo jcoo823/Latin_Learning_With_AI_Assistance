@@ -1896,3 +1896,405 @@ body.theme-blue .work-category-badge {
         padding: 1rem;
     }
 }
+
+/* ==============================================
+   Coursework Viewer - Documentation Style
+   ============================================== */
+
+.coursework-container {
+    display: flex;
+    min-height: calc(100vh - 60px);
+    background: #f5f7fa;
+}
+
+/* Sidebar Navigation */
+.coursework-sidebar {
+    width: 280px;
+    background: #ffffff;
+    border-right: 1px solid #e1e8ed;
+    padding: 1.5rem;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e1e8ed;
+}
+
+.sidebar-header h2 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.btn-icon {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    padding: 0.25rem;
+    color: #2c3e50;
+}
+
+.nav-section {
+    margin-bottom: 1.5rem;
+}
+
+.nav-section-header {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    margin-bottom: 0.25rem;
+}
+
+.nav-item {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: #2c3e50;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+    background: #f0f3f5;
+    color: #3498db;
+}
+
+.nav-item.active {
+    background: #3498db;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* Main Content Area */
+.coursework-main {
+    flex: 1;
+    display: flex;
+    max-width: calc(100% - 280px);
+}
+
+.coursework-content {
+    flex: 1;
+    max-width: 900px;
+    padding: 2rem 3rem;
+    background: #ffffff;
+    min-height: calc(100vh - 60px);
+}
+
+/* Loading and Error States */
+.loading-state,
+.error-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    text-align: center;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error-state h2 {
+    color: #e74c3c;
+    margin-bottom: 1rem;
+}
+
+.error-details {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 0.5rem;
+}
+
+/* Content Styling - Documentation Style */
+.coursework-content h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid #3498db;
+}
+
+.coursework-content h2 {
+    font-size: 1.75rem;
+    color: #2c3e50;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e1e8ed;
+}
+
+.coursework-content h3 {
+    font-size: 1.35rem;
+    color: #34495e;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.coursework-content h4 {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.coursework-content p {
+    margin-bottom: 1rem;
+    color: #34495e;
+    line-height: 1.8;
+}
+
+.coursework-content ul,
+.coursework-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+.coursework-content li {
+    margin-bottom: 0.5rem;
+    color: #34495e;
+    line-height: 1.7;
+}
+
+.coursework-content code {
+    background: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    color: #e74c3c;
+    border: 1px solid #e1e8ed;
+}
+
+.coursework-content pre {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+
+.coursework-content pre code {
+    background: none;
+    color: #ecf0f1;
+    border: none;
+    padding: 0;
+}
+
+.coursework-content blockquote {
+    border-left: 4px solid #3498db;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    background: #f8f9fa;
+    font-style: italic;
+    color: #555;
+}
+
+.coursework-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.coursework-content table th {
+    background: #34495e;
+    color: #ffffff;
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.coursework-content table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.coursework-content table tr:hover {
+    background: #f8f9fa;
+}
+
+.coursework-content hr {
+    border: none;
+    border-top: 2px solid #e1e8ed;
+    margin: 2rem 0;
+}
+
+.coursework-content a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.coursework-content a:hover {
+    border-bottom-color: #3498db;
+}
+
+/* Table of Contents Sidebar */
+.toc-sidebar {
+    width: 250px;
+    padding: 2rem 1.5rem;
+    background: #f8f9fa;
+    border-left: 1px solid #e1e8ed;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.toc-header h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.toc-list {
+    list-style: none;
+}
+
+.toc-item {
+    margin-bottom: 0.5rem;
+}
+
+.toc-item a {
+    display: block;
+    padding: 0.4rem 0;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.toc-item a:hover {
+    color: #3498db;
+}
+
+.toc-h2 {
+    padding-left: 0;
+    font-weight: 500;
+}
+
+.toc-h3 {
+    padding-left: 1rem;
+    font-size: 0.825rem;
+}
+
+.toc-empty {
+    color: #95a5a6;
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+/* Breadcrumb styling for coursework viewer */
+.coursework-main .breadcrumb-container {
+    padding: 1.5rem 3rem 0;
+    background: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .toc-sidebar {
+        display: none;
+    }
+    
+    .coursework-main {
+        max-width: calc(100% - 280px);
+    }
+}
+
+@media (max-width: 768px) {
+    .coursework-container {
+        flex-direction: column;
+    }
+    
+    .coursework-sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        border-right: none;
+        border-bottom: 1px solid #e1e8ed;
+    }
+    
+    .coursework-sidebar.collapsed .coursework-nav {
+        display: none;
+    }
+    
+    .btn-icon {
+        display: block;
+    }
+    
+    .coursework-main {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    
+    .coursework-content {
+        padding: 1.5rem;
+    }
+    
+    .coursework-main .breadcrumb-container {
+        padding: 1rem 1.5rem 0;
+    }
+    
+    .toc-sidebar {
+        display: none;
+    }
+}
+
+/* Print Styles for Coursework */
+@media print {
+    .navbar,
+    .coursework-sidebar,
+    .toc-sidebar,
+    .breadcrumb-container,
+    .footer {
+        display: none;
+    }
+    
+    .coursework-content {
+        padding: 0;
+        max-width: 100%;
+    }
+}

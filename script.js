@@ -290,6 +290,14 @@ function loadCourseDetail() {
     
     const addToActiveBtn = document.getElementById('add-to-active');
     const markCompleteBtn = document.getElementById('mark-complete');
+    const viewCourseworkBtn = document.getElementById('view-coursework');
+    
+    // Show "View Coursework" button for courses with available coursework
+    const coursesWithCoursework = ['latin-101'];
+    if (viewCourseworkBtn && coursesWithCoursework.includes(courseId)) {
+        viewCourseworkBtn.style.display = 'inline-block';
+        viewCourseworkBtn.href = `coursework-viewer.html?course=${courseId}`;
+    }
     
     if (addToActiveBtn) {
         if (isActive) {
