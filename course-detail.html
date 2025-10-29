@@ -103,6 +103,49 @@
 
             <!-- Right Column: Decorative/Helpful Sidebar -->
             <aside class="course-sidebar-right">
+                <!-- Course References Section -->
+                <div class="references-card">
+                    <div class="references-header">
+                        <h3>📁 Course References</h3>
+                        <button id="add-reference-btn" class="btn-icon" title="Add Reference">+</button>
+                    </div>
+                    
+                    <!-- Add Reference Form (hidden by default) -->
+                    <div id="add-reference-form" class="add-reference-form" style="display: none;">
+                        <div class="form-group">
+                            <label for="reference-name">Name:</label>
+                            <input type="text" id="reference-name" placeholder="e.g., Wheelock's Latin PDF" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="reference-url">URL/Link:</label>
+                            <input type="url" id="reference-url" placeholder="https://..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="reference-type">Type:</label>
+                            <select id="reference-type">
+                                <option value="link">🔗 Link</option>
+                                <option value="pdf">📄 PDF</option>
+                                <option value="video">🎥 Video</option>
+                                <option value="article">📝 Article</option>
+                                <option value="book">📚 Book</option>
+                                <option value="other">📎 Other</option>
+                            </select>
+                        </div>
+                        <div class="form-actions">
+                            <button id="save-reference-btn" class="btn btn-primary btn-sm">Save</button>
+                            <button id="cancel-reference-btn" class="btn btn-secondary btn-sm">Cancel</button>
+                        </div>
+                    </div>
+                    
+                    <!-- References Directory -->
+                    <div id="references-directory" class="references-directory">
+                        <div class="empty-references">
+                            <p>No references added yet.</p>
+                            <p class="hint">Click the + button to add resources!</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="motivational-card">
                     <div class="quote-icon">📖</div>
                     <h3>Carpe Diem!</h3>
