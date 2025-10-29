@@ -1,0 +1,484 @@
+{
+  "works": [
+    {
+      "id": "aeneid",
+      "title": "Aeneid",
+      "author": "Virgil",
+      "category": "Epic Poetry",
+      "difficulty": "Advanced",
+      "period": "Classical (1st Century BCE)",
+      "description": "The epic tale of Aeneas's journey from Troy to Italy, founding the Roman people. A masterpiece of Latin literature and a cornerstone of Western civilization.",
+      "excerpt": "Arma virumque cano, Troiae qui primus ab oris...",
+      "length": "~10,000 lines",
+      "tags": ["epic", "mythology", "founding", "heroic"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "metamorphoses",
+      "title": "Metamorphoses",
+      "author": "Ovid",
+      "category": "Epic Poetry",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century CE)",
+      "description": "A narrative poem chronicling the history of the world from its creation to Julius Caesar's deification, featuring over 250 myths involving transformations.",
+      "excerpt": "In nova fert animus mutatas dicere formas corpora...",
+      "length": "~12,000 lines",
+      "tags": ["mythology", "transformation", "narrative", "gods"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "de-bello-gallico",
+      "title": "Commentarii de Bello Gallico",
+      "author": "Julius Caesar",
+      "category": "History",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "Caesar's firsthand account of the Gallic Wars, providing insight into Roman military strategy, politics, and the cultures of ancient Gaul and Britain.",
+      "excerpt": "Gallia est omnis divisa in partes tres...",
+      "length": "7 books",
+      "tags": ["history", "military", "politics", "ethnography"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "confessions",
+      "title": "Confessions",
+      "author": "Augustine of Hippo",
+      "category": "Philosophy",
+      "difficulty": "Advanced",
+      "period": "Late Antiquity (4th Century CE)",
+      "description": "Augustine's autobiographical work detailing his spiritual journey and conversion to Christianity. A profound exploration of memory, time, and faith.",
+      "excerpt": "Magnus es, Domine, et laudabilis valde...",
+      "length": "13 books",
+      "tags": ["theology", "autobiography", "philosophy", "spirituality"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "odes",
+      "title": "Odes (Carmina)",
+      "author": "Horace",
+      "category": "Lyric Poetry",
+      "difficulty": "Advanced",
+      "period": "Classical (1st Century BCE)",
+      "description": "A collection of lyric poems exploring themes of love, wine, nature, and philosophy. Known for their metrical variety and enduring wisdom.",
+      "excerpt": "Carpe diem, quam minimum credula postero...",
+      "length": "4 books, 103 poems",
+      "tags": ["lyric", "philosophy", "nature", "carpe-diem"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "catullus-poems",
+      "title": "Poems",
+      "author": "Catullus",
+      "category": "Lyric Poetry",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "Passionate and personal poems ranging from tender love lyrics to bitter invectives. Known for emotional intensity and linguistic innovation.",
+      "excerpt": "Vivamus, mea Lesbia, atque amemus...",
+      "length": "116 poems",
+      "tags": ["love", "passion", "personal", "invective"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "meditations",
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "category": "Philosophy",
+      "difficulty": "Intermediate",
+      "period": "Imperial (2nd Century CE)",
+      "description": "Private reflections of the Roman Emperor on Stoic philosophy. A guide to living virtuously and finding tranquility amidst life's challenges.",
+      "excerpt": "Τὰ εἰς ἑαυτόν... (Originally in Greek, widely studied in Latin translation)",
+      "length": "12 books",
+      "tags": ["stoicism", "philosophy", "self-improvement", "wisdom"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "letters-seneca",
+      "title": "Epistulae Morales ad Lucilium",
+      "author": "Seneca the Younger",
+      "category": "Philosophy",
+      "difficulty": "Intermediate",
+      "period": "Imperial (1st Century CE)",
+      "description": "124 letters on Stoic philosophy, ethics, and practical wisdom. Addressed to Lucilius, these letters offer timeless advice on living well.",
+      "excerpt": "Ita fac, mi Lucili: vindica te tibi...",
+      "length": "124 letters",
+      "tags": ["stoicism", "ethics", "letters", "wisdom"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "aeneid-book4",
+      "title": "Aeneid Book IV",
+      "author": "Virgil",
+      "category": "Epic Poetry",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "The tragic love story of Dido and Aeneas. Often studied separately for its emotional depth and literary excellence.",
+      "excerpt": "At regina gravi iamdudum saucia cura...",
+      "length": "~700 lines",
+      "tags": ["love", "tragedy", "epic", "passion"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "eclogues",
+      "title": "Eclogues (Bucolics)",
+      "author": "Virgil",
+      "category": "Pastoral Poetry",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "Ten pastoral poems depicting idealized rural life and shepherds. Influential in the pastoral literary tradition.",
+      "excerpt": "Tityre, tu patulae recubans sub tegmine fagi...",
+      "length": "10 poems",
+      "tags": ["pastoral", "countryside", "shepherds", "idealization"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "georgics",
+      "title": "Georgics",
+      "author": "Virgil",
+      "category": "Didactic Poetry",
+      "difficulty": "Advanced",
+      "period": "Classical (1st Century BCE)",
+      "description": "A didactic poem about agriculture, beekeeping, and animal husbandry. Combines practical advice with philosophical reflection on rural life.",
+      "excerpt": "Quid faciat laetas segetes, quo sidere terram...",
+      "length": "4 books",
+      "tags": ["agriculture", "didactic", "nature", "rural"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "ars-amatoria",
+      "title": "Ars Amatoria",
+      "author": "Ovid",
+      "category": "Didactic Poetry",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century CE)",
+      "description": "A playful instructional poem on the art of seduction and love. Satirical and entertaining, it offers insight into Roman social life.",
+      "excerpt": "Si quis in hoc artem populo non novit amandi...",
+      "length": "3 books",
+      "tags": ["love", "instruction", "satire", "social"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "historia-ab-urbe-condita",
+      "title": "Ab Urbe Condita Libri",
+      "author": "Livy",
+      "category": "History",
+      "difficulty": "Advanced",
+      "period": "Classical (1st Century BCE - 1st Century CE)",
+      "description": "A monumental history of Rome from its legendary founding to Livy's own time. A primary source for early Roman history.",
+      "excerpt": "Facturusne operae pretium sim si a primordio urbis...",
+      "length": "142 books (35 survive)",
+      "tags": ["history", "rome", "legends", "republic"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "annals",
+      "title": "Annals",
+      "author": "Tacitus",
+      "category": "History",
+      "difficulty": "Advanced",
+      "period": "Imperial (2nd Century CE)",
+      "description": "A historical account of the Roman Empire from Tiberius to Nero. Known for its penetrating analysis of imperial politics and human nature.",
+      "excerpt": "Urbem Romam a principio reges habuere...",
+      "length": "16-18 books (parts survive)",
+      "tags": ["history", "empire", "politics", "analysis"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "satires-horace",
+      "title": "Satires",
+      "author": "Horace",
+      "category": "Satire",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "Conversational poems critiquing Roman society with wit and humor. A gentler form of satire compared to Juvenal.",
+      "excerpt": "Qui fit, Maecenas, ut nemo, quam sibi sortem...",
+      "length": "2 books, 18 satires",
+      "tags": ["satire", "society", "humor", "criticism"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "satires-juvenal",
+      "title": "Satires",
+      "author": "Juvenal",
+      "category": "Satire",
+      "difficulty": "Advanced",
+      "period": "Imperial (2nd Century CE)",
+      "description": "Scathing satirical poems attacking the vices and follies of Roman society. Sharp, indignant, and powerfully written.",
+      "excerpt": "Semper ego auditor tantum? Numquamne reponam...",
+      "length": "16 satires",
+      "tags": ["satire", "society", "vice", "criticism"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "de-rerum-natura",
+      "title": "De Rerum Natura",
+      "author": "Lucretius",
+      "category": "Philosophy",
+      "difficulty": "Advanced",
+      "period": "Classical (1st Century BCE)",
+      "description": "An epic philosophical poem expounding Epicurean philosophy and atomic theory. A remarkable synthesis of science and poetry.",
+      "excerpt": "Suave, mari magno turbantibus aequora ventis...",
+      "length": "6 books, ~7,400 lines",
+      "tags": ["philosophy", "epicureanism", "science", "atoms"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "de-officiis",
+      "title": "De Officiis",
+      "author": "Cicero",
+      "category": "Philosophy",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "A philosophical treatise on moral duties and ethics. Written as a letter to his son, it became highly influential in Western thought.",
+      "excerpt": "Quamquam te, Marce fili, annum iam audientem Cratippum...",
+      "length": "3 books",
+      "tags": ["ethics", "duty", "philosophy", "morality"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "tusculan-disputations",
+      "title": "Tusculan Disputations",
+      "author": "Cicero",
+      "category": "Philosophy",
+      "difficulty": "Advanced",
+      "period": "Classical (1st Century BCE)",
+      "description": "Five dialogues on philosophy covering death, pain, emotions, and the path to happiness. A comprehensive introduction to Hellenistic philosophy.",
+      "excerpt": "Cum defensionum laboribus senatoriisque muneribus...",
+      "length": "5 books",
+      "tags": ["philosophy", "dialogue", "happiness", "stoicism"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "natural-history",
+      "title": "Naturalis Historia",
+      "author": "Pliny the Elder",
+      "category": "Science",
+      "difficulty": "Intermediate",
+      "period": "Imperial (1st Century CE)",
+      "description": "An encyclopedic work covering astronomy, geography, zoology, botany, and mineralogy. A treasure trove of ancient knowledge.",
+      "excerpt": "Salve, mundi magni parens, in Romana gente...",
+      "length": "37 books",
+      "tags": ["encyclopedia", "science", "nature", "knowledge"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "amores",
+      "title": "Amores",
+      "author": "Ovid",
+      "category": "Elegiac Poetry",
+      "difficulty": "Beginner",
+      "period": "Classical (1st Century BCE)",
+      "description": "Love elegies showcasing Ovid's wit and mastery of the elegiac form. Playful and passionate poems about love and desire.",
+      "excerpt": "Arma gravi numero violentaque bella parabam...",
+      "length": "3 books, 49 poems",
+      "tags": ["love", "elegy", "passion", "playful"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "phaedrus-fables",
+      "title": "Fables",
+      "author": "Phaedrus",
+      "category": "Fable",
+      "difficulty": "Beginner",
+      "period": "Imperial (1st Century CE)",
+      "description": "Verse adaptations of Aesop's fables with moral lessons. Simple language makes them ideal for Latin learners.",
+      "excerpt": "Ad rivum eundem lupus et agnus venerant...",
+      "length": "5 books, ~100 fables",
+      "tags": ["fables", "morals", "animals", "beginner"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "bellum-catilinae",
+      "title": "Bellum Catilinae",
+      "author": "Sallust",
+      "category": "History",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "An account of the Catilinarian conspiracy, a failed coup attempt in 63 BCE. Incisive political and moral analysis.",
+      "excerpt": "Omnis homines qui sese student praestare ceteris...",
+      "length": "1 book",
+      "tags": ["history", "conspiracy", "politics", "rome"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "pro-caelio",
+      "title": "Pro Caelio",
+      "author": "Cicero",
+      "category": "Oratory",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "A defense speech for Marcus Caelius Rufus. Famous for its wit, character assassination, and rhetorical brilliance.",
+      "excerpt": "Si quis, iudices, forte nunc adsit ignarus legum...",
+      "length": "1 oration",
+      "tags": ["rhetoric", "oratory", "law", "defense"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "philippics",
+      "title": "Philippics",
+      "author": "Cicero",
+      "category": "Oratory",
+      "difficulty": "Advanced",
+      "period": "Classical (1st Century BCE)",
+      "description": "A series of speeches denouncing Mark Antony. Passionate political rhetoric that cost Cicero his life.",
+      "excerpt": "Quo usque tandem abutere, Catilina, patientia nostra?",
+      "length": "14 orations",
+      "tags": ["rhetoric", "politics", "oratory", "republic"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "epistulae",
+      "title": "Epistulae ad Familiares",
+      "author": "Cicero",
+      "category": "Letters",
+      "difficulty": "Intermediate",
+      "period": "Classical (1st Century BCE)",
+      "description": "Personal letters to friends and family. Invaluable insights into Cicero's life, politics, and personality.",
+      "excerpt": "Cum antea frequenter mihi accuratius...",
+      "length": "16 books, ~400 letters",
+      "tags": ["letters", "personal", "politics", "daily-life"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "carmina-burana",
+      "title": "Carmina Burana",
+      "author": "Various Medieval Authors",
+      "category": "Medieval Poetry",
+      "difficulty": "Intermediate",
+      "period": "Medieval (13th Century)",
+      "description": "A collection of medieval Latin poems and songs. Themes include love, drinking, fortune, and religious satire.",
+      "excerpt": "O Fortuna, velut luna statu variabilis...",
+      "length": "~250 poems",
+      "tags": ["medieval", "songs", "fortune", "satire"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "vulgate",
+      "title": "Biblia Sacra Vulgata",
+      "author": "St. Jerome (translator)",
+      "category": "Religious",
+      "difficulty": "Intermediate",
+      "period": "Late Antiquity (4th-5th Century CE)",
+      "description": "St. Jerome's Latin translation of the Bible. The standard biblical text for over a millennium.",
+      "excerpt": "In principio creavit Deus caelum et terram...",
+      "length": "Complete Bible",
+      "tags": ["bible", "religious", "translation", "scripture"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "historia-ecclesiastica",
+      "title": "Historia Ecclesiastica",
+      "author": "Bede the Venerable",
+      "category": "History",
+      "difficulty": "Intermediate",
+      "period": "Medieval (8th Century)",
+      "description": "An ecclesiastical history of England. A primary source for early English and Church history.",
+      "excerpt": "Britannia oceani insula, cui quondam Albion nomen fuit...",
+      "length": "5 books",
+      "tags": ["history", "church", "england", "medieval"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    },
+    {
+      "id": "summa-theologica",
+      "title": "Summa Theologica",
+      "author": "Thomas Aquinas",
+      "category": "Philosophy",
+      "difficulty": "Advanced",
+      "period": "Medieval (13th Century)",
+      "description": "A comprehensive theological and philosophical work. The cornerstone of Thomistic philosophy and Catholic theology.",
+      "excerpt": "Quia Catholicae veritatis doctor non solum provectos...",
+      "length": "3 parts, thousands of articles",
+      "tags": ["theology", "philosophy", "scholastic", "aquinas"],
+      "availability": {
+        "latin": true,
+        "english": true
+      }
+    }
+  ]
+}
