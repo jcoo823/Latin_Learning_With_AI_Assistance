@@ -1,136 +1,1268 @@
 {
   "courses": [
     {
+      "title": "Latin 101 \u2013 Beginner Grammar & Vocabulary",
       "id": "latin-101",
-      "title": "Latin 101 – Beginner Grammar & Vocabulary",
+      "level": "Beginner",
+      "prerequisites": "None",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 101 introduces students to the fundamentals of Latin grammar, vocabulary, and syntax. This course provides a solid foundation for reading and understanding Latin texts through systematic study of grammar, regular vocabulary building, and practice with basic sentences and simple passages.",
+      "objectives": [
+        "Recognize and decline all five noun declensions",
+        "Conjugate regular verbs in the present, imperfect, and future tenses",
+        "Identify and translate basic sentence structures",
+        "Build a core vocabulary of 300+ essential Latin words",
+        "Read and translate simple Latin sentences with dictionary assistance",
+        "Understand fundamental concepts of case usage in Latin"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Introduction to Latin (Weeks 1-2)",
+          "topics": [
+            "The Latin alphabet and pronunciation",
+            "Basic sentence structure (Subject-Object-Verb)",
+            "Introduction to grammatical cases",
+            "First declension nouns",
+            "Present tense of \"esse\" (to be)"
+          ]
+        },
+        {
+          "title": "Unit 2: Verbs and Second Declension (Weeks 3-4)",
+          "topics": [
+            "Second declension nouns (masculine and neuter)",
+            "First conjugation verbs (present tense)",
+            "Direct objects and accusative case",
+            "Basic adjective agreement",
+            "Vocabulary: family, home, daily life"
+          ]
+        },
+        {
+          "title": "Unit 3: Third Declension and More Verbs (Weeks 5-7)",
+          "topics": [
+            "Third declension nouns (all genders)",
+            "Second conjugation verbs (present tense)",
+            "Imperfect tense (all conjugations)",
+            "Genitive case and possession",
+            "Dative case and indirect objects",
+            "Vocabulary: nature, animals, occupations"
+          ]
+        },
+        {
+          "title": "Unit 4: Fourth and Fifth Declensions (Weeks 8-9)",
+          "topics": [
+            "Fourth declension nouns",
+            "Fifth declension nouns",
+            "Third and Fourth conjugation verbs (present tense)",
+            "Future tense (all conjugations)",
+            "Vocabulary: time, government, abstract concepts"
+          ]
+        },
+        {
+          "title": "Unit 5: Adjectives and Pronouns (Weeks 10-12)",
+          "topics": [
+            "First and second declension adjectives",
+            "Third declension adjectives",
+            "Personal pronouns",
+            "Demonstrative pronouns (hic, ille, iste)",
+            "Possessive adjectives",
+            "Vocabulary: colors, size, qualities"
+          ]
+        },
+        {
+          "title": "Unit 6: Additional Grammar and Review (Weeks 13-15)",
+          "topics": [
+            "Ablative case uses (means, manner, accompaniment)",
+            "Prepositions and their cases",
+            "Interrogative words and question formation",
+            "Relative pronouns (introduction)",
+            "Review and integration of all grammar",
+            "Reading simple adapted Latin texts"
+          ]
+        }
+      ],
+      "materials": [
+        "Textbook: *Wheelock's Latin* or equivalent",
+        "Latin-English dictionary",
+        "Vocabulary flashcards or app",
+        "Workbook for exercises"
+      ],
+      "vocabularyGoals": "Students will learn approximately 300-350 essential Latin words organized by themes:\n- Family and relationships\n- Home and daily life\n- Nature and geography\n- Time and numbers\n- Basic verbs of action and being\n- Common adjectives and prepositions",
       "category": "Latin",
-      "description": "Introduction to basic Latin grammar, declensions, and essential vocabulary for beginners.",
       "completed": false
     },
     {
+      "title": "Latin 102 \u2013 Intermediate Grammar & Reading",
       "id": "latin-102",
-      "title": "Latin 102 – Intermediate Grammar & Reading",
+      "level": "Intermediate",
+      "prerequisites": "Latin 101 or equivalent",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 102 builds upon foundational knowledge to introduce more complex grammatical structures and begins the transition to reading authentic Latin texts. Students will master the complete verb system, explore dependent clauses, and develop reading fluency through graded passages from classical authors.",
+      "objectives": [
+        "Conjugate all regular and common irregular verbs in all tenses and moods",
+        "Recognize and translate complex sentence structures including subordinate clauses",
+        "Use the subjunctive mood in various contexts",
+        "Read and translate adapted passages from classical authors",
+        "Expand vocabulary to 600+ words",
+        "Analyze Latin poetry meter (basic scansion)",
+        "Understand indirect statement construction"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Perfect System (Weeks 1-3)",
+          "topics": [
+            "Perfect active tense formation and usage",
+            "Perfect passive tense",
+            "Pluperfect active and passive",
+            "Future perfect active and passive",
+            "Principal parts of verbs",
+            "Synopsis of verb forms",
+            "Vocabulary: war, politics, virtue"
+          ]
+        },
+        {
+          "title": "Unit 2: Participles and Infinitives (Weeks 4-5)",
+          "topics": [
+            "Present active participles",
+            "Perfect passive participles",
+            "Future active participles",
+            "Ablative absolute construction",
+            "Present and perfect infinitives",
+            "Complementary infinitives",
+            "Vocabulary: learning, teaching, mind"
+          ]
+        },
+        {
+          "title": "Unit 3: Subjunctive Mood Introduction (Weeks 6-8)",
+          "topics": [
+            "Present subjunctive (all conjugations)",
+            "Imperfect subjunctive",
+            "Perfect and pluperfect subjunctive",
+            "Purpose clauses (ut/ne)",
+            "Result clauses",
+            "Indirect commands",
+            "Jussive and hortatory subjunctive",
+            "Vocabulary: will, desire, command"
+          ]
+        },
+        {
+          "title": "Unit 4: More Subordinate Clauses (Weeks 9-10)",
+          "topics": [
+            "Cum clauses (circumstantial, causal, concessive)",
+            "Fear clauses (ne/ut)",
+            "Indirect questions",
+            "Conditional sentences (simple conditions)",
+            "Proviso clauses (dum, modo)",
+            "Vocabulary: emotion, thought, perception"
+          ]
+        },
+        {
+          "title": "Unit 5: Indirect Discourse (Weeks 11-12)",
+          "topics": [
+            "Indirect statement (accusative + infinitive)",
+            "Sequence of tenses",
+            "Reflexive pronouns in indirect discourse",
+            "Mixed indirect discourse",
+            "Vocabulary: speaking, writing, communication"
+          ]
+        },
+        {
+          "title": "Unit 6: Reading Classical Texts (Weeks 13-15)",
+          "topics": [
+            "Adapted passages from Caesar's *Gallic Wars*",
+            "Selections from Cicero's letters",
+            "Eutropius's historical narratives",
+            "Introduction to Ovid's simpler works",
+            "Strategies for reading unadapted texts",
+            "Review of all grammar and reading techniques"
+          ]
+        }
+      ],
+      "materials": [
+        "Textbook: *Wheelock's Latin* or equivalent (continuation)",
+        "Latin-English dictionary (Cassell's or Oxford)",
+        "Reader: *38 Latin Stories* or similar",
+        "Grammar reference guide",
+        "Selected passages packet"
+      ],
+      "vocabularyGoals": "Students will expand their vocabulary to 600-650 words total, focusing on:\n- Military and political terminology\n- Abstract concepts and virtues\n- Verbs of perception and communication\n- Academic and intellectual vocabulary\n- Common phrases and idioms\n- Historical and geographical terms",
       "category": "Latin",
-      "description": "Expand your Latin knowledge with intermediate grammar concepts and reading practice.",
       "completed": false
     },
     {
+      "title": "Latin 103 \u2013 Latin Literature & Composition",
       "id": "latin-103",
-      "title": "Latin 103 – Latin Literature & Composition",
+      "level": "Intermediate-Advanced",
+      "prerequisites": "Latin 102 or equivalent",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 103 transitions students from learning Latin grammar to using Latin actively. This course combines reading original Latin literature with composition exercises, enabling students to both understand and produce Latin prose. Students will explore diverse genres of Latin literature while developing their own Latin writing skills.",
+      "objectives": [
+        "Read and analyze original Latin texts from multiple genres",
+        "Compose original Latin prose using proper syntax and style",
+        "Recognize rhetorical devices and literary techniques",
+        "Understand historical and cultural contexts of Latin literature",
+        "Apply advanced grammatical concepts in both reading and writing",
+        "Expand vocabulary to 900+ words",
+        "Demonstrate understanding of Latin prose rhythm and style"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Introduction to Latin Prose Style (Weeks 1-2)",
+          "topics": [
+            "Characteristics of classical Latin prose",
+            "Word order and emphasis",
+            "Periodic vs. running style",
+            "Basic composition techniques",
+            "Reading: Cicero's *Pro Archia* (excerpts)",
+            "Composition: Simple narrative sentences"
+          ]
+        },
+        {
+          "title": "Unit 2: Historical Narrative (Weeks 3-5)",
+          "topics": [
+            "Reading Livy's *Ab Urbe Condita* (Books 1-2, selections)",
+            "Historical present and narrative tenses",
+            "Indirect discourse in historical writing",
+            "Vocabulary: historical events, virtues, warfare",
+            "Composition: Historical narratives",
+            "Cultural context: Early Roman history and legend"
+          ]
+        },
+        {
+          "title": "Unit 3: Philosophical Prose (Weeks 6-7)",
+          "topics": [
+            "Cicero's *De Amicitia* (selected passages)",
+            "Seneca's *Epistulae Morales* (letters on ethics)",
+            "Abstract vocabulary and concepts",
+            "Expressing arguments in Latin",
+            "Composition: Philosophical dialogue",
+            "Cultural context: Roman philosophy and Stoicism"
+          ]
+        },
+        {
+          "title": "Unit 4: Biographical Writing (Weeks 8-9)",
+          "topics": [
+            "Suetonius's *Lives of the Caesars* (excerpts)",
+            "Cornelius Nepos's *Lives of Famous Men*",
+            "Descriptive techniques in Latin",
+            "Characterization through language",
+            "Composition: Biographical sketches",
+            "Cultural context: Roman biography tradition"
+          ]
+        },
+        {
+          "title": "Unit 5: Letters and Personal Prose (Weeks 10-11)",
+          "topics": [
+            "Cicero's *Letters to Friends* and *Letters to Atticus*",
+            "Pliny the Younger's *Epistulae*",
+            "Informal vs. formal register",
+            "Epistolary conventions",
+            "Composition: Letters in various styles",
+            "Cultural context: Roman social relationships"
+          ]
+        },
+        {
+          "title": "Unit 6: Rhetoric and Oratory (Weeks 12-14)",
+          "topics": [
+            "Cicero's *First Catilinarian Oration*",
+            "Elements of Roman rhetoric",
+            "Figures of speech and persuasive techniques",
+            "Periodic sentence structure",
+            "Composition: Persuasive speeches",
+            "Cultural context: Roman law courts and Senate"
+          ]
+        },
+        {
+          "title": "Unit 7: Integration and Final Projects (Week 15)",
+          "topics": [
+            "Review of all literary genres",
+            "Final composition project (extended prose piece)",
+            "Comparative analysis of authors and styles",
+            "Presentation of original compositions",
+            "Comprehensive grammar review"
+          ]
+        }
+      ],
+      "materials": [
+        "Reader: Original Latin texts packet",
+        "Composition workbook: *Bradley's Arnold Latin Prose Composition* or equivalent",
+        "Latin-English dictionary (Lewis & Short recommended)",
+        "English-Latin dictionary (Cassell's)",
+        "Grammar reference: *Allen and Greenough's New Latin Grammar*"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 900-950 words, emphasizing:\n- Literary and rhetorical terminology\n- Abstract philosophical concepts\n- Historical and political vocabulary\n- Stylistic and descriptive words\n- Transitional phrases and connectors\n- Idiomatic expressions",
       "category": "Latin",
-      "description": "Study classical Latin literature and learn to compose in Latin.",
       "completed": false
     },
     {
+      "title": "Latin 104 \u2013 Advanced Translation & Prose",
       "id": "latin-104",
-      "title": "Latin 104 – Advanced Translation & Prose",
+      "level": "Advanced",
+      "prerequisites": "Latin 103 or equivalent",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 104 focuses on developing advanced translation skills and deep understanding of sophisticated Latin prose. Students will engage with challenging texts from the Golden Age of Latin literature, mastering complex syntactical structures and stylistic nuances while building expertise in literary translation and textual analysis.",
+      "objectives": [
+        "Translate complex Latin prose with accuracy and elegance",
+        "Analyze sophisticated syntactical structures",
+        "Recognize and interpret stylistic features of different authors",
+        "Understand textual variants and critical apparatus",
+        "Produce polished literary translations",
+        "Master advanced grammar including rare constructions",
+        "Expand vocabulary to 1200+ words",
+        "Engage critically with secondary scholarship on Latin texts"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Cicero's Philosophical Works (Weeks 1-3)",
+          "topics": [
+            "*De Officiis* (On Duties) \u2013 Books 1-2",
+            "Ciceronian periodic style",
+            "Complex subordination",
+            "Philosophical vocabulary and concepts",
+            "Translation workshop: rendering philosophy into English",
+            "Secondary reading: Cicero's ethical framework"
+          ]
+        },
+        {
+          "title": "Unit 2: Caesar's Commentaries (Weeks 4-5)",
+          "topics": [
+            "*De Bello Gallico* (Books 5-7, selected passages)",
+            "*De Bello Civili* (Book 1)",
+            "Military terminology and tactics",
+            "Narrative techniques in commentarii genre",
+            "Geographic and ethnographic descriptions",
+            "Translation workshop: clarity in military narrative"
+          ]
+        },
+        {
+          "title": "Unit 3: Sallust's Histories (Weeks 6-7)",
+          "topics": [
+            "*Bellum Catilinae* (The Catilinarian Conspiracy)",
+            "*Bellum Iugurthinum* (excerpts)",
+            "Archaic and poetic elements in prose",
+            "Character sketches and speeches",
+            "Historical interpretation",
+            "Translation workshop: capturing Sallust's terse style"
+          ]
+        },
+        {
+          "title": "Unit 4: Livy's Historical Narrative (Weeks 8-9)",
+          "topics": [
+            "*Ab Urbe Condita* (Books 21-22: Second Punic War)",
+            "Dramatic narrative techniques",
+            "Speeches and character development",
+            "Annalistic structure",
+            "Pathos and patriotism in historical writing",
+            "Translation workshop: balancing drama and accuracy"
+          ]
+        },
+        {
+          "title": "Unit 5: Tacitus's Annals and Histories (Weeks 10-12)",
+          "topics": [
+            "*Annales* (Books 1-2, selections)",
+            "*Historiae* (Book 1, selections)",
+            "Tacitean brevitas and inconcinnitas",
+            "Innuendo and irony",
+            "Political commentary through style",
+            "Complex sentence structure and ellipsis",
+            "Translation workshop: interpreting ambiguity"
+          ]
+        },
+        {
+          "title": "Unit 6: Later Imperial Prose (Weeks 13-14)",
+          "topics": [
+            "Pliny the Elder: *Naturalis Historia* (selections)",
+            "Quintilian: *Institutio Oratoria* (excerpts)",
+            "Apuleius: *Metamorphoses* (prose passages)",
+            "Late Latin stylistic developments",
+            "Technical and specialized vocabulary",
+            "Translation workshop: diverse prose styles"
+          ]
+        },
+        {
+          "title": "Unit 7: Translation Theory and Practice (Week 15)",
+          "topics": [
+            "Approaches to literary translation",
+            "Literal vs. free translation debate",
+            "Preserving style vs. readability",
+            "Final translation project presentations",
+            "Review of semester's work"
+          ]
+        }
+      ],
+      "materials": [
+        "Oxford Classical Texts or Loeb editions of assigned works",
+        "Latin-English dictionary (Lewis & Short)",
+        "Grammar reference: *Allen and Greenough's New Latin Grammar*",
+        "Secondary readings on authors and historical context",
+        "Translation notebook/portfolio"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 1200-1300 words, focusing on:\n- Philosophical and ethical terminology\n- Military strategy and warfare\n- Political institutions and processes\n- Historical and geographical names\n- Stylistic variants and synonyms\n- Technical vocabulary from various fields\n- Archaic and poetic forms in prose",
       "category": "Latin",
-      "description": "Master advanced translation techniques and analyze complex Latin prose.",
       "completed": false
     },
     {
-      "id": "algebra-101",
-      "title": "Algebra 101 – Foundations of Algebra",
-      "category": "Algebra",
-      "description": "Build a strong foundation in algebraic concepts and operations.",
+      "title": "Latin 105 \u2013 Roman Poetry & Drama",
+      "id": "latin-105",
+      "level": "Advanced",
+      "prerequisites": "Latin 103 or equivalent",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 105 introduces students to the rich tradition of Roman poetry and drama, from early Republican verse to the refined poetry of the Augustan age. Students will study meter, poetic devices, and literary genres while translating works by Rome's greatest poets and playwrights.",
+      "objectives": [
+        "Scan and analyze dactylic hexameter, elegiac couplets, and other meters",
+        "Recognize and interpret poetic devices and figures of speech",
+        "Translate and analyze poetry from multiple genres",
+        "Understand the historical and cultural context of Roman poetry",
+        "Appreciate the artistry and literary techniques of Roman poets",
+        "Compare different poetic styles and voices",
+        "Expand vocabulary to include poetic diction (1000+ words)"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Introduction to Latin Poetry (Weeks 1-2)",
+          "topics": [
+            "Principles of Latin meter and scansion",
+            "Dactylic hexameter: the epic meter",
+            "Elision, caesura, and metrical feet",
+            "Poetic word order and emphasis",
+            "Reading: Selections from Catullus (shorter poems)",
+            "Introduction to poetic vocabulary and archaisms"
+          ]
+        },
+        {
+          "title": "Unit 2: Catullus and Lyric Poetry (Weeks 3-4)",
+          "topics": [
+            "Catullus: Carmina (poems 1-11, selected love poems)",
+            "Hendecasyllabic and other lyric meters",
+            "Personal voice in poetry",
+            "Neoteric movement and Hellenistic influence",
+            "Love, passion, and invective",
+            "Vocabulary: emotion, love, daily life"
+          ]
+        },
+        {
+          "title": "Unit 3: Augustan Poetry \u2013 Virgil's Eclogues (Week 5)",
+          "topics": [
+            "Virgil: *Eclogues* (1, 4, and 10)",
+            "Pastoral poetry tradition",
+            "Allegory and contemporary politics",
+            "Bucolic meter and style",
+            "Golden Age themes",
+            "Vocabulary: nature, shepherds, countryside"
+          ]
+        },
+        {
+          "title": "Unit 4: Epic Poetry \u2013 Virgil's Aeneid (Weeks 6-8)",
+          "topics": [
+            "*Aeneid* Book 1 (complete or extensive selections)",
+            "*Aeneid* Book 2: The Fall of Troy",
+            "*Aeneid* Book 4: Dido and Aeneas (selections)",
+            "Epic conventions: invocations, epithets, similes",
+            "Dactylic hexameter mastery",
+            "Themes: duty (pietas), fate, empire",
+            "Vocabulary: warfare, navigation, divine intervention"
+          ]
+        },
+        {
+          "title": "Unit 5: Elegiac Poetry (Weeks 9-10)",
+          "topics": [
+            "Elegiac couplet meter (hexameter + pentameter)",
+            "Tibullus: *Elegies* (selected poems from Book 1)",
+            "Propertius: *Elegies* (selections from Books 1-2)",
+            "Love elegy tradition",
+            "Subjective voice and emotional expression",
+            "Vocabulary: love, beauty, persuasion"
+          ]
+        },
+        {
+          "title": "Unit 6: Ovid's Poetry (Weeks 11-12)",
+          "topics": [
+            "*Amores* (selected poems from Books 1-2)",
+            "*Metamorphoses* (selections: Apollo and Daphne, Pyramus and Thisbe)",
+            "Mythological narratives",
+            "Wit, humor, and irony",
+            "Transformation as theme and technique",
+            "Vocabulary: mythology, transformation, seduction"
+          ]
+        },
+        {
+          "title": "Unit 7: Roman Drama (Weeks 13-14)",
+          "topics": [
+            "Plautus: *Menaechmi* or *Miles Gloriosus* (scenes)",
+            "Terence: *Phormio* or *Adelphoe* (scenes)",
+            "Comic meters (iambic senarius, trochaic septenarius)",
+            "Stock characters and plot devices",
+            "Influence of Greek New Comedy",
+            "Vocabulary: comedy, theater, colloquial expressions"
+          ]
+        },
+        {
+          "title": "Unit 8: Horace and Lyric Perfection (Week 15)",
+          "topics": [
+            "Horace: *Odes* (selections from Books 1-2)",
+            "Sapphic, Alcaic, and other lyric meters",
+            "Carpe diem and other Horatian themes",
+            "Integration of Greek and Roman traditions",
+            "Review and final synthesis"
+          ]
+        }
+      ],
+      "materials": [
+        "Texts: Oxford Classical Texts or student editions with commentary",
+        "Pharr's *Vergil's Aeneid, Books I-VI* or similar",
+        "Garrison's *Horace: Epodes and Odes* or similar",
+        "Scansion guide and meter handbook",
+        "Latin-English dictionary (Lewis & Short)",
+        "Secondary readings on poetic theory and context"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 1000-1100 words, including:\n- Poetic and archaic vocabulary\n- Mythological names and terms\n- Emotional and descriptive language\n- Nature and pastoral vocabulary\n- Epic formulas and epithets\n- Theatrical and dramatic terms\n- Synonyms for variety and meter",
+      "category": "Latin",
       "completed": false
     },
     {
-      "id": "algebra-102",
-      "title": "Algebra 102 – Equations & Inequalities",
-      "category": "Algebra",
-      "description": "Learn to solve various types of equations and inequalities.",
+      "title": "Latin 106 \u2013 Roman History Through Texts",
+      "id": "latin-106",
+      "level": "Advanced",
+      "prerequisites": "Latin 103 or equivalent",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 106 explores Roman history from the legendary founding of Rome to the fall of the Western Empire through primary source documents and historical texts. Students will read and analyze historical narratives, inscriptions, official documents, and contemporary accounts while developing a deep understanding of Roman civilization, culture, and historiographical methods.",
+      "objectives": [
+        "Read and translate historical Latin texts from various periods",
+        "Analyze primary sources critically",
+        "Understand Roman historiographical traditions and methods",
+        "Identify historical bias and perspective in ancient texts",
+        "Place literary works in their historical and cultural context",
+        "Read epigraphic and documentary Latin",
+        "Expand vocabulary to include historical, political, and administrative terminology (1100+ words)"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Legendary Rome and the Monarchy (Weeks 1-2)",
+          "topics": [
+            "Livy: *Ab Urbe Condita* Book 1 (Romulus, Numa, and the kings)",
+            "Foundation myths and legendary history",
+            "Early Roman institutions",
+            "Reading inscriptions: The Lapis Niger",
+            "Historical vs. legendary narrative",
+            "Vocabulary: kingship, foundation, ritual"
+          ]
+        },
+        {
+          "title": "Unit 2: The Early Republic (Weeks 3-4)",
+          "topics": [
+            "Livy: *Ab Urbe Condita* Book 2 (establishment of the Republic)",
+            "The Conflict of the Orders",
+            "Reading: The Law of the Twelve Tables (selections)",
+            "Early Republican institutions: consuls, tribunes, Senate",
+            "Social structure and class conflict",
+            "Vocabulary: law, governance, patrician/plebeian"
+          ]
+        },
+        {
+          "title": "Unit 3: Rome's Expansion in Italy (Week 5)",
+          "topics": [
+            "Livy: *Ab Urbe Condita* Book 3-5 (selections)",
+            "Conquest of Italy",
+            "Gallic sack of Rome (390 BCE)",
+            "Military organization and tactics",
+            "Reading inscriptions: Treaties and dedications",
+            "Vocabulary: military, expansion, diplomacy"
+          ]
+        },
+        {
+          "title": "Unit 4: The Punic Wars (Weeks 6-7)",
+          "topics": [
+            "Livy: *Ab Urbe Condita* Books 21-22 (Hannibal and Second Punic War)",
+            "Polybius (in Latin translation): *Histories* (selections)",
+            "Rome vs. Carthage",
+            "Hannibal's campaigns",
+            "Impact on Roman society",
+            "Vocabulary: warfare, strategy, Mediterranean geography"
+          ]
+        },
+        {
+          "title": "Unit 5: Republican Politics and Civil Strife (Weeks 8-9)",
+          "topics": [
+            "Sallust: *Bellum Catilinae* (complete)",
+            "Cicero: *In Catilinam* (First Oration)",
+            "Political corruption and conspiracy",
+            "Late Republican crisis",
+            "Reading: Senatus consultum ultimum",
+            "Vocabulary: conspiracy, politics, Senate procedures"
+          ]
+        },
+        {
+          "title": "Unit 6: The End of the Republic (Weeks 10-11)",
+          "topics": [
+            "Caesar: *De Bello Civili* Book 1",
+            "Cicero: *Philippics* (selections)",
+            "Civil wars and the death of the Republic",
+            "Triumvirates and power struggles",
+            "Reading: Res Gestae Divi Augusti (selections)",
+            "Vocabulary: civil war, dictatorship, propaganda"
+          ]
+        },
+        {
+          "title": "Unit 7: The Early Empire (Weeks 12-13)",
+          "topics": [
+            "Tacitus: *Annales* Books 1-2 (Tiberius)",
+            "Suetonius: *Lives of the Caesars* (Augustus, Tiberius)",
+            "Imperial system and administration",
+            "Reading imperial inscriptions and coins",
+            "Principate vs. Republic",
+            "Vocabulary: imperial titles, administration, court"
+          ]
+        },
+        {
+          "title": "Unit 8: Later Empire and Christianity (Week 14)",
+          "topics": [
+            "Tacitus: *Annales* Book 15 (Nero and Christian persecution)",
+            "Pliny-Trajan correspondence on Christians",
+            "Ammianus Marcellinus: *Res Gestae* (selections)",
+            "Christian and pagan sources",
+            "Transition to Late Antiquity",
+            "Vocabulary: Christianity, persecution, late imperial terms"
+          ]
+        },
+        {
+          "title": "Unit 9: Review and Historical Synthesis (Week 15)",
+          "topics": [
+            "Comparative analysis of historians",
+            "Historiographical methods and bias",
+            "Using primary sources for historical reconstruction",
+            "Final project presentations",
+            "Comprehensive review"
+          ]
+        }
+      ],
+      "materials": [
+        "Livy: *Ab Urbe Condita* (selections, with commentary)",
+        "Sallust: *Bellum Catilinae* (student edition)",
+        "Tacitus: *Annales* (selections, with commentary)",
+        "Reader with inscriptions and documentary sources",
+        "Latin-English dictionary (Lewis & Short)",
+        "Secondary readings on Roman history",
+        "Map of the Roman world"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 1100-1200 words, focusing on:\n- Political and governmental terms\n- Military terminology\n- Legal vocabulary\n- Administrative language\n- Geographical and ethnic names\n- Imperial titles and offices\n- Religious and ritual terminology\n- Social and economic terms",
+      "category": "Latin",
       "completed": false
     },
     {
-      "id": "algebra-103",
-      "title": "Algebra 103 – Polynomials & Functions",
-      "category": "Algebra",
-      "description": "Explore polynomial operations and function theory.",
+      "title": "Latin 201 \u2013 Advanced Syntax & Stylistics",
+      "id": "latin-201",
+      "level": "Advanced",
+      "prerequisites": "Latin 104 or Latin 105",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 201 provides intensive study of advanced Latin syntax and stylistic analysis. This course examines sophisticated grammatical constructions, rhetorical devices, and stylistic variations across authors and genres. Students will develop mastery of Latin syntax while learning to analyze and appreciate the artistry of Latin prose and poetry.",
+      "objectives": [
+        "Master all complex syntactical constructions in Latin",
+        "Analyze stylistic features and rhetorical devices",
+        "Distinguish authorial styles and identify characteristic features",
+        "Apply advanced grammatical knowledge to translation and composition",
+        "Understand historical development of Latin syntax",
+        "Recognize and interpret syntactical ambiguities",
+        "Produce sophisticated Latin prose with proper style",
+        "Expand vocabulary to 1500+ words with nuanced understanding"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Advanced Verbal Constructions (Weeks 1-2)",
+          "topics": [
+            "Gerunds and gerundives: all uses",
+            "Periphrastic constructions (active and passive)",
+            "Supines and their syntax",
+            "Impersonal verbs and constructions",
+            "Deponent and semi-deponent verbs",
+            "Defective verbs",
+            "Readings: Mixed prose selections"
+          ]
+        },
+        {
+          "title": "Unit 2: Complex Conditional Sentences (Week 3)",
+          "topics": [
+            "All types of conditional sentences",
+            "Mixed conditions",
+            "Implied conditions (relative + subjunctive)",
+            "Conditional clauses in indirect discourse",
+            "Concessive conditionals",
+            "Readings: Cicero's philosophical works"
+          ]
+        },
+        {
+          "title": "Unit 3: Unusual and Poetic Constructions (Weeks 4-5)",
+          "topics": [
+            "Greek accusative and other Hellenisms",
+            "Accusative of exclamation",
+            "Genitive of characteristic",
+            "Locative case",
+            "Dative of agent with gerundive",
+            "Poetic plural and collective singular",
+            "Brachylogy and zeugma",
+            "Readings: Poetry and literary prose"
+          ]
+        },
+        {
+          "title": "Unit 4: Temporal and Causal Expressions (Week 6)",
+          "topics": [
+            "Advanced uses of ablative absolute",
+            "Temporal clauses with various conjunctions",
+            "Dum, donec, quoad constructions",
+            "Postquam, cum primum, ubi primum",
+            "Antequam and priusquam with subjunctive",
+            "Causal clauses: quod, quia, quoniam, quando",
+            "Readings: Historical narrative"
+          ]
+        },
+        {
+          "title": "Unit 5: Comparative and Correlative Syntax (Week 7)",
+          "topics": [
+            "Comparative clauses with quam",
+            "Correlatives: quanto...tanto, quo...eo",
+            "Proportional clauses",
+            "Comparative ablative",
+            "Superlative with quam or genitive partitive",
+            "Comparative syntax in poetry",
+            "Readings: Philosophical and scientific prose"
+          ]
+        },
+        {
+          "title": "Unit 6: Infinitive and Participial Constructions (Weeks 8-9)",
+          "topics": [
+            "Historical infinitive",
+            "Exclamatory infinitive",
+            "Prolative infinitive",
+            "Noun-like uses of infinitives",
+            "Absolute uses of participles",
+            "Circumstantial participles",
+            "Dominant participle construction",
+            "Participle for relative clause",
+            "Readings: Complex prose authors (Tacitus, Sallust)"
+          ]
+        },
+        {
+          "title": "Unit 7: Rhetorical Figures and Devices (Weeks 10-11)",
+          "topics": [
+            "Figures of speech: metaphor, metonymy, synecdoche",
+            "Figures of thought: rhetorical questions, apostrophe",
+            "Word order and emphasis: hyperbaton, anaphora, chiasmus",
+            "Asyndeton and polysyndeton",
+            "Hendiadys and tricolon",
+            "Litotes and understatement",
+            "Periodic structure and clausulae",
+            "Readings: Cicero's speeches, rhetorical treatises"
+          ]
+        },
+        {
+          "title": "Unit 8: Stylistic Analysis (Weeks 12-13)",
+          "topics": [
+            "Ciceronian periodic style vs. Sallustian brevitas",
+            "Tacitean inconcinnitas and archaism",
+            "Senecan pointed style",
+            "Poetic vs. prose style",
+            "Archaic, classical, and Silver Age differences",
+            "Register and tone variations",
+            "Imitatio and individual style",
+            "Readings: Comparative passages from multiple authors"
+          ]
+        },
+        {
+          "title": "Unit 9: Advanced Composition (Week 14)",
+          "topics": [
+            "Composing in various styles",
+            "Imitating classical authors",
+            "Rhetorical composition exercises",
+            "Translating from English to Latin idiomatically",
+            "Avoiding common errors and Anglicisms",
+            "Developing personal Latin style",
+            "Composition workshop"
+          ]
+        },
+        {
+          "title": "Unit 10: Synthesis and Final Projects (Week 15)",
+          "topics": [
+            "Comprehensive syntactical review",
+            "Stylistic analysis presentations",
+            "Original composition in classical style",
+            "Sight translation of complex passages",
+            "Final examination preparation"
+          ]
+        }
+      ],
+      "materials": [
+        "Grammar reference: *Allen and Greenough's New Latin Grammar*",
+        "Stylistics handbook: *Latin Prose Composition* by Gildersleeve",
+        "Reader with diverse prose and poetry selections",
+        "Commentaries on assigned texts",
+        "Latin-English dictionary (Lewis & Short)",
+        "English-Latin dictionary",
+        "Secondary readings on Latin style and rhetoric"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 1500-1600 words, emphasizing:\n- Synonyms and stylistic variants\n- Technical grammatical and rhetorical terms\n- Rare and poetic vocabulary\n- Idiomatic expressions\n- Register-specific vocabulary\n- Particles and discourse markers\n- Philosophical and abstract terminology",
+      "category": "Latin",
       "completed": false
     },
     {
-      "id": "algebra-104",
-      "title": "Algebra 104 – Advanced Algebra Concepts",
-      "category": "Algebra",
-      "description": "Master advanced algebraic concepts and problem-solving techniques.",
+      "title": "Latin 202 \u2013 Cicero & Classical Oratory",
+      "id": "latin-202",
+      "level": "Advanced",
+      "prerequisites": "Latin 201 or permission of instructor",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 202 offers intensive study of Cicero's oratory and rhetorical theory, along with the broader tradition of Roman public speaking. Students will read complete orations, study Roman rhetorical theory, and understand the cultural and political contexts of classical oratory. This course develops advanced reading skills while exploring one of Rome's most influential literary forms.",
+      "objectives": [
+        "Read and translate complete Ciceronian orations",
+        "Analyze rhetorical structure and argumentation",
+        "Understand Roman legal and political institutions",
+        "Recognize and interpret rhetorical devices",
+        "Compare different oratorical styles",
+        "Appreciate the cultural significance of Roman oratory",
+        "Apply rhetorical theory to textual analysis",
+        "Expand vocabulary to 1700+ words including legal and political terminology"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Introduction to Roman Rhetoric (Weeks 1-2)",
+          "topics": [
+            "Cicero: *De Oratore* Book 1 (selections)",
+            "The five canons of rhetoric: inventio, dispositio, elocutio, memoria, pronuntiatio",
+            "Three genres of oratory: judicial, deliberative, epideictic",
+            "Roman education in rhetoric",
+            "Historical development of Roman oratory",
+            "Reading: *Rhetorica ad Herennium* (selections)"
+          ]
+        },
+        {
+          "title": "Unit 2: Judicial Oratory \u2013 Pro Caelio (Weeks 3-4)",
+          "topics": [
+            "Cicero: *Pro Caelio* (complete oration)",
+            "Structure of a judicial speech",
+            "Character assassination and defense",
+            "Humor and wit in oratory",
+            "The role of ethos, pathos, and logos",
+            "Cultural context: Roman sexual morality and politics",
+            "Legal vocabulary and courtroom procedures"
+          ]
+        },
+        {
+          "title": "Unit 3: Judicial Oratory \u2013 Pro Archia (Week 5)",
+          "topics": [
+            "Cicero: *Pro Archia Poeta* (complete oration)",
+            "Defense of a poet: culture and citizenship",
+            "Epideictic elements in judicial oratory",
+            "The value of literature and learning",
+            "Personal digression and self-presentation",
+            "Integration of philosophy and law"
+          ]
+        },
+        {
+          "title": "Unit 4: Political Invective \u2013 In Catilinam (Weeks 6-7)",
+          "topics": [
+            "Cicero: *In Catilinam* I and II (complete)",
+            "Deliberative oratory in the Senate",
+            "Crisis rhetoric and emergency powers",
+            "Apostrophe and direct address",
+            "Periodic structure and emotional appeals",
+            "Historical context: The Catilinarian Conspiracy",
+            "Political vocabulary and institutions"
+          ]
+        },
+        {
+          "title": "Unit 5: Philippics Against Antony (Weeks 8-9)",
+          "topics": [
+            "Cicero: *Philippics* II (complete or extensive selections)",
+            "Invective and political attack",
+            "Imitation of Demosthenes",
+            "Republican ideology and liberty",
+            "Historical context: Civil war and triumvirate",
+            "Cicero's final political battle",
+            "Comparison with Greek models"
+          ]
+        },
+        {
+          "title": "Unit 6: Philosophical Oratory \u2013 Tusculan Disputations (Week 10)",
+          "topics": [
+            "Cicero: *Tusculanae Disputationes* (selections)",
+            "Philosophical dialogue and argumentation",
+            "Academic skepticism and dialectic",
+            "Integration of rhetoric and philosophy",
+            "Consolation and ethical teaching",
+            "Vocabulary: philosophical and psychological terms"
+          ]
+        },
+        {
+          "title": "Unit 7: Rhetorical Theory (Week 11)",
+          "topics": [
+            "Cicero: *Brutus* (selections on Roman orators)",
+            "Cicero: *Orator* (on the ideal orator)",
+            "Three styles of oratory: plain, middle, grand",
+            "Rhythmic prose and clausulae",
+            "The perfectus orator concept",
+            "Cicero's views on Atticism vs. Asianism"
+          ]
+        },
+        {
+          "title": "Unit 8: Other Roman Orators (Weeks 12-13)",
+          "topics": [
+            "Cato the Elder: *De Agricultura* (oratorical passages)",
+            "Fragments of early Republican orators",
+            "Quintilian: *Institutio Oratoria* (selections on oratory)",
+            "Pliny the Younger: *Panegyricus* (selections)",
+            "Tacitus: *Dialogus de Oratoribus*",
+            "Comparative analysis of oratorical styles",
+            "Decline of oratory under the Empire"
+          ]
+        },
+        {
+          "title": "Unit 9: Performance and Delivery (Week 14)",
+          "topics": [
+            "Ancient sources on delivery and gesture",
+            "Memorization techniques",
+            "Voice and emotional expression",
+            "Student performances of Ciceronian passages",
+            "Comparison with modern public speaking",
+            "The social context of Roman oratory"
+          ]
+        },
+        {
+          "title": "Unit 10: Synthesis and Final Projects (Week 15)",
+          "topics": [
+            "Comprehensive review of Ciceronian corpus",
+            "Analysis of rhetorical strategies",
+            "Final project presentations",
+            "Cicero's legacy and influence",
+            "Modern applications of classical rhetoric"
+          ]
+        }
+      ],
+      "materials": [
+        "Cicero: *Selected Orations* (Oxford or student editions with commentary)",
+        "Cicero: *De Oratore*, *Brutus*, *Orator* (Loeb or selections)",
+        "*Rhetorica ad Herennium*",
+        "Quintilian: *Institutio Oratoria* (selections)",
+        "Latin-English dictionary (Lewis & Short)",
+        "Secondary readings on Roman rhetoric and politics",
+        "Background readings on Roman law and politics"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 1700-1800 words, focusing on:\n- Legal terminology (ius, lex, reus, iudex, etc.)\n- Political vocabulary (consul, senatus, populus, etc.)\n- Rhetorical technical terms\n- Philosophical vocabulary\n- Emotional and ethical language\n- Idiomatic expressions\n- Stylistic variants and synonyms\n- Historical and cultural references",
+      "category": "Latin",
       "completed": false
     },
     {
-      "id": "history-101",
-      "title": "History 101 – Ancient Civilizations",
-      "category": "History",
-      "description": "Explore the rise and fall of ancient civilizations around the world.",
+      "title": "Latin 203 \u2013 Virgil & Epic Literature",
+      "id": "latin-203",
+      "level": "Advanced",
+      "prerequisites": "Latin 201 or Latin 105",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 203 provides intensive study of Virgil's *Aeneid* and the Roman epic tradition. Students will read substantial portions of the *Aeneid* in Latin, developing mastery of dactylic hexameter while exploring epic conventions, Virgilian style, and the cultural significance of Rome's national epic. The course also examines Virgil's influence and the broader context of Latin epic poetry.",
+      "objectives": [
+        "Read and scan dactylic hexameter fluently",
+        "Translate and analyze extensive passages from the *Aeneid*",
+        "Recognize and interpret epic conventions and devices",
+        "Understand Virgilian style and poetic techniques",
+        "Appreciate the political and cultural context of the *Aeneid*",
+        "Compare Virgil with Homer and other epic poets",
+        "Identify intertextual allusions and literary influence",
+        "Expand vocabulary to 1600+ words including epic diction"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Introduction to Epic and Virgil (Weeks 1-2)",
+          "topics": [
+            "Epic genre and conventions",
+            "Virgil's life and works (*Eclogues*, *Georgics*, *Aeneid*)",
+            "Dactylic hexameter: advanced scansion",
+            "Epic formula and epithets",
+            "Historical context: Augustan Rome",
+            "Reading: *Aeneid* Book 1, lines 1-209 (proem and storm)",
+            "Vocabulary: epic formula, ships, sea"
+          ]
+        },
+        {
+          "title": "Unit 2: Aeneid Book 1 \u2013 Arrival in Carthage (Weeks 3-4)",
+          "topics": [
+            "*Aeneid* Book 1, lines 210-756 (complete)",
+            "Divine intervention and fate",
+            "Aeneas meets Dido",
+            "Epic similes and descriptions",
+            "Ekphrasis: temple of Juno",
+            "Venus and disguise",
+            "Vocabulary: gods, destiny, Carthage"
+          ]
+        },
+        {
+          "title": "Unit 3: Aeneid Book 2 \u2013 The Fall of Troy (Weeks 5-6)",
+          "topics": [
+            "*Aeneid* Book 2 (complete or 500+ lines)",
+            "Flashback narrative technique",
+            "The Trojan Horse and city's destruction",
+            "Pathos and tragedy",
+            "Aeneas's family and pietas",
+            "Similes of destruction and chaos",
+            "Vocabulary: war, destruction, suffering"
+          ]
+        },
+        {
+          "title": "Unit 4: Aeneid Book 4 \u2013 Dido and Aeneas (Weeks 7-8)",
+          "topics": [
+            "*Aeneid* Book 4 (complete or 500+ lines)",
+            "Tragic love story",
+            "Conflict between love and duty",
+            "Dido's psychology and characterization",
+            "Divine intervention: Mercury's message",
+            "Dido's curse and death",
+            "Epic tragedy and pathos",
+            "Vocabulary: love, passion, betrayal"
+          ]
+        },
+        {
+          "title": "Unit 5: Aeneid Book 6 \u2013 The Underworld (Weeks 9-10)",
+          "topics": [
+            "*Aeneid* Book 6 (extensive selections, 400+ lines)",
+            "Journey to the underworld",
+            "Meeting with Anchises",
+            "Roman destiny and future heroes",
+            "Philosophical and religious themes",
+            "The Golden Bough",
+            "Parade of future Romans",
+            "Vocabulary: death, afterlife, prophecy"
+          ]
+        },
+        {
+          "title": "Unit 6: The Italian Books (Week 11)",
+          "topics": [
+            "*Aeneid* Book 7 (selections): War in Latium begins",
+            "*Aeneid* Book 8 (selections): Evander and the site of Rome",
+            "*Aeneid* Book 10 (selections): Battle scenes",
+            "Shield of Aeneas ekphrasis",
+            "Italian allies and enemies",
+            "Warfare and heroism",
+            "Vocabulary: Italian geography, warfare"
+          ]
+        },
+        {
+          "title": "Unit 7: Aeneid Book 12 \u2013 Conclusion (Week 12)",
+          "topics": [
+            "*Aeneid* Book 12 (selections, including ending)",
+            "Turnus vs. Aeneas",
+            "The ending and its controversies",
+            "Pietas vs. furor",
+            "Completion of destiny",
+            "Open questions and interpretation",
+            "Vocabulary: single combat, resolution"
+          ]
+        },
+        {
+          "title": "Unit 8: Virgilian Style and Technique (Week 13)",
+          "topics": [
+            "Poetic word order and enjambment",
+            "Golden lines and other patterns",
+            "Sound effects and alliteration",
+            "Half-lines and their significance",
+            "Repetition and verbal echoes",
+            "Ambiguity and multiple meanings",
+            "Comparative passages analysis"
+          ]
+        },
+        {
+          "title": "Unit 9: Epic Tradition and Influence (Week 14)",
+          "topics": [
+            "Homer's *Iliad* and *Odyssey* (in translation, comparison)",
+            "Apollonius Rhodius and Hellenistic epic",
+            "Ennius and early Roman epic (fragments)",
+            "Later Latin epic: Lucan, Statius, Silius Italicus",
+            "Ovid's *Metamorphoses* as anti-epic",
+            "Medieval and Renaissance reception",
+            "Virgil's influence on Western literature"
+          ]
+        },
+        {
+          "title": "Unit 10: Synthesis and Final Projects (Week 15)",
+          "topics": [
+            "Comprehensive review of the *Aeneid*",
+            "Major themes: fate, pietas, Rome's destiny",
+            "Character analysis: Aeneas, Dido, Turnus",
+            "Final project presentations",
+            "Virgil's legacy and continued relevance"
+          ]
+        }
+      ],
+      "materials": [
+        "Virgil: *Aeneid* (Oxford Classical Text or Pharr's edition)",
+        "Commentary: Servius, Williams, or modern scholarly commentary",
+        "Scansion guide for dactylic hexameter",
+        "Latin-English dictionary (Lewis & Short)",
+        "Secondary readings on Virgil and epic",
+        "Homer: *Iliad* and *Odyssey* (translation for comparison)"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 1600-1700 words, including:\n- Epic vocabulary and archaic forms\n- Poetic synonyms (mare/aequor, etc.)\n- Military terminology\n- Mythological names and epithets\n- Geographical terms\n- Religious and ritual vocabulary\n- Emotional and psychological terms\n- Nautical language\n- Epic formulas and stock phrases",
+      "category": "Latin",
       "completed": false
     },
     {
-      "id": "history-102",
-      "title": "History 102 – Medieval History",
-      "category": "History",
-      "description": "Study the medieval period from the fall of Rome to the Renaissance.",
-      "completed": false
-    },
-    {
-      "id": "history-103",
-      "title": "History 103 – Modern History",
-      "category": "History",
-      "description": "Analyze modern history from the Enlightenment to the present day.",
-      "completed": false
-    },
-    {
-      "id": "philosophy-101",
-      "title": "Philosophy 101 – Introduction to Philosophy",
-      "category": "Philosophy",
-      "description": "Introduction to major philosophical questions and thinkers.",
-      "completed": false
-    },
-    {
-      "id": "philosophy-102",
-      "title": "Philosophy 102 – Ethics & Logic",
-      "category": "Philosophy",
-      "description": "Study ethical theories and develop logical reasoning skills.",
-      "completed": false
-    },
-    {
-      "id": "spanish-101",
-      "title": "Spanish 101 – Beginner Spanish",
-      "category": "Spanish",
-      "description": "Learn basic Spanish grammar, vocabulary, and conversation skills.",
-      "completed": false
-    },
-    {
-      "id": "spanish-102",
-      "title": "Spanish 102 – Intermediate Spanish",
-      "category": "Spanish",
-      "description": "Advance your Spanish with intermediate grammar and cultural topics.",
-      "completed": false
-    },
-    {
-      "id": "biology-101",
-      "title": "Biology 101 – Cellular & Molecular Biology",
-      "category": "Biology",
-      "description": "Study the fundamental principles of cellular and molecular biology.",
-      "completed": false
-    },
-    {
-      "id": "biology-102",
-      "title": "Biology 102 – Genetics & Evolution",
-      "category": "Biology",
-      "description": "Explore genetics, heredity, and evolutionary biology.",
-      "completed": false
-    },
-    {
-      "id": "cs-101",
-      "title": "Computer Science 101 – Intro to Programming",
-      "category": "Computer Science",
-      "description": "Learn fundamental programming concepts and problem-solving techniques.",
-      "completed": false
-    },
-    {
-      "id": "cs-102",
-      "title": "Computer Science 102 – Data Structures & Algorithms",
-      "category": "Computer Science",
-      "description": "Master essential data structures and algorithmic thinking.",
+      "title": "Latin 204 \u2013 Latin for Scholars (Advanced Translation)",
+      "id": "latin-204",
+      "level": "Advanced/Graduate",
+      "prerequisites": "Latin 201 and at least one 200-level Latin course",
+      "duration": "15 weeks",
+      "credits": "3",
+      "description": "Latin 204 is designed for advanced students pursuing scholarly work in classics, history, philosophy, or related fields. This course develops professional-level translation skills, introduces scholarly tools and methods, and provides experience with diverse types of Latin texts from antiquity through the Renaissance. Students will work with both literary and non-literary sources, developing the comprehensive skills needed for independent research.",
+      "objectives": [
+        "Translate complex Latin texts from any period with scholarly precision",
+        "Use scholarly apparatus including critical editions and commentaries",
+        "Read and interpret Medieval and Renaissance Latin",
+        "Work with epigraphic, papyrological, and manuscript sources",
+        "Apply paleographic knowledge to manuscript reading",
+        "Conduct independent research using Latin sources",
+        "Evaluate and compare published translations",
+        "Expand vocabulary to 2000+ words across diverse registers and periods"
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Scholarly Tools and Methods (Weeks 1-2)",
+          "topics": [
+            "Introduction to critical editions and apparatus criticus",
+            "Using commentaries, lexicons, and scholarly resources",
+            "Oxford Classical Texts, Teubner, and Loeb editions",
+            "Digital resources: Perseus, PHI Latin Texts, Thesaurus Linguae Latinae",
+            "Paleography basics: reading manuscripts",
+            "Epigraphic conventions and abbreviations",
+            "Research methodology for Latin sources",
+            "Practice readings: Various edited texts"
+          ]
+        },
+        {
+          "title": "Unit 2: Classical Prose \u2013 Philosophical Texts (Weeks 3-4)",
+          "topics": [
+            "Cicero: *De Finibus Bonorum et Malorum* (selections)",
+            "Seneca: *De Providentia* or *De Vita Beata*",
+            "Translation workshop: philosophical argumentation",
+            "Specialized philosophical vocabulary",
+            "Textual problems and variant readings",
+            "Scholarly translation vs. literary translation",
+            "Secondary reading: Modern scholarship on Roman philosophy"
+          ]
+        },
+        {
+          "title": "Unit 3: Technical and Scientific Latin (Week 5)",
+          "topics": [
+            "Vitruvius: *De Architectura* (selections)",
+            "Pliny the Elder: *Naturalis Historia* (scientific passages)",
+            "Celsus: *De Medicina* (medical terminology)",
+            "Technical vocabulary and specialized terms",
+            "Descriptive and instructional prose",
+            "Challenges of technical translation",
+            "Reference tools for specialized vocabulary"
+          ]
+        },
+        {
+          "title": "Unit 4: Medieval Latin Texts (Weeks 6-7)",
+          "topics": [
+            "Early Medieval Latin: Gregory of Tours, Bede (selections)",
+            "Scholastic Latin: Thomas Aquinas (selections)",
+            "Medieval chronicles and hagiography",
+            "Differences from Classical Latin",
+            "Christian vocabulary and concepts",
+            "Paleography workshop: Medieval manuscripts",
+            "Abbreviations and scribal conventions",
+            "Digital resources: MGH, CCCM"
+          ]
+        },
+        {
+          "title": "Unit 5: Legal and Administrative Latin (Week 8)",
+          "topics": [
+            "Roman legal texts: Justinian's *Digest* (selections)",
+            "Papal bulls and ecclesiastical documents",
+            "Medieval charters and diplomas",
+            "Legal formulas and terminology",
+            "Abbreviations in legal documents",
+            "Context and interpretation of legal sources",
+            "Using legal dictionaries and reference works"
+          ]
+        },
+        {
+          "title": "Unit 6: Renaissance Humanist Latin (Weeks 9-10)",
+          "topics": [
+            "Petrarch: *Epistolae* (selections)",
+            "Erasmus: *Colloquia* or letters",
+            "Thomas More: *Utopia* (selections)",
+            "Neo-Latin poetry: George Buchanan or others",
+            "Renaissance style and classicism",
+            "Vernacular influence on Latin",
+            "Humanism and Latin prose",
+            "Comparing Renaissance and Classical styles"
+          ]
+        },
+        {
+          "title": "Unit 7: Inscriptions and Epigraphy (Week 11)",
+          "topics": [
+            "Reading Roman inscriptions (CIL selections)",
+            "Epigraphic abbreviations and conventions",
+            "Funerary, honorary, and building inscriptions",
+            "Dating and contextualizing inscriptions",
+            "Using epigraphic databases and corpora",
+            "Curse tablets and graffiti",
+            "Integration with historical research",
+            "Workshop: Creating epigraphic transcriptions"
+          ]
+        },
+        {
+          "title": "Unit 8: Papyri and Documentary Sources (Week 12)",
+          "topics": [
+            "Introduction to papyrology",
+            "Reading documentary Latin from Egypt",
+            "Military documents and correspondence",
+            "Private letters and contracts",
+            "Abbreviations and formulae",
+            "Physical aspects of documents",
+            "Digital papyrology resources",
+            "Comparison with literary sources"
+          ]
+        },
+        {
+          "title": "Unit 9: Sight Translation and Unseen Passages (Week 13)",
+          "topics": [
+            "Strategies for approaching unfamiliar texts",
+            "Rapid identification of grammatical structures",
+            "Using context and etymology",
+            "Common pitfalls and how to avoid them",
+            "Practice with diverse unseen passages",
+            "Building translation speed and accuracy",
+            "Development of intuition"
+          ]
+        },
+        {
+          "title": "Unit 10: Independent Research Projects (Weeks 14-15)",
+          "topics": [
+            "Students present research using primary Latin sources",
+            "Translation and commentary on chosen text",
+            "Discussion of scholarly methods and findings",
+            "Peer review and feedback",
+            "Professional presentation of Latin scholarship",
+            "Integration of secondary sources",
+            "Future research directions"
+          ]
+        }
+      ],
+      "materials": [
+        "Various critical editions as assigned",
+        "Allen and Greenough's *New Latin Grammar*",
+        "Lewis & Short: *Latin Dictionary*",
+        "Medieval Latin dictionary (Niermeyer or Du Cange)",
+        "Renaissance Latin dictionary (Latham)",
+        "Epigraphic and paleographic resources",
+        "Access to digital databases (Perseus, PHI, etc.)",
+        "Selected scholarly articles and commentaries"
+      ],
+      "vocabularyGoals": "Students will expand vocabulary to 2000+ words, including:\n- Complete classical core vocabulary\n- Medieval Latin vocabulary\n- Christian and ecclesiastical terms\n- Legal and administrative language\n- Technical and scientific terminology\n- Renaissance humanist vocabulary\n- Regional and temporal variations\n- Abbreviations and formulaic expressions",
+      "category": "Latin",
       "completed": false
     }
   ]
