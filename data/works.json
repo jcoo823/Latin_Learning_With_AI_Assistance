@@ -10,11 +10,19 @@
       "description": "The epic tale of Aeneas's journey from Troy to Italy, founding the Roman people. A masterpiece of Latin literature and a cornerstone of Western civilization.",
       "excerpt": "Arma virumque cano, Troiae qui primus ab oris...",
       "length": "~10,000 lines",
-      "tags": ["epic", "mythology", "founding", "heroic"],
+      "tags": [
+        "epic",
+        "mythology",
+        "founding",
+        "heroic"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 10000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0055"
     },
     {
       "id": "metamorphoses",
@@ -26,11 +34,19 @@
       "description": "A narrative poem chronicling the history of the world from its creation to Julius Caesar's deification, featuring over 250 myths involving transformations.",
       "excerpt": "In nova fert animus mutatas dicere formas corpora...",
       "length": "~12,000 lines",
-      "tags": ["mythology", "transformation", "narrative", "gods"],
+      "tags": [
+        "mythology",
+        "transformation",
+        "narrative",
+        "gods"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 12000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028"
     },
     {
       "id": "de-bello-gallico",
@@ -42,11 +58,19 @@
       "description": "Caesar's firsthand account of the Gallic Wars, providing insight into Roman military strategy, politics, and the cultures of ancient Gaul and Britain.",
       "excerpt": "Gallia est omnis divisa in partes tres...",
       "length": "7 books",
-      "tags": ["history", "military", "politics", "ethnography"],
+      "tags": [
+        "history",
+        "military",
+        "politics",
+        "ethnography"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 16000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001"
     },
     {
       "id": "confessions",
@@ -58,11 +82,19 @@
       "description": "Augustine's autobiographical work detailing his spiritual journey and conversion to Christianity. A profound exploration of memory, time, and faith.",
       "excerpt": "Magnus es, Domine, et laudabilis valde...",
       "length": "13 books",
-      "tags": ["theology", "autobiography", "philosophy", "spirituality"],
+      "tags": [
+        "theology",
+        "autobiography",
+        "philosophy",
+        "spirituality"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 30000,
+      "contentType": "external-paid",
+      "contentUrl": "https://www.amazon.com/Confessions-Oxford-Worlds-Classics-Augustine/dp/0199537828"
     },
     {
       "id": "odes",
@@ -74,11 +106,19 @@
       "description": "A collection of lyric poems exploring themes of love, wine, nature, and philosophy. Known for their metrical variety and enduring wisdom.",
       "excerpt": "Carpe diem, quam minimum credula postero...",
       "length": "4 books, 103 poems",
-      "tags": ["lyric", "philosophy", "nature", "carpe-diem"],
+      "tags": [
+        "lyric",
+        "philosophy",
+        "nature",
+        "carpe-diem"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 3000,
+      "contentType": "internal",
+      "contentUrl": "works/horace-odes.html"
     },
     {
       "id": "catullus-poems",
@@ -90,11 +130,19 @@
       "description": "Passionate and personal poems ranging from tender love lyrics to bitter invectives. Known for emotional intensity and linguistic innovation.",
       "excerpt": "Vivamus, mea Lesbia, atque amemus...",
       "length": "116 poems",
-      "tags": ["love", "passion", "personal", "invective"],
+      "tags": [
+        "love",
+        "passion",
+        "personal",
+        "invective"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 2300,
+      "contentType": "internal",
+      "contentUrl": "works/catullus-poems.html"
     },
     {
       "id": "meditations",
@@ -104,13 +152,21 @@
       "difficulty": "Intermediate",
       "period": "Imperial (2nd Century CE)",
       "description": "Private reflections of the Roman Emperor on Stoic philosophy. A guide to living virtuously and finding tranquility amidst life's challenges.",
-      "excerpt": "Τὰ εἰς ἑαυτόν... (Originally in Greek, widely studied in Latin translation)",
+      "excerpt": "\u03a4\u1f70 \u03b5\u1f30\u03c2 \u1f11\u03b1\u03c5\u03c4\u03cc\u03bd... (Originally in Greek, widely studied in Latin translation)",
       "length": "12 books",
-      "tags": ["stoicism", "philosophy", "self-improvement", "wisdom"],
+      "tags": [
+        "stoicism",
+        "philosophy",
+        "self-improvement",
+        "wisdom"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 10000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.gutenberg.org/ebooks/2680"
     },
     {
       "id": "letters-seneca",
@@ -122,11 +178,19 @@
       "description": "124 letters on Stoic philosophy, ethics, and practical wisdom. Addressed to Lucilius, these letters offer timeless advice on living well.",
       "excerpt": "Ita fac, mi Lucili: vindica te tibi...",
       "length": "124 letters",
-      "tags": ["stoicism", "ethics", "letters", "wisdom"],
+      "tags": [
+        "stoicism",
+        "ethics",
+        "letters",
+        "wisdom"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 15000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0080"
     },
     {
       "id": "aeneid-book4",
@@ -138,11 +202,19 @@
       "description": "The tragic love story of Dido and Aeneas. Often studied separately for its emotional depth and literary excellence.",
       "excerpt": "At regina gravi iamdudum saucia cura...",
       "length": "~700 lines",
-      "tags": ["love", "tragedy", "epic", "passion"],
+      "tags": [
+        "love",
+        "tragedy",
+        "epic",
+        "passion"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 705,
+      "contentType": "internal",
+      "contentUrl": "works/aeneid-book4.html"
     },
     {
       "id": "eclogues",
@@ -154,11 +226,19 @@
       "description": "Ten pastoral poems depicting idealized rural life and shepherds. Influential in the pastoral literary tradition.",
       "excerpt": "Tityre, tu patulae recubans sub tegmine fagi...",
       "length": "10 poems",
-      "tags": ["pastoral", "countryside", "shepherds", "idealization"],
+      "tags": [
+        "pastoral",
+        "countryside",
+        "shepherds",
+        "idealization"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 830,
+      "contentType": "internal",
+      "contentUrl": "works/eclogues.html"
     },
     {
       "id": "georgics",
@@ -170,11 +250,19 @@
       "description": "A didactic poem about agriculture, beekeeping, and animal husbandry. Combines practical advice with philosophical reflection on rural life.",
       "excerpt": "Quid faciat laetas segetes, quo sidere terram...",
       "length": "4 books",
-      "tags": ["agriculture", "didactic", "nature", "rural"],
+      "tags": [
+        "agriculture",
+        "didactic",
+        "nature",
+        "rural"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 2188,
+      "contentType": "internal",
+      "contentUrl": "works/georgics.html"
     },
     {
       "id": "ars-amatoria",
@@ -186,11 +274,19 @@
       "description": "A playful instructional poem on the art of seduction and love. Satirical and entertaining, it offers insight into Roman social life.",
       "excerpt": "Si quis in hoc artem populo non novit amandi...",
       "length": "3 books",
-      "tags": ["love", "instruction", "satire", "social"],
+      "tags": [
+        "love",
+        "instruction",
+        "satire",
+        "social"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 2500,
+      "contentType": "internal",
+      "contentUrl": "works/ars-amatoria.html"
     },
     {
       "id": "historia-ab-urbe-condita",
@@ -202,11 +298,19 @@
       "description": "A monumental history of Rome from its legendary founding to Livy's own time. A primary source for early Roman history.",
       "excerpt": "Facturusne operae pretium sim si a primordio urbis...",
       "length": "142 books (35 survive)",
-      "tags": ["history", "rome", "legends", "republic"],
+      "tags": [
+        "history",
+        "rome",
+        "legends",
+        "republic"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 100000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026"
     },
     {
       "id": "annals",
@@ -218,11 +322,19 @@
       "description": "A historical account of the Roman Empire from Tiberius to Nero. Known for its penetrating analysis of imperial politics and human nature.",
       "excerpt": "Urbem Romam a principio reges habuere...",
       "length": "16-18 books (parts survive)",
-      "tags": ["history", "empire", "politics", "analysis"],
+      "tags": [
+        "history",
+        "empire",
+        "politics",
+        "analysis"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 25000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0077"
     },
     {
       "id": "satires-horace",
@@ -234,11 +346,19 @@
       "description": "Conversational poems critiquing Roman society with wit and humor. A gentler form of satire compared to Juvenal.",
       "excerpt": "Qui fit, Maecenas, ut nemo, quam sibi sortem...",
       "length": "2 books, 18 satires",
-      "tags": ["satire", "society", "humor", "criticism"],
+      "tags": [
+        "satire",
+        "society",
+        "humor",
+        "criticism"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 2000,
+      "contentType": "internal",
+      "contentUrl": "works/horace-satires.html"
     },
     {
       "id": "satires-juvenal",
@@ -250,11 +370,19 @@
       "description": "Scathing satirical poems attacking the vices and follies of Roman society. Sharp, indignant, and powerfully written.",
       "excerpt": "Semper ego auditor tantum? Numquamne reponam...",
       "length": "16 satires",
-      "tags": ["satire", "society", "vice", "criticism"],
+      "tags": [
+        "satire",
+        "society",
+        "vice",
+        "criticism"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 3700,
+      "contentType": "internal",
+      "contentUrl": "works/juvenal-satires.html"
     },
     {
       "id": "de-rerum-natura",
@@ -266,11 +394,19 @@
       "description": "An epic philosophical poem expounding Epicurean philosophy and atomic theory. A remarkable synthesis of science and poetry.",
       "excerpt": "Suave, mari magno turbantibus aequora ventis...",
       "length": "6 books, ~7,400 lines",
-      "tags": ["philosophy", "epicureanism", "science", "atoms"],
+      "tags": [
+        "philosophy",
+        "epicureanism",
+        "science",
+        "atoms"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 7400,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0131"
     },
     {
       "id": "de-officiis",
@@ -282,11 +418,19 @@
       "description": "A philosophical treatise on moral duties and ethics. Written as a letter to his son, it became highly influential in Western thought.",
       "excerpt": "Quamquam te, Marce fili, annum iam audientem Cratippum...",
       "length": "3 books",
-      "tags": ["ethics", "duty", "philosophy", "morality"],
+      "tags": [
+        "ethics",
+        "duty",
+        "philosophy",
+        "morality"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 7000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0048"
     },
     {
       "id": "tusculan-disputations",
@@ -298,11 +442,19 @@
       "description": "Five dialogues on philosophy covering death, pain, emotions, and the path to happiness. A comprehensive introduction to Hellenistic philosophy.",
       "excerpt": "Cum defensionum laboribus senatoriisque muneribus...",
       "length": "5 books",
-      "tags": ["philosophy", "dialogue", "happiness", "stoicism"],
+      "tags": [
+        "philosophy",
+        "dialogue",
+        "happiness",
+        "stoicism"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 10000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0043"
     },
     {
       "id": "natural-history",
@@ -314,11 +466,19 @@
       "description": "An encyclopedic work covering astronomy, geography, zoology, botany, and mineralogy. A treasure trove of ancient knowledge.",
       "excerpt": "Salve, mundi magni parens, in Romana gente...",
       "length": "37 books",
-      "tags": ["encyclopedia", "science", "nature", "knowledge"],
+      "tags": [
+        "encyclopedia",
+        "science",
+        "nature",
+        "knowledge"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 100000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137"
     },
     {
       "id": "amores",
@@ -330,11 +490,19 @@
       "description": "Love elegies showcasing Ovid's wit and mastery of the elegiac form. Playful and passionate poems about love and desire.",
       "excerpt": "Arma gravi numero violentaque bella parabam...",
       "length": "3 books, 49 poems",
-      "tags": ["love", "elegy", "passion", "playful"],
+      "tags": [
+        "love",
+        "elegy",
+        "passion",
+        "playful"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 2500,
+      "contentType": "internal",
+      "contentUrl": "works/ovid-amores.html"
     },
     {
       "id": "phaedrus-fables",
@@ -346,11 +514,19 @@
       "description": "Verse adaptations of Aesop's fables with moral lessons. Simple language makes them ideal for Latin learners.",
       "excerpt": "Ad rivum eundem lupus et agnus venerant...",
       "length": "5 books, ~100 fables",
-      "tags": ["fables", "morals", "animals", "beginner"],
+      "tags": [
+        "fables",
+        "morals",
+        "animals",
+        "beginner"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 1500,
+      "contentType": "internal",
+      "contentUrl": "works/phaedrus-fables.html"
     },
     {
       "id": "bellum-catilinae",
@@ -362,11 +538,19 @@
       "description": "An account of the Catilinarian conspiracy, a failed coup attempt in 63 BCE. Incisive political and moral analysis.",
       "excerpt": "Omnis homines qui sese student praestare ceteris...",
       "length": "1 book",
-      "tags": ["history", "conspiracy", "politics", "rome"],
+      "tags": [
+        "history",
+        "conspiracy",
+        "politics",
+        "rome"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 1400,
+      "contentType": "internal",
+      "contentUrl": "works/sallust-bellum-catilinae.html"
     },
     {
       "id": "pro-caelio",
@@ -378,11 +562,19 @@
       "description": "A defense speech for Marcus Caelius Rufus. Famous for its wit, character assassination, and rhetorical brilliance.",
       "excerpt": "Si quis, iudices, forte nunc adsit ignarus legum...",
       "length": "1 oration",
-      "tags": ["rhetoric", "oratory", "law", "defense"],
+      "tags": [
+        "rhetoric",
+        "oratory",
+        "law",
+        "defense"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 1200,
+      "contentType": "internal",
+      "contentUrl": "works/cicero-pro-caelio.html"
     },
     {
       "id": "philippics",
@@ -394,11 +586,19 @@
       "description": "A series of speeches denouncing Mark Antony. Passionate political rhetoric that cost Cicero his life.",
       "excerpt": "Quonam meo fato, patres conscripti, fieri dicam...",
       "length": "14 orations",
-      "tags": ["rhetoric", "politics", "oratory", "republic"],
+      "tags": [
+        "rhetoric",
+        "politics",
+        "oratory",
+        "republic"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 15000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0021"
     },
     {
       "id": "epistulae",
@@ -410,11 +610,19 @@
       "description": "Personal letters to friends and family. Invaluable insights into Cicero's life, politics, and personality.",
       "excerpt": "Cum antea frequenter mihi accuratius...",
       "length": "16 books, ~400 letters",
-      "tags": ["letters", "personal", "politics", "daily-life"],
+      "tags": [
+        "letters",
+        "personal",
+        "politics",
+        "daily-life"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 50000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0008"
     },
     {
       "id": "carmina-burana",
@@ -426,11 +634,19 @@
       "description": "A collection of medieval Latin poems and songs. Themes include love, drinking, fortune, and religious satire.",
       "excerpt": "O Fortuna, velut luna statu variabilis...",
       "length": "~250 poems",
-      "tags": ["medieval", "songs", "fortune", "satire"],
+      "tags": [
+        "medieval",
+        "songs",
+        "fortune",
+        "satire"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 10000,
+      "contentType": "external-paid",
+      "contentUrl": "https://www.amazon.com/Carmina-Burana-Oxford-Worlds-Classics/dp/0199540217"
     },
     {
       "id": "vulgate",
@@ -442,11 +658,19 @@
       "description": "St. Jerome's Latin translation of the Bible. The standard biblical text for over a millennium.",
       "excerpt": "In principio creavit Deus caelum et terram...",
       "length": "Complete Bible",
-      "tags": ["bible", "religious", "translation", "scripture"],
+      "tags": [
+        "bible",
+        "religious",
+        "translation",
+        "scripture"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 500000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.vulgate.org/"
     },
     {
       "id": "historia-ecclesiastica",
@@ -458,11 +682,19 @@
       "description": "An ecclesiastical history of England. A primary source for early English and Church history.",
       "excerpt": "Britannia oceani insula, cui quondam Albion nomen fuit...",
       "length": "5 books",
-      "tags": ["history", "church", "england", "medieval"],
+      "tags": [
+        "history",
+        "church",
+        "england",
+        "medieval"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 20000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.gutenberg.org/ebooks/38326"
     },
     {
       "id": "summa-theologica",
@@ -474,11 +706,19 @@
       "description": "A comprehensive theological and philosophical work. The cornerstone of Thomistic philosophy and Catholic theology.",
       "excerpt": "Quia Catholicae veritatis doctor non solum provectos...",
       "length": "3 parts, thousands of articles",
-      "tags": ["theology", "philosophy", "scholastic", "aquinas"],
+      "tags": [
+        "theology",
+        "philosophy",
+        "scholastic",
+        "aquinas"
+      ],
       "availability": {
         "latin": true,
         "english": true
-      }
+      },
+      "lineCount": 1000000,
+      "contentType": "external-free",
+      "contentUrl": "https://www.newadvent.org/summa/"
     }
   ]
 }
